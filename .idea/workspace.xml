@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SUPER 150.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_1/Binary_To_Decimal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_1/Boston_Numbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_1/Check_prime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_1/Chewbacca_and_Number.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_1/Conversion_Any_To_Any.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_1/Conversion_Fahrenheit_to_Celsius.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_1/Count_Digits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_1/Decimal_To_Octal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_1/Fibonacci_Pattern_Pattern_4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_1/GCD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_1/Hollow_Rhombus_Pattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_1/Inverse_of_number.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_1/Is_Armstrong_Number.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_1/LCM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_1/Lower_Upper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_1/Mirror_Star_Pattern_Pattern_5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_1/Nth_Fibonacci_Hard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_1/Odd_and_Even_back_in_Delhi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_1/Pascal_Triangle_Pattern_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_1/Pattern_Double_Sided_Arrow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_1/Pattern_InvertedHourGlass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_1/Pattern_Magic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_1/Pattern_Mountain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_1/Pattern_Number_Ladder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_1/Pattern_Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_1/Pattern_with_Zeros.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_1/Print_Series.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_1/Print_reverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_1/Revising_Quadratic_Equations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_1/Shopping_Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_1/Simple_Input.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_1/Sum_of_odd_placed_and_even_placed_digits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_1/Von_Neuman_Loves_Binary.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2EuNW4PDEBdw07x5Vmo3gmetkUO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="" />
+      <created>1663441543134</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1663441543134</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
