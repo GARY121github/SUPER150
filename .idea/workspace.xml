@@ -1,46 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SUPER 150.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_1/Binary_To_Decimal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_1/Boston_Numbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_1/Check_prime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_1/Chewbacca_and_Number.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_1/Conversion_Any_To_Any.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_1/Conversion_Fahrenheit_to_Celsius.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_1/Count_Digits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_1/Decimal_To_Octal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_1/Fibonacci_Pattern_Pattern_4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_1/GCD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_1/Hollow_Rhombus_Pattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_1/Inverse_of_number.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_1/Is_Armstrong_Number.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_1/LCM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_1/Lower_Upper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_1/Mirror_Star_Pattern_Pattern_5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_1/Nth_Fibonacci_Hard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_1/Odd_and_Even_back_in_Delhi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_1/Pascal_Triangle_Pattern_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_1/Pattern_Double_Sided_Arrow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_1/Pattern_InvertedHourGlass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_1/Pattern_Magic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_1/Pattern_Mountain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_1/Pattern_Number_Ladder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_1/Pattern_Triangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_1/Pattern_with_Zeros.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_1/Print_Series.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_1/Print_reverse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_1/Revising_Quadratic_Equations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_1/Shopping_Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_1/Simple_Input.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_1/Sum_of_odd_placed_and_even_placed_digits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_1/Von_Neuman_Loves_Binary.java" afterDir="false" />
+    <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="First Commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +45,14 @@
       <option name="presentableId" value="Default" />
       <updated>1663441543134</updated>
     </task>
+    <task id="LOCAL-00001" summary="First Commit">
+      <created>1663449606330</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1663449606330</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -95,5 +65,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="First Commit" />
   </component>
 </project>
