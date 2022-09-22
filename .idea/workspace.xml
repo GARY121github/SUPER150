@@ -40,12 +40,12 @@
   }
 }</component>
   <component name="RunManager">
-    <configuration name="ReverseArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.ReverseArray" />
+    <configuration name="Class.ReverseArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Class.ReverseArray" />
       <module name="SUPER 150" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Arrays.ReverseArray" />
+          <option name="PATTERN" value="Class.ReverseArray" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -55,7 +55,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ReverseArray" />
+        <item itemvalue="Application.Class.ReverseArray" />
       </list>
     </recent_temporary>
   </component>
