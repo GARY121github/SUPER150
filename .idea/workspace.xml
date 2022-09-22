@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="Second commit">
-      <change afterPath="$PROJECT_DIR$/src/Arrays/LeetCode/Trapping_Rain_Water_42.java" afterDir="false" />
+    <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="LEETCODE">
+      <change afterPath="$PROJECT_DIR$/src/Arrays/Algorithm/Reversal_Algorithm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Class/ReverseArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/ReverseArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +41,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Reversal_Algorithm">
     <configuration name="Class.ReverseArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Class.ReverseArray" />
       <module name="SUPER 150" />
@@ -54,8 +55,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Reversal_Algorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.Algorithm.Reversal_Algorithm" />
+      <module name="SUPER 150" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Arrays.Algorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Reversal_Algorithm" />
         <item itemvalue="Application.Class.ReverseArray" />
       </list>
     </recent_temporary>
@@ -111,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663826161420</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="LEETCODE">
+      <created>1663828126741</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1663828126741</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -129,6 +151,7 @@
     <MESSAGE value="First Commit" />
     <MESSAGE value="LEET CODE QUESTIONS" />
     <MESSAGE value="Second commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Second commit" />
+    <MESSAGE value="LEETCODE" />
+    <option name="LAST_COMMIT_MESSAGE" value="LEETCODE" />
   </component>
 </project>
