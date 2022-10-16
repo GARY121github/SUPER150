@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="Kth root using binary search." />
+    <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="2D Array">
+      <change afterPath="$PROJECT_DIR$/src/Arrays/Two_D_Array/PrintingElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_2/Alex_Goes_Shopping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_2/Kth_Root.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arrays/Algorithm/Kadane_Algorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/Algorithm/Kadane_Algorithm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assignment_1/Boston_Numbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assignment_1/Boston_Numbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assignment_1/Chewbacca_and_Number.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assignment_1/Chewbacca_and_Number.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,29 +45,9 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Kth_root_using_binary_search">
-    <configuration name="AMAN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AMAN" />
-      <module name="SUPER 150" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Arrays.Questions.Maximum_subArray_sum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.Questions.Maximum_subArray_sum" />
-      <module name="SUPER 150" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Arrays.Questions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Inverse_of_an_array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assignment_2.Inverse_of_an_array" />
+  <component name="RunManager" selected="Application.Kth_Root">
+    <configuration name="Alex_Goes_Shopping" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assignment_2.Alex_Goes_Shopping" />
       <module name="SUPER 150" />
       <extension name="coverage">
         <pattern>
@@ -71,12 +59,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Kadane_Algorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.Algorithm.Kadane_Algorithm" />
+    <configuration name="Boston_Numbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assignment_1.Boston_Numbers" />
       <module name="SUPER 150" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Arrays.Algorithm.*" />
+          <option name="PATTERN" value="Assignment_1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,8 +72,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Kth_root_using_binary_search" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.Questions.Kth_root_using_binary_search" />
+    <configuration name="Decimal_to_Binary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.Questions.Decimal_to_Binary" />
       <module name="SUPER 150" />
       <extension name="coverage">
         <pattern>
@@ -97,13 +85,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Kth_Root" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assignment_2.Kth_Root" />
+      <module name="SUPER 150" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Assignment_2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrintingElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.Two_D_Array.PrintingElements" />
+      <module name="SUPER 150" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Arrays.Two_D_Array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Kth_root_using_binary_search" />
-        <item itemvalue="Application.Inverse_of_an_array" />
-        <item itemvalue="Application.Kadane_Algorithm" />
-        <item itemvalue="Application.Arrays.Questions.Maximum_subArray_sum" />
-        <item itemvalue="Application.AMAN" />
+        <item itemvalue="Application.Kth_Root" />
+        <item itemvalue="Application.Boston_Numbers" />
+        <item itemvalue="Application.Alex_Goes_Shopping" />
+        <item itemvalue="Application.PrintingElements" />
+        <item itemvalue="Application.Decimal_to_Binary" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665637722162</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="2D Array">
+      <created>1665638007397</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1665638007397</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -213,7 +234,8 @@
     <MESSAGE value="LEETCODE" />
     <MESSAGE value="First Commit" />
     <MESSAGE value="Kth root using binary search." />
-    <option name="LAST_COMMIT_MESSAGE" value="Kth root using binary search." />
+    <MESSAGE value="2D Array" />
+    <option name="LAST_COMMIT_MESSAGE" value="2D Array" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -227,10 +249,43 @@
           </properties>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Assignment_1/Boston_Numbers.java</url>
+          <line>52</line>
+          <properties class="Assignment_1.Boston_Numbers" method="sumOfDigits">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Assignment_2/Kth_Root.java</url>
+          <line>16</line>
+          <properties class="Assignment_2.Kth_Root" method="kthroot">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Assignment_2/Inverse_of_an_array.java</url>
           <line>27</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Assignment_1/Boston_Numbers.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Assignment_1/Boston_Numbers.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Assignment_2/Kth_Root.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -24,31 +24,35 @@ Sample Output
 Explanation
 Self Explanatory
 */
+
 public class Boston_Numbers {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        int num = n;
+        int t = sumOfDigits(n);
+
         int sum_of_prime_factors = 0;
         int i = 2;
-        while( i <= n){
-            while(n%i == 0){
-                sum_of_prime_factors += sum_of_digits(i);
+//        378 = 2 × 3 × 3 × 3 × 7
+//        378/2 -> 189
+
+        while (n > 1){
+            while (n%i == 0){
+                sum_of_prime_factors += sumOfDigits(i);
                 n = n/i;
             }
-
             i++;
         }
-        num = sum_of_digits(num);
-        if(sum_of_prime_factors == num)
-            System.out.println('1');
+
+        if(sum_of_prime_factors == t)
+            System.out.println("number is boston number");
         else
-            System.out.println('0');
+            System.out.println("number is not boston number");
     }
 
-    static int sum_of_digits(int n){
+    static int sumOfDigits(int n){
         int sum = 0;
-        while(n > 0){
+        while (n > 0){
             sum += n%10;
             n = n/10;
         }
