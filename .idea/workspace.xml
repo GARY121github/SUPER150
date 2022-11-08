@@ -1,28 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="Rotate Image">
-      <change afterPath="$PROJECT_DIR$/src/Assignment_2/Arrays_Binary_Search.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_2/Arrays_Max_Value_In_Array.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_2/Arrays_Target_Sum_Pairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_2/Arrays_Target_Sum_Triplets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_2/Help_Ramu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_2/KTH_ROOT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_2/Maximum_Sum_Path_in_Two_Arrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_2/Next_Permutation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_2/Pair_of_Roses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_2/Rain_Water_Trapping.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_2/Running_Sum_of_given_array.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_2/SQUARE_ROOT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_2/Sort_0_and_1_Time_Complexity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_2/Sorting_In_Linear_Time.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_2/Squares_of_a_Sorted_Array.java" afterDir="false" />
+    <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="ASSIGNMENT 2">
+      <change afterPath="$PROJECT_DIR$/src/Question.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assignment_2/Alex_Goes_Shopping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assignment_2/Alex_Goes_Shopping.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assignment_2/Calculate_The_Sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assignment_2/Calculate_The_Sum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assignment_2/Inverse_of_an_array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assignment_2/Inverse_of_an_array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assignment_2/Kth_Root.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assignment_2/Maximum_Circular_Sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assignment_2/Maximum_Circular_Sum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Shapes.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,22 +42,9 @@
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Shapes">
+  <component name="RunManager" selected="Application.Question">
     <configuration name="Calculate_The_Sum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Assignment_2.Calculate_The_Sum" />
-      <module name="SUPER 150" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Assignment_2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Kth_Root" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assignment_2.Kth_Root" />
       <module name="SUPER 150" />
       <extension name="coverage">
         <pattern>
@@ -96,6 +65,13 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Question" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Question" />
+      <module name="SUPER 150" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -122,11 +98,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Question" />
         <item itemvalue="Application.Shapes" />
         <item itemvalue="Application.Calculate_The_Sum" />
         <item itemvalue="Application.Maximum_Circular_Sum" />
         <item itemvalue="Application.Rotate_Array_by_90_degrees" />
-        <item itemvalue="Application.Kth_Root" />
       </list>
     </recent_temporary>
   </component>
@@ -237,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666244888508</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="ASSIGNMENT 2">
+      <created>1667503900887</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1667503900887</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -260,7 +243,8 @@
     <MESSAGE value="2D Array" />
     <MESSAGE value="Assignment 2" />
     <MESSAGE value="Rotate Image" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rotate Image" />
+    <MESSAGE value="ASSIGNMENT 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="ASSIGNMENT 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -274,15 +258,6 @@
           </properties>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/Shapes.java</url>
-          <line>9</line>
-          <properties class="Shapes" method="tow_pointers_app">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Assignment_1/Boston_Numbers.java</url>
           <line>38</line>
@@ -292,11 +267,6 @@
           <url>file://$PROJECT_DIR$/src/Assignment_1/Boston_Numbers.java</url>
           <line>39</line>
           <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Shapes.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
