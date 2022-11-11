@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="ASSIGNMENT 2">
-      <change afterPath="$PROJECT_DIR$/src/Question.java" afterDir="false" />
+    <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="ASSIGNMENT 3">
+      <change afterPath="$PROJECT_DIR$/src/Assignment_3/Arrays_Spiral_Print_Anticlockwise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_3/Arrays_Spiral_Print_Clockwise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_3/Arrays_Sum_Of_Two_Arrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_3/Form_Biggest_Number.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_3/Playing_with_Good_Strings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_3/Strings_Count_Palindromic_Substrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_3/Strings_Max_Frequency_Character.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Shapes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assignment_3/Arrays_Wave_print_Column_Wise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assignment_3/Arrays_Wave_print_Column_Wise.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,13 +48,13 @@
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Question">
-    <configuration name="Calculate_The_Sum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assignment_2.Calculate_The_Sum" />
+  <component name="RunManager" selected="Application.Arrays_Spiral_Print_Clockwise">
+    <configuration name="Arrays_Spiral_Print_Anticlockwise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assignment_3.Arrays_Spiral_Print_Anticlockwise" />
       <module name="SUPER 150" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Assignment_2.*" />
+          <option name="PATTERN" value="Assignment_3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -56,12 +62,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Maximum_Circular_Sum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assignment_2.Maximum_Circular_Sum" />
+    <configuration name="Arrays_Spiral_Print_Clockwise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assignment_3.Arrays_Spiral_Print_Clockwise" />
       <module name="SUPER 150" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Assignment_2.*" />
+          <option name="PATTERN" value="Assignment_3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,19 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Question" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Question" />
-      <module name="SUPER 150" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Rotate_Array_by_90_degrees" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.Two_D_Array.Rotate_Array_by_90_degrees" />
+    <configuration name="Arrays_Sum_Of_Two_Arrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assignment_3.Arrays_Sum_Of_Two_Arrays" />
       <module name="SUPER 150" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Arrays.Two_D_Array.*" />
+          <option name="PATTERN" value="Assignment_3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,20 +88,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Shapes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Shapes" />
+    <configuration name="Form_Biggest_Number" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assignment_3.Form_Biggest_Number" />
       <module name="SUPER 150" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Assignment_3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Strings_Max_Frequency_Character" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assignment_3.Strings_Max_Frequency_Character" />
+      <module name="SUPER 150" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Assignment_3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Question" />
-        <item itemvalue="Application.Shapes" />
-        <item itemvalue="Application.Calculate_The_Sum" />
-        <item itemvalue="Application.Maximum_Circular_Sum" />
-        <item itemvalue="Application.Rotate_Array_by_90_degrees" />
+        <item itemvalue="Application.Arrays_Spiral_Print_Clockwise" />
+        <item itemvalue="Application.Strings_Max_Frequency_Character" />
+        <item itemvalue="Application.Arrays_Spiral_Print_Anticlockwise" />
+        <item itemvalue="Application.Arrays_Sum_Of_Two_Arrays" />
+        <item itemvalue="Application.Form_Biggest_Number" />
       </list>
     </recent_temporary>
   </component>
@@ -267,6 +285,31 @@
           <url>file://$PROJECT_DIR$/src/Assignment_1/Boston_Numbers.java</url>
           <line>39</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Assignment_3/Arrays_Sum_Of_Two_Arrays.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Assignment_3/Arrays_Sum_Of_Two_Arrays.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Assignment_3/Arrays_Sum_Of_Two_Arrays.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Assignment_3/Arrays_Sum_Of_Two_Arrays.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Assignment_3/Arrays_Sum_Of_Two_Arrays.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
