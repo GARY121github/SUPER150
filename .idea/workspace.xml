@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="ASSIGNMENT 3">
-      <change afterPath="$PROJECT_DIR$/src/Assignment_3/Arrays_Wave_Print_Row_Wise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_3/Change_Elements_in_2D_Matrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_3/Transpose_of_a_square_matrix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assignment_3/Arrays_Wave_print_Column_Wise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assignment_3/Arrays_Wave_print_Column_Wise.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assignment_3/Strings_Count_Palindromic_Substrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assignment_3/Strings_Count_Palindromic_Substrings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assignment_3/Arrays_Wave_Print_Row_Wise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assignment_3/Arrays_Wave_Print_Row_Wise.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,22 +43,9 @@
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Arrays_Wave_print_Column_Wise">
-    <configuration name="Arrays_Spiral_Print_Anticlockwise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assignment_3.Arrays_Spiral_Print_Anticlockwise" />
-      <module name="SUPER 150" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Assignment_3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Arrays_Spiral_Print_Clockwise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assignment_3.Arrays_Spiral_Print_Clockwise" />
+  <component name="RunManager" selected="Application.Change_Elements_in_2D_Matrix">
+    <configuration name="Arrays_Wave_Print_Row_Wise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assignment_3.Arrays_Wave_Print_Row_Wise" />
       <module name="SUPER 150" />
       <extension name="coverage">
         <pattern>
@@ -83,6 +70,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Change_Elements_in_2D_Matrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assignment_3.Change_Elements_in_2D_Matrix" />
+      <module name="SUPER 150" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Assignment_3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Strings_Count_Palindromic_Substrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Assignment_3.Strings_Count_Palindromic_Substrings" />
       <module name="SUPER 150" />
@@ -96,8 +96,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Strings_Max_Frequency_Character" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assignment_3.Strings_Max_Frequency_Character" />
+    <configuration name="Transpose_of_a_square_matrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assignment_3.Transpose_of_a_square_matrix" />
       <module name="SUPER 150" />
       <extension name="coverage">
         <pattern>
@@ -111,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Change_Elements_in_2D_Matrix" />
+        <item itemvalue="Application.Transpose_of_a_square_matrix" />
+        <item itemvalue="Application.Arrays_Wave_Print_Row_Wise" />
         <item itemvalue="Application.Arrays_Wave_print_Column_Wise" />
         <item itemvalue="Application.Strings_Count_Palindromic_Substrings" />
-        <item itemvalue="Application.Arrays_Spiral_Print_Clockwise" />
-        <item itemvalue="Application.Strings_Max_Frequency_Character" />
-        <item itemvalue="Application.Arrays_Spiral_Print_Anticlockwise" />
       </list>
     </recent_temporary>
   </component>
@@ -240,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668193462172</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="ASSIGNMENT 3">
+      <created>1668196476103</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1668196476103</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
