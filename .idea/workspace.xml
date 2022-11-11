@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="ASSIGNMENT 3">
-      <change afterPath="$PROJECT_DIR$/src/Assignment_3/Arrays_Spiral_Print_Anticlockwise.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_3/Arrays_Spiral_Print_Clockwise.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_3/Arrays_Sum_Of_Two_Arrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_3/Form_Biggest_Number.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_3/Playing_with_Good_Strings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_3/Strings_Count_Palindromic_Substrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_3/Strings_Max_Frequency_Character.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_3/Arrays_Wave_Print_Row_Wise.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Assignment_3/Arrays_Wave_print_Column_Wise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assignment_3/Arrays_Wave_print_Column_Wise.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assignment_3/Strings_Count_Palindromic_Substrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assignment_3/Strings_Count_Palindromic_Substrings.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +43,7 @@
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Arrays_Spiral_Print_Clockwise">
+  <component name="RunManager" selected="Application.Arrays_Wave_print_Column_Wise">
     <configuration name="Arrays_Spiral_Print_Anticlockwise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Assignment_3.Arrays_Spiral_Print_Anticlockwise" />
       <module name="SUPER 150" />
@@ -75,8 +70,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Arrays_Sum_Of_Two_Arrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assignment_3.Arrays_Sum_Of_Two_Arrays" />
+    <configuration name="Arrays_Wave_print_Column_Wise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assignment_3.Arrays_Wave_print_Column_Wise" />
       <module name="SUPER 150" />
       <extension name="coverage">
         <pattern>
@@ -88,8 +83,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Form_Biggest_Number" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assignment_3.Form_Biggest_Number" />
+    <configuration name="Strings_Count_Palindromic_Substrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assignment_3.Strings_Count_Palindromic_Substrings" />
       <module name="SUPER 150" />
       <extension name="coverage">
         <pattern>
@@ -116,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Arrays_Wave_print_Column_Wise" />
+        <item itemvalue="Application.Strings_Count_Palindromic_Substrings" />
         <item itemvalue="Application.Arrays_Spiral_Print_Clockwise" />
         <item itemvalue="Application.Strings_Max_Frequency_Character" />
         <item itemvalue="Application.Arrays_Spiral_Print_Anticlockwise" />
-        <item itemvalue="Application.Arrays_Sum_Of_Two_Arrays" />
-        <item itemvalue="Application.Form_Biggest_Number" />
       </list>
     </recent_temporary>
   </component>
@@ -238,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667503900887</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="ASSIGNMENT 3">
+      <created>1668193462172</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1668193462172</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -262,7 +264,8 @@
     <MESSAGE value="Assignment 2" />
     <MESSAGE value="Rotate Image" />
     <MESSAGE value="ASSIGNMENT 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="ASSIGNMENT 2" />
+    <MESSAGE value="ASSIGNMENT 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="ASSIGNMENT 3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
