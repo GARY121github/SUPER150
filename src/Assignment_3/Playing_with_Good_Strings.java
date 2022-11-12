@@ -1,9 +1,11 @@
 package Assignment_3;
 
+import java.util.Scanner;
+
 /*
 
-A Good String is a string which contains only vowels (a,e,i,o,u) . Given a string S, print a single positive integer N
-where N is the length of the longest substring of S that is also a Good String.
+A Good String is a string which contains only vowels (a,e,i,o,u) . Given a string S, print a single positive integer N where N is
+the length of the longest substring of S that is also a Good String.
 
 Note: The time limit for this problem is 1 second, so you need to be clever in how you compute the substrings.
 
@@ -24,39 +26,32 @@ Explanation
 The Longest good substring is "aei"
 
 
-
 */
-
-import java.util.Scanner;
-
 public class Playing_with_Good_Strings {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String st = sc.next();
-        goodString(st);
+        System.out.println(goodSubString(st));
     }
 
-    static void goodString(String st){
-        int p1 = 0;
-        boolean flag = false;
-        int p2 = 0;
-        int max_len = 0;
-        int len_till_now = 0;
-        while (p2 != st.length()){
-            char ch = st.charAt(p2);
-            if(ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u'){
-                if(!flag){
-                    p1 = p2;
-                    len_till_now = 1;
-                }
-                else {
-                    len_till_now++;
-                }
+    static int goodSubString(String str){
+        int max_len_of_good_substring = 0;
+        int max_len_of_good_substring_till_now = 0;
+        int i = 0;
+        while (i < str.length()){
+            char ch = str.charAt(i);
 
-                if(max_len < len_till_now){
-                    max_len = len_till_now;
+            if(ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u'){
+                max_len_of_good_substring_till_now++;
+                if(max_len_of_good_substring_till_now > max_len_of_good_substring){
+                    max_len_of_good_substring = max_len_of_good_substring_till_now;
                 }
             }
+            else {
+                max_len_of_good_substring_till_now = 0;
+            }
+            i++;
         }
+        return max_len_of_good_substring;
     }
 }
