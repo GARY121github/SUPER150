@@ -91,7 +91,6 @@ public class Rotate_Image {
             row++;
         }
 //        display(arr);
-
     }
 
     static void display(int[][] arr){

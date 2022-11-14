@@ -1,4 +1,7 @@
 package Assignment_3;
+
+import java.util.Scanner;
+
 /*
 
 You are provided an array of numbers. You need to arrange them in a way that yields the largest value.
@@ -28,15 +31,20 @@ Explanation
 Upon rearranging the elements of the array , 6054854654 is the largest possible number that can be generated.
 
 */
-
-import java.util.*;
-
 public class Form_Biggest_Number {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int t = sc.nextInt();
-        while(t-- > 0){
-            
+        while (t-- > 0){
+            int m = sc.nextInt();
+            int[] arr = new int[m];
+            for(int i = 0 ; i < m ; i++){
+                arr[i] = sc.nextInt();
+            }
         }
+    }
+
+    static void formBiggestNumber(int[] arr){
+
     }
 }
