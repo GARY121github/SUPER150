@@ -19,7 +19,7 @@ Sample Input
 Sample Output
 3, 5, 5, 9, 6, END
 Explanation
-Sum of [1, 0, 2, 9] and [3, 4, 5, 6, 7] is [3, 5, 5, 9, 6] and the first digit represents carry over , if any (0 here ) .
+Sum of [1, 0, 2, 9] and [3, 4, 5, 6, 7] is [3, 5, 5, 9, 6] and the first digit represents carry over , if any (0 here) .
 
 
 */

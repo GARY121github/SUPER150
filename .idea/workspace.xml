@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="ASSIGNMENT 3">
+      <change afterPath="$PROJECT_DIR$/src/Assignment_3/Matrix_Search.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_3/String_Compression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_3/Strings_Difference_in_Ascii_Codes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_3/Strings_Odd_Even_Character.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_3/Strings_Remove_Duplicates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_3/Strings_String_Compression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_3/Strings_Toggle_Case.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_3/Strings_isPalindrome.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assignment_3/Form_Biggest_Number.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assignment_3/Form_Biggest_Number.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assignment_3/Arrays_Sum_Of_Two_Arrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assignment_3/Arrays_Sum_Of_Two_Arrays.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -267,7 +275,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668410553467</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="ASSIGNMENT 3">
+      <created>1668536945463</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1668536945463</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -315,31 +330,6 @@
           <url>file://$PROJECT_DIR$/src/Assignment_1/Boston_Numbers.java</url>
           <line>39</line>
           <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Assignment_3/Arrays_Sum_Of_Two_Arrays.java</url>
-          <line>53</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Assignment_3/Arrays_Sum_Of_Two_Arrays.java</url>
-          <line>59</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Assignment_3/Arrays_Sum_Of_Two_Arrays.java</url>
-          <line>60</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Assignment_3/Arrays_Sum_Of_Two_Arrays.java</url>
-          <line>66</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Assignment_3/Arrays_Sum_Of_Two_Arrays.java</url>
-          <line>67</line>
-          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
