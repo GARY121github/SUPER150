@@ -4,7 +4,6 @@
     <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="ASSIGNMENT 3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Assignment_3/Form_Biggest_Number.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assignment_3/Form_Biggest_Number.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assignment_3/Rotate_Image.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assignment_3/Rotate_Image.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,18 +33,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/JAVA/SUPER 150",
-    "run.code.analysis.last.selected.profile": "pProject Default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/JAVA/SUPER 150&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Playing_with_Good_Strings">
-    <configuration name="Arrays_Wave_Print_Row_Wise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assignment_3.Arrays_Wave_Print_Row_Wise" />
+}</component>
+  <component name="RunManager" selected="Application.Form_Biggest_Number">
+    <configuration name="Change_Elements_in_2D_Matrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assignment_3.Change_Elements_in_2D_Matrix" />
       <module name="SUPER 150" />
       <extension name="coverage">
         <pattern>
@@ -57,8 +56,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Change_Elements_in_2D_Matrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assignment_3.Change_Elements_in_2D_Matrix" />
+    <configuration name="Form_Biggest_Number" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assignment_3.Form_Biggest_Number" />
       <module name="SUPER 150" />
       <extension name="coverage">
         <pattern>
@@ -111,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Form_Biggest_Number" />
         <item itemvalue="Application.Playing_with_Good_Strings" />
         <item itemvalue="Application.Rotate_Image" />
         <item itemvalue="Application.Change_Elements_in_2D_Matrix" />
         <item itemvalue="Application.Transpose_of_a_square_matrix" />
-        <item itemvalue="Application.Arrays_Wave_Print_Row_Wise" />
       </list>
     </recent_temporary>
   </component>
@@ -261,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668283151383</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="ASSIGNMENT 3">
+      <created>1668410553467</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1668410553467</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

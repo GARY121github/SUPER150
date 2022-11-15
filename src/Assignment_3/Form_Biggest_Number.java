@@ -37,14 +37,31 @@ public class Form_Biggest_Number {
         int t = sc.nextInt();
         while (t-- > 0){
             int m = sc.nextInt();
-            int[] arr = new int[m];
-            for(int i = 0 ; i < m ; i++){
-                arr[i] = sc.nextInt();
+            String[] st = new String[m];
+            for (int i = 0 ; i < m ; i++){
+                st[i] = sc.next();
             }
+            formBiggestNumber(st);
         }
     }
 
-    static void formBiggestNumber(int[] arr){
+    static void formBiggestNumber(String[] arr){
+        String Bigger_Number = "";
+        for(int i = 0 ; i < arr.length ; i++){
+            Bigger_Number = Compare(Bigger_Number , arr[i]);
+        }
+        System.out.println(Bigger_Number);
+    }
 
+    static String Compare(String s1 , String s2){
+
+        String bigger = "";
+        if(s1.compareTo(s2) > 0){
+            bigger = s1 + s2;
+        }
+        else {
+            bigger = s2 + s1;
+        }
+        return bigger;
     }
 }
