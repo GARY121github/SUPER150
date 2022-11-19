@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="ASSIGNMENT 3">
-      <change afterPath="$PROJECT_DIR$/src/Assignment_3/Matrix_Search.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_3/String_Compression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_3/Strings_Difference_in_Ascii_Codes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_3/Strings_Odd_Even_Character.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_3/Strings_Remove_Duplicates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_3/Strings_String_Compression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_3/Strings_Toggle_Case.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_3/Strings_isPalindrome.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assignment_3/Arrays_Sum_Of_Two_Arrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assignment_3/Arrays_Sum_Of_Two_Arrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Question.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +42,7 @@
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Form_Biggest_Number">
+  <component name="RunManager" selected="Application.Question">
     <configuration name="Change_Elements_in_2D_Matrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Assignment_3.Change_Elements_in_2D_Matrix" />
       <module name="SUPER 150" />
@@ -90,6 +82,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Question" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Question" />
+      <module name="SUPER 150" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Rotate_Image" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Assignment_3.Rotate_Image" />
       <module name="SUPER 150" />
@@ -103,26 +102,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Transpose_of_a_square_matrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assignment_3.Transpose_of_a_square_matrix" />
-      <module name="SUPER 150" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Assignment_3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Question" />
         <item itemvalue="Application.Form_Biggest_Number" />
         <item itemvalue="Application.Playing_with_Good_Strings" />
         <item itemvalue="Application.Rotate_Image" />
         <item itemvalue="Application.Change_Elements_in_2D_Matrix" />
-        <item itemvalue="Application.Transpose_of_a_square_matrix" />
       </list>
     </recent_temporary>
   </component>
@@ -282,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668536945463</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="ASSIGNMENT 3">
+      <created>1668538573754</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1668538573754</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

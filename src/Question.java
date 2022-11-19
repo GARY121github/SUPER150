@@ -52,40 +52,11 @@ import java.util.Scanner;
 
 public class Question {
     public static void main(String[] args) {
-//        Scanner sc = new Scanner(System.in);
-//        int n = sc.nextInt();
-        int[] arr = {0,0,1,1,1,2,2,3,3,4};
-
-        System.out.println(Arrays.toString(arr));
-
-        int count = removeDuplicates(arr);
-
-        System.out.println("ARRAY AFTER REMOVING DUPLICATES :-)");
-        for(int i = 0 ; i <= count ; i++){
-            System.out.print(arr[i] + " ");
+        String st = "skndfklsd    lkndflkjnsd    ldsnflj ds ";
+        String[] arr = st.split("\s+");
+//        System.out.println(Arrays.toString(arr));
+        for(String i : arr){
+            System.out.print(i);
         }
-
-
-    }
-
-    static int removeDuplicates(int[] nums) {
-        int[] arr = new int[nums.length];
-        arr[0] = nums[0];
-        int count = 1;
-        int j = 1;
-        for (int i = 1; i < nums.length; i++) {
-            if (nums[i] > arr[j - 1]) {
-                count++;
-                arr[j] = nums[i];
-                j++;
-            }
-        }
-
-        for(int i = 0 ; i <= count ; i++){
-            System.out.print(arr[i] + " ");
-        }
-
-        return count;
-
     }
 }
