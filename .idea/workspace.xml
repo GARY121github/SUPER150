@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="SLIDING WINDOW :)">
+      <change afterPath="$PROJECT_DIR$/src/Assignment_4/ASSIGNMENT LINK" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_4/Average_of_Sliding_Windows.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_4/Kartik_Bhaiya_And_Strings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_4/Subarray_Product_Less_Than_K.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sliding_Window/Subarray_Product_Less_Than_K.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assignment_3/Kartik_Bhaiya_And_Strings.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +46,29 @@
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Kartik_Bhaiya_And_Strings">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\JAVA\SUPER 150\src\Assignment_4" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Assignment_4" />
+      <recent name="Sliding_Window" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Average_of_Sliding_Windows">
+    <configuration name="Average_of_Sliding_Windows" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assignment_4.Average_of_Sliding_Windows" />
+      <module name="SUPER 150" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Assignment_4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Form_Biggest_Number" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Assignment_3.Form_Biggest_Number" />
       <module name="SUPER 150" />
@@ -69,19 +95,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Playing_with_Good_Strings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assignment_3.Playing_with_Good_Strings" />
-      <module name="SUPER 150" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Assignment_3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Question" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Question" />
       <module name="SUPER 150" />
@@ -89,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Rotate_Image" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assignment_3.Rotate_Image" />
+    <configuration name="Sliding_Window.Subarray_Product_Less_Than_K" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sliding_Window.Subarray_Product_Less_Than_K" />
       <module name="SUPER 150" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Assignment_3.*" />
+          <option name="PATTERN" value="Assignment_4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Average_of_Sliding_Windows" />
+        <item itemvalue="Application.Sliding_Window.Subarray_Product_Less_Than_K" />
         <item itemvalue="Application.Kartik_Bhaiya_And_Strings" />
         <item itemvalue="Application.Question" />
         <item itemvalue="Application.Form_Biggest_Number" />
-        <item itemvalue="Application.Playing_with_Good_Strings" />
-        <item itemvalue="Application.Rotate_Image" />
       </list>
     </recent_temporary>
   </component>
@@ -329,6 +342,15 @@
           </properties>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Sliding_Window/Subarray_Product_Less_Than_K.java</url>
+          <line>35</line>
+          <properties class="Sliding_Window.Subarray_Product_Less_Than_K" method="variable_size_window">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Assignment_1/Boston_Numbers.java</url>
           <line>38</line>
@@ -338,6 +360,36 @@
           <url>file://$PROJECT_DIR$/src/Assignment_1/Boston_Numbers.java</url>
           <line>39</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Sliding_Window/Subarray_Product_Less_Than_K.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Sliding_Window/Subarray_Product_Less_Than_K.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Sliding_Window/Subarray_Product_Less_Than_K.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Sliding_Window/Subarray_Product_Less_Than_K.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Sliding_Window/Subarray_Product_Less_Than_K.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Sliding_Window/Subarray_Product_Less_Than_K.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
