@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="ASSIGNMENT 4">
+      <change afterPath="$PROJECT_DIR$/src/Assignment_4/Mili_s_Gallery.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +51,7 @@
       <recent name="Sliding_Window" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Average_of_Sliding_Windows">
+  <component name="RunManager" selected="Application.Mili_s_Gallery">
     <configuration name="Average_of_Sliding_Windows" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Assignment_4.Average_of_Sliding_Windows" />
       <module name="SUPER 150" />
@@ -64,8 +65,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Form_Biggest_Number" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assignment_3.Form_Biggest_Number" />
+    <configuration name="Kartik_Bhaiya_And_Strings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assignment_3.Kartik_Bhaiya_And_Strings" />
       <module name="SUPER 150" />
       <extension name="coverage">
         <pattern>
@@ -77,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Kartik_Bhaiya_And_Strings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assignment_3.Kartik_Bhaiya_And_Strings" />
+    <configuration name="Mili_s_Gallery" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assignment_4.Mili_s_Gallery" />
       <module name="SUPER 150" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Assignment_3.*" />
+          <option name="PATTERN" value="Assignment_4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Mili_s_Gallery" />
         <item itemvalue="Application.Average_of_Sliding_Windows" />
         <item itemvalue="Application.Sliding_Window.Subarray_Product_Less_Than_K" />
         <item itemvalue="Application.Kartik_Bhaiya_And_Strings" />
         <item itemvalue="Application.Question" />
-        <item itemvalue="Application.Form_Biggest_Number" />
       </list>
     </recent_temporary>
   </component>
