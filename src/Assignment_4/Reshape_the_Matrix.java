@@ -56,6 +56,11 @@ public class Reshape_the_Matrix {
     static void convert_matrix(int[][] arr , int m , int n){
         int[][] new_arr = new int[m][n];
 
+        if(m*n != arr.length*arr[0].length){
+            print(arr);
+            return;
+        }
+
         int row = 0;
         int col = 0;
 
