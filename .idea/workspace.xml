@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="ASSIGNMENT 4">
-      <change afterPath="$PROJECT_DIR$/src/Assignment_4/Mental_Maths_Homework.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_4/Perance_Party.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_4/Reshape_the_Matrix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,26 +52,13 @@
       <recent name="Sliding_Window" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Mental_Maths_Homework">
+  <component name="RunManager" selected="Application.Reshape_the_Matrix">
     <configuration name="Average_of_Sliding_Windows" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Assignment_4.Average_of_Sliding_Windows" />
       <module name="SUPER 150" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Assignment_4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Kartik_Bhaiya_And_Strings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assignment_3.Kartik_Bhaiya_And_Strings" />
-      <module name="SUPER 150" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Assignment_3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,8 +92,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sliding_Window.Subarray_Product_Less_Than_K" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sliding_Window.Subarray_Product_Less_Than_K" />
+    <configuration name="Perance_Party" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assignment_4.Perance_Party" />
+      <module name="SUPER 150" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Assignment_4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Reshape_the_Matrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assignment_4.Reshape_the_Matrix" />
       <module name="SUPER 150" />
       <extension name="coverage">
         <pattern>
@@ -119,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Reshape_the_Matrix" />
+        <item itemvalue="Application.Perance_Party" />
         <item itemvalue="Application.Mental_Maths_Homework" />
         <item itemvalue="Application.Mili_s_Gallery" />
         <item itemvalue="Application.Average_of_Sliding_Windows" />
-        <item itemvalue="Application.Sliding_Window.Subarray_Product_Less_Than_K" />
-        <item itemvalue="Application.Kartik_Bhaiya_And_Strings" />
       </list>
     </recent_temporary>
   </component>
