@@ -35,7 +35,6 @@ You can place the article at 3rd position without violating the adjacency.
 
 */
 public class Mili_s_Gallery {
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int  n = sc.nextInt();
@@ -44,71 +43,55 @@ public class Mili_s_Gallery {
             arr[i] = sc.nextInt();
         }
         int k = sc.nextInt();
-
         Gallery(arr , k);
     }
-
     static void Gallery(int[] arr , int k){
         int count = 0;
+        int ans = 0;
         int i = 0;
-
-
-//        EDGE TEST CASES
-        if(arr.length == 1){
-            if(arr[0] == 0){
+        int j = 0;
+        while(j<arr.length && arr[j]==0){
+            count++;
+            j++;
+        }
+        if(count!=0&& count%2==0){
+            count = count/2;
+        }
+        else{
+            count = count/2;
+        }
+        ans += count;
+        count = 0;
+        i = j;
+        while ( i < arr.length){
+            if(arr[i] == 0){
                 count++;
             }
-
-            if(count >= k)
-                System.out.println("true");
-            else
-                System.out.println("false");
-
-            return;
-
-        }
-
-        while (i < arr.length){
-
-            boolean flag = true;
-//            FOR FIRST POSITION
-            if(i == 0){
-                if(arr[i] == 0 && arr[i+1] == 0){
-                    count++;
-                    arr[i] = 1;
-
-                    i = i+2;
-
-                    flag = false;
+            else {
+                if(count!=0&& count%2==0){
+                    count = count/2 -1;
                 }
-            }
-
-//            MID POSITIONS
-            if(arr[i] == 0 && arr[i-1] != 1 && arr[i+1] != 1){
-                count++;
-                arr[i] = 1;
-
-                i = i+2;
-                flag = false;
-            }
-
-//            LAST POSITION
-            if(i ==arr.length-1){
-                if(arr[i-1] != 1){
-                    count++;
-                    arr[i] = 1;
-
+                else{
+                    count = count/2;
                 }
+                ans += count;
+                count = 0;
             }
-
-            if(flag){
-                i = i+1;
-            }
+            i++;
         }
-
-        if(count >= k)
-            System.out.println("true");
-        else
-            System.out.println("false");
+        if(count!=0&& count%2==0){
+            count = count/2;
+        }
+        else{
+            count = count/2;
+        }
+        ans += count;
+        count = 0;
+        if(ans >= k){
+            System.out.println(true);
+        }
+        else {
+            System.out.println(false);
+        }
     }
 }

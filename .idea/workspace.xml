@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="ASSIGNMENT 4">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assignment_4/Library_Impasse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assignment_4/Library_Impasse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assignment_4/Mental_Maths_Homework.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assignment_4/Mental_Maths_Homework.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assignment_4/Mili_s_Gallery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assignment_4/Mili_s_Gallery.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
