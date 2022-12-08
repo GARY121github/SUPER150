@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="ASSIGNMENT 4">
-      <change afterPath="$PROJECT_DIR$/src/Assignment_4/Library_Impasse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_4/World_Test_Championship.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assignment_4/Library_Impasse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assignment_4/Library_Impasse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assignment_4/Mili_s_Gallery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assignment_4/Mili_s_Gallery.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +52,7 @@
       <recent name="Sliding_Window" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Library_Impasse">
+  <component name="RunManager" selected="Application.Mili_s_Gallery">
     <configuration name="Library_Impasse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Assignment_4.Library_Impasse" />
       <module name="SUPER 150" />
@@ -66,8 +66,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Mental_Maths_Homework" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assignment_4.Mental_Maths_Homework" />
+    <configuration name="Mili_s_Gallery" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assignment_4.Mili_s_Gallery" />
       <module name="SUPER 150" />
       <extension name="coverage">
         <pattern>
@@ -120,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Mili_s_Gallery" />
         <item itemvalue="Application.Library_Impasse" />
         <item itemvalue="Application.Piyush_and_Magical_Park" />
         <item itemvalue="Application.Reshape_the_Matrix" />
         <item itemvalue="Application.Perance_Party" />
-        <item itemvalue="Application.Mental_Maths_Homework" />
       </list>
     </recent_temporary>
   </component>
@@ -347,7 +347,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670379886460</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="ASSIGNMENT 4">
+      <created>1670388885037</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1670388885037</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

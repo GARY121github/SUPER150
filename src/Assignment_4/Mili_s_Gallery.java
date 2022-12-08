@@ -50,24 +50,65 @@ public class Mili_s_Gallery {
 
     static void Gallery(int[] arr , int k){
         int count = 0;
-        int ans = 0;
         int i = 0;
-        while ( i < arr.length){
-            if(arr[i] == 0){
+
+
+//        EDGE TEST CASES
+        if(arr.length == 1){
+            if(arr[0] == 0){
                 count++;
             }
-            else {
-                ans += count/2;
-                count = 0;
+
+            if(count >= k)
+                System.out.println("true");
+            else
+                System.out.println("false");
+
+            return;
+
+        }
+
+        while (i < arr.length){
+
+            boolean flag = true;
+//            FOR FIRST POSITION
+            if(i == 0){
+                if(arr[i] == 0 && arr[i+1] == 0){
+                    count++;
+                    arr[i] = 1;
+
+                    i = i+2;
+
+                    flag = false;
+                }
             }
 
-            i++;
+//            MID POSITIONS
+            if(arr[i] == 0 && arr[i-1] != 1 && arr[i+1] != 1){
+                count++;
+                arr[i] = 1;
+
+                i = i+2;
+                flag = false;
+            }
+
+//            LAST POSITION
+            if(i ==arr.length-1){
+                if(arr[i-1] != 1){
+                    count++;
+                    arr[i] = 1;
+
+                }
+            }
+
+            if(flag){
+                i = i+1;
+            }
         }
-        if(ans == k){
-            System.out.println(true);
-        }
-        else {
-            System.out.println(false);
-        }
+
+        if(count >= k)
+            System.out.println("true");
+        else
+            System.out.println("false");
     }
 }
