@@ -35,35 +35,35 @@ public class Mental_Maths_Homework {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int[] arr = new int[n];
+
         for(int i = 0 ; i < n ; i++){
             arr[i] = sc.nextInt();
         }
-
-        System.out.println(maxProduct(arr));
     }
 
     static int maxProduct(int[] arr){
+        int max_product = Integer.MIN_VALUE;
 
-        Arrays.sort(arr);
-
-        int max = 0;
-        for(int i = 0 ; i <= arr.length-3 ; i++){
-            int temp = product(arr , i);
-            if(temp > max){
-                max = temp;
-            }
-        }
-        return max;
-    }
-
-    static int product(int[] arr , int i){
-        int product = 1;
-        int end = i+3;
-        while ( i < end){
-            product = product * arr[i];
+        int current_product = 1;
+        int i = 0;
+        while (i < 3){
+            current_product = current_product * arr[i];
             i++;
         }
 
-        return product;
+        if(current_product > max_product){
+            max_product = current_product;
+        }
+
+        while (i < arr.length){
+
+            if(arr[i] == 0){
+                current_product = 1;
+                continue;
+            }
+
+            current_product =
+
+        }
     }
 }

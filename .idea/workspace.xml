@@ -4,7 +4,7 @@
     <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="ASSIGNMENT 4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Assignment_4/Library_Impasse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assignment_4/Library_Impasse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assignment_4/Mili_s_Gallery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assignment_4/Mili_s_Gallery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assignment_4/Mental_Maths_Homework.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assignment_4/Mental_Maths_Homework.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -354,7 +354,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670388885037</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="ASSIGNMENT 4">
+      <created>1670468862358</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1670468862358</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -404,24 +411,6 @@
           </properties>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/Assignment_4/Mental_Maths_Homework.java</url>
-          <line>58</line>
-          <properties class="Assignment_4.Mental_Maths_Homework" method="product">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/Assignment_4/Mental_Maths_Homework.java</url>
-          <line>44</line>
-          <properties class="Assignment_4.Mental_Maths_Homework" method="maxProduct">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Assignment_1/Boston_Numbers.java</url>
           <line>38</line>
@@ -461,31 +450,6 @@
           <url>file://$PROJECT_DIR$/src/Sliding_Window/Subarray_Product_Less_Than_K.java</url>
           <line>50</line>
           <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Assignment_4/Mental_Maths_Homework.java</url>
-          <line>61</line>
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Assignment_4/Mental_Maths_Homework.java</url>
-          <line>49</line>
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Assignment_4/Mental_Maths_Homework.java</url>
-          <line>50</line>
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Assignment_4/Mental_Maths_Homework.java</url>
-          <line>51</line>
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Assignment_4/Mental_Maths_Homework.java</url>
-          <line>52</line>
-          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
