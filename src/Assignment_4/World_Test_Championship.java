@@ -42,16 +42,29 @@ Over no 3 to over 6 (i.e. values 4 3 5 6) different runs were made.
 
 */
 
+import java.util.HashMap;
 import java.util.Scanner;
 
 public class World_Test_Championship {
-    public static void main(String[] args) {
+    public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int[] arr = new int[n];
-
-        for(int i = 0; i < n ; i++){
+        for (int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
         }
+
+        // int result = LargestSubarray(arr, n);
+
+        HashMap<Integer,Integer> hmap = new HashMap<Integer,Integer>();
+        int ans = 0;
+        for (int i = 0, j = 0; i < n; i++) {
+            j = Math.max(hmap.containsKey(arr[i]) ? hmap.get(arr[i]) : 0, j);
+            ans = Math.max(ans, i - j + 1);
+            hmap.put(arr[i], i + 1);
+        }
+
+        // to many complex thing
+        System.out.println(ans);
     }
 }

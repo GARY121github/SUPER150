@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="ASSIGNMENT 4">
-      <change beforePath="$PROJECT_DIR$/src/Assignment_4/Mili_s_Gallery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assignment_4/Mili_s_Gallery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_4/Newbie_Stock_Trader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assignment_4/Mental_Maths_Homework.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assignment_4/Mental_Maths_Homework.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assignment_4/World_Test_Championship.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assignment_4/World_Test_Championship.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,9 +53,22 @@
       <recent name="Sliding_Window" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Mili_s_Gallery">
+  <component name="RunManager" selected="Application.Newbie_Stock_Trader">
     <configuration name="Library_Impasse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Assignment_4.Library_Impasse" />
+      <module name="SUPER 150" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Assignment_4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Mental_Maths_Homework" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assignment_4.Mental_Maths_Homework" />
       <module name="SUPER 150" />
       <extension name="coverage">
         <pattern>
@@ -77,8 +93,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Perance_Party" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assignment_4.Perance_Party" />
+    <configuration name="Newbie_Stock_Trader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assignment_4.Newbie_Stock_Trader" />
       <module name="SUPER 150" />
       <extension name="coverage">
         <pattern>
@@ -103,26 +119,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Reshape_the_Matrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assignment_4.Reshape_the_Matrix" />
-      <module name="SUPER 150" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Assignment_4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Newbie_Stock_Trader" />
+        <item itemvalue="Application.Mental_Maths_Homework" />
         <item itemvalue="Application.Mili_s_Gallery" />
         <item itemvalue="Application.Library_Impasse" />
         <item itemvalue="Application.Piyush_and_Magical_Park" />
-        <item itemvalue="Application.Reshape_the_Matrix" />
-        <item itemvalue="Application.Perance_Party" />
       </list>
     </recent_temporary>
   </component>
@@ -359,7 +362,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670468862358</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="ASSIGNMENT 4">
+      <created>1670482102766</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1670482102766</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
