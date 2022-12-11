@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="ASSIGNMENT 4">
-      <change afterPath="$PROJECT_DIR$/src/Assignment_4/Newbie_Stock_Trader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assignment_4/Mental_Maths_Homework.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assignment_4/Mental_Maths_Homework.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assignment_4/World_Test_Championship.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assignment_4/World_Test_Championship.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -369,7 +366,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670482102766</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="ASSIGNMENT 4">
+      <created>1670780628188</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1670780628189</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
