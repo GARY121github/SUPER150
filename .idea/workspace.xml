@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="ASSIGNMENT 4">
-      <change afterPath="$PROJECT_DIR$/src/Arrays/Questions/Alex_on_a_Schedule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/Questions/Guddu_Bhaiya.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/Questions/Min_Swapping.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -376,7 +373,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670780628189</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="ASSIGNMENT 4">
+      <created>1670939867624</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1670939867624</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
