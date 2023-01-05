@@ -23,7 +23,7 @@ public class Print_till_n {
         if(n == 0){
             return;
         }
-        print(n-1);
+        print(--n);
         System.out.println(n);
     }
 }
