@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="Recursion">
-      <change afterPath="$PROJECT_DIR$/src/Recursion/Reverse_String_344.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/Print_All_the_combination_of_head_and_tail.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,22 +51,9 @@
       <recent name="Sliding_Window" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Find_all_the_possible_subsequence">
+  <component name="RunManager" selected="Application.Print_All_the_combination_of_head_and_tail">
     <configuration name="AkiPowerB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Recursion.AkiPowerB" />
-      <module name="SUPER 150" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Recursion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Factorial_using_tail_recursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion.Factorial_using_tail_recursion" />
       <module name="SUPER 150" />
       <extension name="coverage">
         <pattern>
@@ -117,13 +104,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Print_All_the_combination_of_head_and_tail" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion.Print_All_the_combination_of_head_and_tail" />
+      <module name="SUPER 150" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Print_All_the_combination_of_head_and_tail" />
         <item itemvalue="Application.Find_all_the_possible_subsequence" />
         <item itemvalue="Application.Find_the_first_index_of_number_in_an_array" />
         <item itemvalue="Application.Fibo" />
         <item itemvalue="Application.AkiPowerB" />
-        <item itemvalue="Application.Factorial_using_tail_recursion" />
       </list>
     </recent_temporary>
   </component>
@@ -416,7 +416,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673419106568</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Recursion">
+      <created>1673419702927</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1673419702927</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
