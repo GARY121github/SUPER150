@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="Recursion">
-      <change afterPath="$PROJECT_DIR$/src/Recursion/Print_all_the_ways_to_achive_the_number_from_the_dice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/Generate_Parentheses_22.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Recursion/Print_All_the_combination_of_head_and_tail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion/Print_All_the_combination_of_head_and_tail.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
