@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="Recursion">
-      <change afterPath="$PROJECT_DIR$/src/Recursion/Lexicographically_counting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_5/ASSIGNMENT LINK" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_5/Chessboard_Problem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,13 +52,13 @@
       <recent name="Sliding_Window" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lexicographically_counting">
-    <configuration name="Grid_Matrix_to_reach_destination" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion.Grid_Matrix_to_reach_destination" />
+  <component name="RunManager" selected="Application.Chessboard_Problem">
+    <configuration name="Chessboard_Problem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assignment_5.Chessboard_Problem" />
       <module name="SUPER 150" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Recursion.*" />
+          <option name="PATTERN" value="Assignment_5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +120,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Chessboard_Problem" />
         <item itemvalue="Application.Lexicographically_counting" />
         <item itemvalue="Application.Recursion.Print_all_the_Permutation" />
-        <item itemvalue="Application.Recursion.Grid_Matrix_to_reach_destination" />
-        <item itemvalue="Application.Recursion.Print_all_the_ways_to_achive_the_number_from_the_dice" />
-        <item itemvalue="Application.Recursion.Print_All_the_combination_of_head_and_tail" />
       </list>
     </recent_temporary>
   </component>
@@ -465,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674070143320</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="Recursion">
+      <created>1674107708909</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1674107708909</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
