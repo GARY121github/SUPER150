@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="Recursion">
-      <change afterPath="$PROJECT_DIR$/src/Assignment_5/ASSIGNMENT LINK" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_5/Chessboard_Problem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/LeetCode/Maximum_Product_Subarray_152.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_5/Subset_problem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assignment_5/Chessboard_Problem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assignment_5/Chessboard_Problem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,19 +80,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Print_All_the_combination_of_head_and_tail" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion.Print_All_the_combination_of_head_and_tail" />
-      <module name="SUPER 150" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Recursion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Print_all_the_ways_to_achive_the_number_from_the_dice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Recursion.Print_all_the_ways_to_achive_the_number_from_the_dice" />
       <module name="SUPER 150" />
@@ -118,9 +106,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Subset_problem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assignment_5.Subset_problem" />
+      <module name="SUPER 150" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Assignment_5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Chessboard_Problem" />
+        <item itemvalue="Application.Subset_problem" />
         <item itemvalue="Application.Lexicographically_counting" />
         <item itemvalue="Application.Recursion.Print_all_the_Permutation" />
       </list>
@@ -471,7 +473,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674107708909</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="Recursion">
+      <created>1674383744874</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1674383744874</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
