@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="ASSIGNMENT_5">
-      <change afterPath="$PROJECT_DIR$/src/Recursion/Tower_of_hanoi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sliding_Window/Sliding_Window_Maximum_239.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/Put_queen_in_board.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assignment_5/Chessboard_Problem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assignment_5/Chessboard_Problem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +51,7 @@
       <recent name="Sliding_Window" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Tower_of_hanoi">
+  <component name="RunManager" selected="Application.Put_queen_in_board">
     <configuration name="Assignment_5.Chessboard_Problem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Assignment_5.Chessboard_Problem" />
       <module name="SUPER 150" />
@@ -67,8 +65,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Assignment_5.Subset_problem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assignment_5.Subset_problem" />
+    <configuration name="Put_queen_in_board" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion.Put_queen_in_board" />
       <module name="SUPER 150" />
       <extension name="coverage">
         <pattern>
@@ -121,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Put_queen_in_board" />
         <item itemvalue="Application.Tower_of_hanoi" />
         <item itemvalue="Application.Assignment_5.Chessboard_Problem" />
         <item itemvalue="Application.Sliding_Window_Maximum_239" />
         <item itemvalue="Application.Subsets_78" />
-        <item itemvalue="Application.Assignment_5.Subset_problem" />
       </list>
     </recent_temporary>
   </component>
@@ -137,13 +135,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663441543134</updated>
-    </task>
-    <task id="LOCAL-00003" summary="First Commit">
-      <created>1663776700326</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1663776700326</updated>
     </task>
     <task id="LOCAL-00004" summary="LEET CODE QUESTIONS">
       <created>1663825758253</created>
@@ -481,7 +472,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674612185870</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="ASSIGNMENT_5">
+      <created>1674626258632</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1674626258633</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
