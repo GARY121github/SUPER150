@@ -25,6 +25,7 @@ Add 2 spaces between 2 subset solutions
 */
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Subset_problem {
@@ -38,7 +39,33 @@ public class Subset_problem {
 
         int target = sc.nextInt();
 
+        int t = subsetSum(arr , arr.length , target ,0 , "" , 0);
+        System.out.println();
+        System.out.println(t);
     }
 
+    static int subsetSum(int arr[], int n, int sum, int s, String ans,
+                         int count)
+    {
+        // The recursion is stopped at N-th level
+        // where all the subsets of the given array
+        // have been checked
+        if (n == 0) {
+            // Incrementing the count if sum is
+            // equal to the subset and returning the count
+            if (sum == s) {
+                count++;
+                for(int i = ans.length()-1 ; i>=0 ; i--){
+                    System.out.print(ans.charAt(i)+ " ");
+                }
+                System.out.print(" ");
+            }
+            return count;
+        }
+        count = subsetSum(arr, n - 1, sum, s, ans , count);
+        count = subsetSum(arr, n - 1, sum, s + arr[n - 1],  ans+arr[n-1],
+                count);
+        return count;
+    }
 
 }

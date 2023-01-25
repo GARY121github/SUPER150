@@ -46,40 +46,5 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Chessboard_Problem {
-    public static void main(String[] args) {
-        int n = 3;
-        System.out.println(allPossibleMoves(n , 0 , 0 , "" , 0));
-    }
-
-    static int allPossibleMoves(int n , int row , int col , String ans , int count){
-        if(row == n-1 && col == n-1){
-            System.out.println(ans);
-            return 1;
-        }
-
-        if(row+2 < n && col+1 < n){
-            count += allPossibleMoves(n , row+2 , col+1 , ans+"KD->" , count);
-        }
-
-        if(row+1 < n && col+2 < n){
-            count += allPossibleMoves(n , row+1 , col+2 , ans+"KR->" , count);
-        }
-
-        if(col != n-1){
-            count += allPossibleMoves(n , row , col+1 , ans+"RCO->" , count);
-            count += allPossibleMoves(n , row , n-1 , ans+"RCF->" , count);
-        }
-
-        if(row != n-1){
-            count += allPossibleMoves(n , row+1 , col , ans+"RRO->" , count);
-            count += allPossibleMoves(n , n-1 , col , ans+"RRF->" , count);
-        }
-
-        if(row == col){
-            count += allPossibleMoves(n , row+1 , col+1 , ans+"B0->" , count);
-            count += allPossibleMoves(n , n-1 , n-1 , ans+"BF->" ,count);
-        }
-
-        return count;
-    }
+    public static void main(String[] args) {}
 }
