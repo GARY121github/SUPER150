@@ -46,5 +46,49 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Chessboard_Problem {
-    public static void main(String[] args) {}
+    public static void main(String[] args) {
+        int n = 2;
+        allPaths(n , 0 , 0 , "");
+        System.out.println(list.size());
+    }
+
+    static ArrayList<String> list = new ArrayList<>();
+
+    static void allPaths(int n , int row , int col , String ans){
+        if(row == n && col == n){
+            System.out.println(ans + '{' + row + '-' + col + '}' );
+            list.add(ans);
+            return;
+        }
+
+//        KD
+        if(row+2 <= n && col <= n)
+            allPaths(n , row+2 , col+1 , ans+'{' + row + '-' + col + '}' + "KD->");
+//        KR
+        if(row+1 <= n && col+2 <= n)
+            allPaths(n , row+1 , col+2 , ans+'{' + row + '-' + col + '}' +"KR->");
+
+//        RR
+        if(col+1 <= n)
+            allPaths(n , row , col+1 , ans+'{' + row + '-' + col + '}' +"RR->");
+//        DRR
+        if(col + n <= n)
+            allPaths(n , row , n , ans+'{' + row + '-' + col + '}' +"DRR->");
+
+//        RD
+        if(row+1 <= n)
+            allPaths(n , row+1 , col , ans+'{' + row + '-' + col + '}' +"RD->" );
+
+//        BO
+        if(row==col)
+            allPaths(n , row+1 , col+1 , ans+'{' + row + '-' + col + '}' +"BO->");
+//        BD
+        if(row==col && row+n <= n && col+n <= n)
+            allPaths(n,  n , n ,ans+'{' + row + '-' + col + '}' +"BD");
+        //        DRD
+        if(row+n <= n)
+            allPaths(n , n , col, ans+'{' + row + '-' + col + '}' +"DRD->");
+
+
+    }
 }
