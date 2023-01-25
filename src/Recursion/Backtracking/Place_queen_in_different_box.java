@@ -16,7 +16,7 @@ public class Place_queen_in_different_box {
         for (int i = index ; i < board.length ; i++){
             if(!board[i]){
                 board[i] = true;
-                printCombinations(board , total , current+1 , ++index , ans+" BOX "+ i + " QUEEN " + current);
+                printCombinations(board , total , current+1 , i+1 , ans+" BOX "+ i + " QUEEN " + current);
                 board[i] = false;
             }
         }
