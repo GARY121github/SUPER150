@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="RECURSION">
-      <change afterPath="$PROJECT_DIR$/src/Recursion/Backtracking/COIN_to_make_money.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/LeetCode/Alternating_Digit_Sum_2544.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_5/Mazepath_D_Count_Print.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Recursion/Backtracking/Place_queen_in_different_box.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion/Backtracking/Place_queen_in_different_box.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +52,20 @@
       <recent name="Sliding_Window" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.COIN_to_make_money">
+  <component name="RunManager" selected="Application.Mazepath_D_Count_Print">
+    <configuration name="Alternating_Digit_Sum_2544" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.LeetCode.Alternating_Digit_Sum_2544" />
+      <module name="SUPER 150" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Arrays.LeetCode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="COIN_to_make_money" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Recursion.Backtracking.COIN_to_make_money" />
       <module name="SUPER 150" />
@@ -66,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Chessboard_Problem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assignment_5.Chessboard_Problem" />
+    <configuration name="Mazepath_D_Count_Print" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assignment_5.Mazepath_D_Count_Print" />
       <module name="SUPER 150" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Recursion.Backtracking.*" />
+          <option name="PATTERN" value="Assignment_5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,26 +118,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Recursion.Tower_of_hanoi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion.Tower_of_hanoi" />
-      <module name="SUPER 150" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Recursion.Backtracking.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Mazepath_D_Count_Print" />
+        <item itemvalue="Application.Alternating_Digit_Sum_2544" />
         <item itemvalue="Application.COIN_to_make_money" />
         <item itemvalue="Application.Place_queen_in_different_box" />
         <item itemvalue="Application.Recursion.Backtracking.Put_queen_in_board" />
-        <item itemvalue="Application.Recursion.Tower_of_hanoi" />
-        <item itemvalue="Application.Assignment_5.Chessboard_Problem" />
       </list>
     </recent_temporary>
   </component>
@@ -136,13 +136,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663441543134</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Second commit">
-      <created>1663826161420</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1663826161420</updated>
     </task>
     <task id="LOCAL-00007" summary="LEETCODE">
       <created>1663828126741</created>
@@ -480,7 +473,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674641432442</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="RECURSION">
+      <created>1674690890296</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1674690890297</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
