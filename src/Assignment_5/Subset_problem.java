@@ -29,6 +29,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class Subset_problem {
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
@@ -47,9 +48,6 @@ public class Subset_problem {
     static int subsetSum(int arr[], int n, int sum, int s, String ans,
                          int count)
     {
-        // The recursion is stopped at N-th level
-        // where all the subsets of the given array
-        // have been checked
         if (n == 0) {
             // Incrementing the count if sum is
             // equal to the subset and returning the count

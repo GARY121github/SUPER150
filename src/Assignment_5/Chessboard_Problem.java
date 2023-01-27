@@ -46,41 +46,65 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Chessboard_Problem {
-    public static void main(String[] args) {
-        int n = 3;
-        allPaths(n , 0 , 0 , "");
-        System.out.println(list.size());
+    public static void main(String args[]) {
+        Scanner scn = new Scanner(System.in);
+        int n = scn.nextInt();
+        chess_board(0,0,n,n,"");
+        System.out.println();
+        System.out.println(count);
     }
 
-    static ArrayList<String> list = new ArrayList<>();
+    static int count = 0;
+    public static void chess_board(int cr, int cc, int er, int ec, String ans) {
 
-    static void allPaths(int n , int row , int col , String ans){
-        if(row == n-1 && col == n-1){
-            System.out.println(ans + '{' + row + '-' + col + '}' );
-            list.add(ans);
+        // Positive Base Case
+
+        if (cr == er - 1 && cc == ec - 1) {
+
+            System.out.print(ans + "{" + cr + "-" + cc + "} ");
+            count++;
             return;
+
         }
 
-        for(int r = row + 2 , c = col + 1 ; r < n && c < n ; r = r+2 , c = c+1){
-            allPaths(n , r , c , ans + '{' + row + '-' + col + '}' + 'K' );
+        // Negative Base case
+
+        if (cr >= er || cc >= ec) {
+
+            return;
+
         }
 
-        for(int r = row+1 , c = col + 2 ; r < n && c < n ; r = r+1 , c = c+2){
-            allPaths(n , r , c , ans + '{' + row + '-' + col + '}'  + 'K');
+        // Knight
+
+        chess_board(cr + 2, cc + 1, er, ec, ans + "{" + cr + "-" + cc + "}K" );
+
+       chess_board(cr + 1, cc + 2, er, ec, ans + "{" + cr + "-" + cc + "}K");
+
+        // Rook
+
+        if (cr == 0 || cc == 0 || cr == er - 1 || cc == ec - 1) {
+
+            for (int moves = 1; moves < ec; moves++)
+
+                chess_board(cr, cc + moves, er, ec, ans + "{" + cr + "-" + cc + "}R");
+
+            for (int moves = 1; moves < er; moves++)
+
+                chess_board(cr + moves, cc, er, ec, ans + "{" + cr + "-" + cc + "}R");
+
         }
 
-        for(int c = col+1 ; c < n && row < n ; c++){
-            allPaths(n , row , c , ans + '{' + row + '-' + col + '}' + 'R');
-        }
+        // Bishop
 
-        for(int r = row+1 ; r < n && col < n ; r++){
-            allPaths(n , r , col , ans + '{' + row + '-' + col + '}' + 'R');
-        }
+        if (cr == cc || cr + cc == er - 1) {
 
-        if(row == col){
-            for (int r = row+1 , c = col+1 ; r < n && c < n ; r++ , c++){
-                allPaths(n , r , c , ans + '{' + row + '-' + col + '}' +'B');
+            for (int moves = 1; moves < er; moves++) {
+
+                chess_board(cr + moves, cc + moves, er, ec, ans + "{" + cr + "-" + cc + "}B");
+
             }
+
         }
     }
 }
