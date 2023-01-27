@@ -47,7 +47,7 @@ import java.util.Scanner;
 
 public class Chessboard_Problem {
     public static void main(String[] args) {
-        int n = 2;
+        int n = 3;
         allPaths(n , 0 , 0 , "");
         System.out.println(list.size());
     }
@@ -55,40 +55,32 @@ public class Chessboard_Problem {
     static ArrayList<String> list = new ArrayList<>();
 
     static void allPaths(int n , int row , int col , String ans){
-        if(row == n && col == n){
+        if(row == n-1 && col == n-1){
             System.out.println(ans + '{' + row + '-' + col + '}' );
             list.add(ans);
             return;
         }
 
-//        KD
-        if(row+2 <= n && col <= n)
-            allPaths(n , row+2 , col+1 , ans+'{' + row + '-' + col + '}' + "KD->");
-//        KR
-        if(row+1 <= n && col+2 <= n)
-            allPaths(n , row+1 , col+2 , ans+'{' + row + '-' + col + '}' +"KR->");
+        for(int r = row + 2 , c = col + 1 ; r < n && c < n ; r = r+2 , c = c+1){
+            allPaths(n , r , c , ans + '{' + row + '-' + col + '}' + 'K' );
+        }
 
-//        RR
-        if(col+1 <= n)
-            allPaths(n , row , col+1 , ans+'{' + row + '-' + col + '}' +"RR->");
-//        DRR
-        if(col + n <= n)
-            allPaths(n , row , n , ans+'{' + row + '-' + col + '}' +"DRR->");
+        for(int r = row+1 , c = col + 2 ; r < n && c < n ; r = r+1 , c = c+2){
+            allPaths(n , r , c , ans + '{' + row + '-' + col + '}'  + 'K');
+        }
 
-//        RD
-        if(row+1 <= n)
-            allPaths(n , row+1 , col , ans+'{' + row + '-' + col + '}' +"RD->" );
+        for(int c = col+1 ; c < n && row < n ; c++){
+            allPaths(n , row , c , ans + '{' + row + '-' + col + '}' + 'R');
+        }
 
-//        BO
-        if(row==col)
-            allPaths(n , row+1 , col+1 , ans+'{' + row + '-' + col + '}' +"BO->");
-//        BD
-        if(row==col && row+n <= n && col+n <= n)
-            allPaths(n,  n , n ,ans+'{' + row + '-' + col + '}' +"BD");
-        //        DRD
-        if(row+n <= n)
-            allPaths(n , n , col, ans+'{' + row + '-' + col + '}' +"DRD->");
+        for(int r = row+1 ; r < n && col < n ; r++){
+            allPaths(n , r , col , ans + '{' + row + '-' + col + '}' + 'R');
+        }
 
-
+        if(row == col){
+            for (int r = row+1 , c = col+1 ; r < n && c < n ; r++ , c++){
+                allPaths(n , r , c , ans + '{' + row + '-' + col + '}' +'B');
+            }
+        }
     }
 }
