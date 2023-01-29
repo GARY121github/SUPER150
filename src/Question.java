@@ -52,11 +52,9 @@ import java.util.Scanner;
 
 public class Question {
     public static void main(String[] args) {
-        String st = "skndfklsd    lkndflkjnsd    ldsnflj ds ";
-        String[] arr = st.split("\s+");
-//        System.out.println(Arrays.toString(arr));
-        for(String i : arr){
-            System.out.print(i);
-        }
+        String s1 = "Radha";
+        String s2 = "Radha";
+        String s3 = "RadhaRadha";
+        System.out.println(s1+s2 == s3);
     }
 }

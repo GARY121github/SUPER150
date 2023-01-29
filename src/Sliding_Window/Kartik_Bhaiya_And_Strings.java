@@ -37,8 +37,8 @@ public class Kartik_Bhaiya_And_Strings {
         Scanner sc = new Scanner(System.in);
         int k = sc.nextInt();
         String st = sc.next();
-        int a = max_length_substring(st , 'b' , k);
-        int b = max_length_substring(st ,  'a' , k);
+        int a = max_length_substring(st , 'B' , k);
+        int b = max_length_substring(st ,  'A' , k);
         System.out.println(Math.max(a , b));
 
     }
@@ -48,6 +48,8 @@ public class Kartik_Bhaiya_And_Strings {
         int e = 0;
         int flip = 0;
         int ans = 0;
+        int first = 0;
+        int second = 0;
         while (e < st.length()){
 
 //            GROWING STEP
@@ -64,9 +66,16 @@ public class Kartik_Bhaiya_And_Strings {
             }
 
 //            WINDOW SIZE
-            ans = Math.max(ans , e - s + 1);
+            int t = e-s+1;
+            if(t > ans){
+                ans = t;
+                first = s;
+                second = e;
+            }
             e++;
         }
+
+        System.out.println(st.substring(first, second+1));
         return ans;
     }
 }

@@ -77,9 +77,8 @@ public class Chessboard_Problem {
 
         // Knight
 
-        chess_board(cr + 2, cc + 1, er, ec, ans + "{" + cr + "-" + cc + "}K" );
-
-       chess_board(cr + 1, cc + 2, er, ec, ans + "{" + cr + "-" + cc + "}K");
+        chess_board(cr + 2, cc + 1, er, ec, ans + "{" + cr + "-" + cc + "}K");
+        chess_board(cr + 1, cc + 2, er, ec, ans + "{" + cr + "-" + cc + "}K");
 
         // Rook
 
