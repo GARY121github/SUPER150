@@ -1,4 +1,4 @@
-package Sliding_Window;
+package Assignment_5;
 
 import java.util.Scanner;
 

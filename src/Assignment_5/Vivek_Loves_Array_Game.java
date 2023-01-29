@@ -1,4 +1,4 @@
-package Sliding_Window;
+package Assignment_5;
 /*
 Vivek loves to play with array . One day Vivek just came up with a new array game which was introduced to him by
 his friend Ujjwal. The rules of the game are as follows:
