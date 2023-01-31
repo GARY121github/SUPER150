@@ -1,4 +1,7 @@
 package Assignment_5;
+
+import java.util.Scanner;
+
 /*
 Vivek loves to play with array . One day Vivek just came up with a new array game which was introduced to him by
 his friend Ujjwal. The rules of the game are as follows:
@@ -40,7 +43,5 @@ Sample Output
 3
 */
 public class Vivek_Loves_Array_Game {
-    public static void main(String[] args) {
 
-    }
 }
