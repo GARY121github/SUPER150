@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="ASSIGNMENT 5">
-      <change afterPath="$PROJECT_DIR$/src/Assignment_5/Rat_Chases_its_cheese.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_5/Rat_in_a_maze.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_5/Split_array_Recursion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/Backtracking/CombinationSum_39.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/Backtracking/Combination_Sum_III_216.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/Backtracking/Combination_Sum_II_40.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/Backtracking/Combination_Sum_IV_377.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/Backtracking/Word_Search_79.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/Breakdown_Strings_in_all_possible_way.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/Combinations_77.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sliding_Window/Longest_Substring_with_At_Least_K_Repeating_Characters_395.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sliding_Window/Minimum_Operations_to_Reduce_X_to_Zero_1658.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sliding_Window/Minimum_Size_Subarray_Sum_209.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sliding_Window/Minimum_Window_Substring_76.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assignment_5/Count_Remove_Replace_hi_Part_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assignment_5/Count_Remove_Replace_hi_Part_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assignment_5/Count_Remove_and_Replace_hi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assignment_5/Count_Remove_and_Replace_hi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assignment_5/Dictionary_Order_Smaller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assignment_5/Dictionary_Order_Smaller.java" afterDir="false" />
-    </list>
+    <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="ASSIGNMENT 5" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
