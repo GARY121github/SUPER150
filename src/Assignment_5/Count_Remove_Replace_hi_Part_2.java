@@ -24,27 +24,29 @@ abchitf
 abcbyehitfbye
 */
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
+
 import java.util.Scanner;
 
 public class Count_Remove_Replace_hi_Part_2 {
-    public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        String st = br.readLine();
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String st = sc.next();
+
         removehi(st , 0 , "");
         replacehi(st , "");
     }
 
-    static void removehi(String st,  int count , String ans){
+    static void removehi(String st ,  int count ,String ans ){
         if(st.isEmpty()){
             System.out.println(count);
             System.out.println(ans);
             return;
         }
 
-        if(st.charAt(0) == 'h' && st.charAt(1) == 'i'){
+        if(st.length() >= 3 && st.charAt(0) == 'h' && st.charAt(1) == 'i' && st.charAt(2) == 't'){
+            removehi(st.substring(1) , count , ans+st.charAt(0));
+        }
+        else if(st.charAt(0) == 'h'&& st.length() != 1 && st.charAt(1) == 'i'){
             removehi(st.substring(2) , count+1 , ans);
         }else {
             removehi(st.substring(1) , count , ans+st.charAt(0));
@@ -56,11 +58,14 @@ public class Count_Remove_Replace_hi_Part_2 {
             System.out.println(ans);
             return;
         }
-
-        if(st.charAt(0) == 'h' && st.charAt(1) == 'i'){
+        if(st.length() >= 3 && st.charAt(0) == 'h' && st.charAt(1) == 'i' && st.charAt(2) == 't'){
+            replacehi(st.substring(1) ,ans+st.charAt(0));
+        }
+        else if(st.charAt(0) == 'h'&& st.length() != 1 && st.charAt(1) == 'i'){
             replacehi(st.substring(2), ans+"bye");
         }else {
             replacehi(st.substring(1) , ans+st.charAt(0));
         }
     }
+
 }

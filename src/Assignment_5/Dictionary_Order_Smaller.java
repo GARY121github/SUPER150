@@ -36,9 +36,9 @@ public class Dictionary_Order_Smaller {
         public static void main(String[] args) {
             Scanner sc = new Scanner(System.in);
             String st = sc.next();
-            int[] frequency = new int[26];
+            int[] frequency = new int[255];
             for (int i = 0 ; i < st.length() ; i++){
-                frequency[st.charAt(i) - 97]++;
+                frequency[st.charAt(i)]++;
             }
             lexicoGraphically(frequency , st , "");
         }
@@ -52,10 +52,10 @@ public class Dictionary_Order_Smaller {
                 System.out.println(ans);
             }
 
-            for (int i = 0 ; i < 26 ; i++){
+            for (int i = 0 ; i < 255 ; i++){
                 if(arr[i] != 0){
                     arr[i]--;
-                    lexicoGraphically(arr , st , ans+((char) (i+97)));
+                    lexicoGraphically(arr , st , ans+((char) (i)));
                     arr[i]++;
                 }
             }

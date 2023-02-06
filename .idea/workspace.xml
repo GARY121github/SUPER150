@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="RECURSION">
-      <change afterPath="$PROJECT_DIR$/src/Assignment_5/All_Indices_Problem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_5/Count_Remove_Replace_hi_Part_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_5/Count_Remove_and_Replace_hi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_5/Dictionary_Order_Larger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_5/Dictionary_Order_Smaller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_5/Generate_Binary_Strings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_5/Last_Index.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_5/Nth_Triangle_Recursion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_5/Odd_Even_Using_Recursion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_5/Recursion_Convert_String_to_Integer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_5/Recursion_Keypad_Codes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_5/Recursion_Lexicographical_Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_5/Recursion_Subsequences.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_5/Replace_all_0_with_5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_5/Replace_all_pi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sliding_Window/Find_K_Closest_Elements_658.java" afterDir="false" />
+    <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="ASSIGNMENT 5">
+      <change afterPath="$PROJECT_DIR$/src/Assignment_5/Rat_Chases_its_cheese.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_5/Rat_in_a_maze.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_5/Split_array_Recursion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/Backtracking/CombinationSum_39.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/Backtracking/Combination_Sum_III_216.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/Backtracking/Combination_Sum_II_40.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/Backtracking/Combination_Sum_IV_377.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/Backtracking/Word_Search_79.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/Breakdown_Strings_in_all_possible_way.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/Combinations_77.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sliding_Window/Longest_Substring_with_At_Least_K_Repeating_Characters_395.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sliding_Window/Minimum_Operations_to_Reduce_X_to_Zero_1658.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sliding_Window/Minimum_Size_Subarray_Sum_209.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sliding_Window/Minimum_Window_Substring_76.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assignment_5/Vivek_Loves_Array_Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assignment_5/Vivek_Loves_Array_Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assignment_5/Count_Remove_Replace_hi_Part_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assignment_5/Count_Remove_Replace_hi_Part_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assignment_5/Count_Remove_and_Replace_hi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assignment_5/Count_Remove_and_Replace_hi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assignment_5/Dictionary_Order_Smaller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assignment_5/Dictionary_Order_Smaller.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +67,46 @@
       <recent name="Sliding_Window" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Recursion_Convert_String_to_Integer">
+  <component name="RunManager" selected="Application.Count_Remove_Replace_hi_Part_2">
+    <configuration name="Combination_Sum_III_216" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion.Backtracking.Combination_Sum_III_216" />
+      <module name="SUPER 150" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Recursion.Backtracking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Combination_Sum_II_40" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion.Backtracking.Combination_Sum_II_40" />
+      <module name="SUPER 150" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Recursion.Backtracking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Combination_Sum_IV_377" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion.Backtracking.Combination_Sum_IV_377" />
+      <module name="SUPER 150" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Recursion.Backtracking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Count_Remove_Replace_hi_Part_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Assignment_5.Count_Remove_Replace_hi_Part_2" />
       <module name="SUPER 150" />
@@ -81,47 +120,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Generate_Binary_Strings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assignment_5.Generate_Binary_Strings" />
-      <module name="SUPER 150" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Assignment_5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Nth_Triangle_Recursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assignment_5.Nth_Triangle_Recursion" />
-      <module name="SUPER 150" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Assignment_5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Odd_Even_Using_Recursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assignment_5.Odd_Even_Using_Recursion" />
-      <module name="SUPER 150" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Assignment_5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Recursion_Convert_String_to_Integer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assignment_5.Recursion_Convert_String_to_Integer" />
+    <configuration name="Count_Remove_and_Replace_hi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assignment_5.Count_Remove_and_Replace_hi" />
       <module name="SUPER 150" />
       <extension name="coverage">
         <pattern>
@@ -135,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Recursion_Convert_String_to_Integer" />
         <item itemvalue="Application.Count_Remove_Replace_hi_Part_2" />
-        <item itemvalue="Application.Nth_Triangle_Recursion" />
-        <item itemvalue="Application.Odd_Even_Using_Recursion" />
-        <item itemvalue="Application.Generate_Binary_Strings" />
+        <item itemvalue="Application.Count_Remove_and_Replace_hi" />
+        <item itemvalue="Application.Combination_Sum_IV_377" />
+        <item itemvalue="Application.Combination_Sum_III_216" />
+        <item itemvalue="Application.Combination_Sum_II_40" />
       </list>
     </recent_temporary>
   </component>
@@ -151,13 +151,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663441543134</updated>
-    </task>
-    <task id="LOCAL-00012" summary="2D Array">
-      <created>1665638007397</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1665638007397</updated>
     </task>
     <task id="LOCAL-00013" summary="Assignment 2">
       <created>1665945639899</created>
@@ -495,7 +488,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675000535299</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="ASSIGNMENT 5">
+      <created>1675184592194</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1675184592194</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -525,7 +525,8 @@
     <MESSAGE value="Recursion" />
     <MESSAGE value="ASSIGNMENT_5" />
     <MESSAGE value="RECURSION" />
-    <option name="LAST_COMMIT_MESSAGE" value="RECURSION" />
+    <MESSAGE value="ASSIGNMENT 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="ASSIGNMENT 5" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -556,6 +557,42 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Recursion/Backtracking/Word_Search_79.java</url>
+          <line>8</line>
+          <properties class="Recursion.Backtracking.Word_Search_79">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Recursion/Backtracking/Combination_Sum_IV_377.java</url>
+          <line>10</line>
+          <properties class="Recursion.Backtracking.Combination_Sum_IV_377" method="combination_Sum4">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Assignment_5/Count_Remove_and_Replace_hi.java</url>
+          <line>36</line>
+          <properties class="Assignment_5.Count_Remove_and_Replace_hi" method="removehi">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Assignment_5/Count_Remove_Replace_hi_Part_2.java</url>
+          <line>38</line>
+          <properties class="Assignment_5.Count_Remove_Replace_hi_Part_2" method="removehi">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Assignment_1/Boston_Numbers.java</url>
@@ -601,6 +638,16 @@
           <url>file://$PROJECT_DIR$/src/Assignment_5/Dictionary_Order_Larger.java</url>
           <line>54</line>
           <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Recursion/Backtracking/Combination_Sum_IV_377.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Assignment_5/Count_Remove_and_Replace_hi.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

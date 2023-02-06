@@ -41,7 +41,7 @@ public class Count_Remove_and_Replace_hi {
             return;
         }
 
-        if(st.charAt(0) == 'h' && st.charAt(1) == 'i'){
+        if(st.charAt(0) == 'h'&& st.length() != 1 && st.charAt(1) == 'i'){
             removehi(st.substring(2) , count+1 , ans);
         }else {
             removehi(st.substring(1) , count , ans+st.charAt(0));
@@ -54,7 +54,7 @@ public class Count_Remove_and_Replace_hi {
             return;
         }
 
-        if(st.charAt(0) == 'h' && st.charAt(1) == 'i'){
+        if(st.charAt(0) == 'h'&& st.length() != 1 && st.charAt(1) == 'i'){
             replacehi(st.substring(2), ans+"bye");
         }else {
             replacehi(st.substring(1) , ans+st.charAt(0));
