@@ -45,54 +45,37 @@ Sample Output
 public class Vivek_Loves_Array_Game {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int test = sc.nextInt();
-
-        while(test-- >0){
-
+        int t = sc.nextInt();
+        while (t-- > 0){
             int n = sc.nextInt();
-            int arr[]=new int[n];
-
-            for (int i = 0; i < n; i++) {
+            int[] arr = new int[n];
+            for(int i = 0 ; i < n ; i++){
                 arr[i] = sc.nextInt();
             }
-
-            int brr[] = new int [n+1];
-
-            brr[0] = 0;
-
-            for (int j = 1; j <= n; j++){
-                brr[j] = brr[j-1] + arr[j-1];
-            }
-
-            System.out.println(ArrGame(arr, brr, 0, n-1));
+            System.out.println(arrayGame(arr , 0 , n-1));
         }
     }
 
-    public static int ArrGame(int []arr,int []brr,int st,int end){
-
-        if (st >= end) {
-            return 0;
-        }
-
-        if ((st + 1) == end){
-            if (arr[st] == arr[end]){
-                return 1;
-            }
-            else {
-                return 0;
+    static int arrayGame(int[] arr , int s , int e){
+        int count = 0;
+        for(int mid = s ; mid < e ; mid++){
+            int sum1 = 0;
+            for(int i = s ; i <= mid ; i++){
+                sum1 += arr[i];
             }
 
-        }
+            int sum2 = 0;
+            for(int i = mid+1 ; i <= e ; i++){
+                sum2 += arr[i];
+            }
 
-        int max = 0;
-        for (int i = st; i < end;i++){
-            if ((brr[i+1] - brr[st]) == (brr[end+1] - brr[i+1])){
-
-                int ans = (Math.max(ArrGame(arr, brr, st, i),ArrGame(arr, brr, i+1, end))) + 1;
-                max = Math.max(max,ans);
-                break;
+            if(sum1 == sum2){
+                int left = arrayGame(arr , s , mid);
+                int right = arrayGame(arr , mid+1 , e);
+                return count += Math.max(left , right) + 1;
             }
         }
-        return max;
+
+        return 0;
     }
 }

@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="ASSIGNMENT 5">
+    <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="N-KNIGHTS PROBLEM">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assignment_5/N_Knight_Problem_Easy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assignment_5/N_Knight_Problem_Easy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assignment_5/Vivek_Loves_Array_Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assignment_5/Vivek_Loves_Array_Game.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +51,7 @@
       <recent name="Sliding_Window" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.N_Knight_Problem_Easy">
+  <component name="RunManager" selected="Application.Vivek_Loves_Array_Game">
     <configuration name="LL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LL" />
       <module name="SUPER 150" />
@@ -87,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Print_all_the_Permutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion.Print_all_the_Permutation" />
+    <configuration name="Vivek_Loves_Array_Game" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assignment_5.Vivek_Loves_Array_Game" />
       <module name="SUPER 150" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Recursion.*" />
+          <option name="PATTERN" value="Assignment_5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,11 +101,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Vivek_Loves_Array_Game" />
         <item itemvalue="Application.N_Knight_Problem_Easy" />
         <item itemvalue="Application.MyQueue" />
         <item itemvalue="Application.MyStack" />
         <item itemvalue="Application.LL" />
-        <item itemvalue="Application.Print_all_the_Permutation" />
       </list>
     </recent_temporary>
   </component>
@@ -118,13 +117,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663441543134</updated>
-    </task>
-    <task id="LOCAL-00016" summary="ASSIGNMENT 3">
-      <created>1668193462172</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1668193462172</updated>
     </task>
     <task id="LOCAL-00017" summary="ASSIGNMENT 3">
       <created>1668196476103</created>
@@ -462,7 +454,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676955139031</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="N-KNIGHTS PROBLEM">
+      <created>1676957016918</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1676957016918</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -493,7 +492,8 @@
     <MESSAGE value="ASSIGNMENT_5" />
     <MESSAGE value="RECURSION" />
     <MESSAGE value="ASSIGNMENT 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="ASSIGNMENT 5" />
+    <MESSAGE value="N-KNIGHTS PROBLEM" />
+    <option name="LAST_COMMIT_MESSAGE" value="N-KNIGHTS PROBLEM" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
