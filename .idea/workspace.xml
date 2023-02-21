@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="ASSIGNMENT 5">
-      <change afterPath="$PROJECT_DIR$/src/MyQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TIME_COMPLEXITY.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assignment_5/Generate_Binary_Strings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assignment_5/Generate_Binary_Strings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assignment_5/Vivek_Loves_Array_Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assignment_5/Vivek_Loves_Array_Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Question.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Recursion/Print_all_the_Permutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion/Print_all_the_Permutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assignment_5/N_Knight_Problem_Easy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assignment_5/N_Knight_Problem_Easy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyStack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +52,7 @@
       <recent name="Sliding_Window" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyQueue">
+  <component name="RunManager" selected="Application.N_Knight_Problem_Easy">
     <configuration name="LL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LL" />
       <module name="SUPER 150" />
@@ -107,11 +102,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.N_Knight_Problem_Easy" />
         <item itemvalue="Application.MyQueue" />
         <item itemvalue="Application.MyStack" />
         <item itemvalue="Application.LL" />
         <item itemvalue="Application.Print_all_the_Permutation" />
-        <item itemvalue="Application.N_Knight_Problem_Easy" />
       </list>
     </recent_temporary>
   </component>
@@ -123,13 +118,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663441543134</updated>
-    </task>
-    <task id="LOCAL-00015" summary="ASSIGNMENT 2">
-      <created>1667503900887</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1667503900887</updated>
     </task>
     <task id="LOCAL-00016" summary="ASSIGNMENT 3">
       <created>1668193462172</created>
@@ -467,7 +455,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676437566874</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="ASSIGNMENT 5">
+      <created>1676955139028</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1676955139031</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -568,7 +563,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Assignment_5/N_Knight_Problem_Easy.java</url>
-          <line>23</line>
+          <line>22</line>
           <properties class="Assignment_5.N_Knight_Problem_Easy">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />

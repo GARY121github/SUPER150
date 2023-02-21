@@ -21,5 +21,72 @@ Sample Output
 6
 */
 public class N_Knight_Problem_Easy {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        boolean[][] board = new boolean[n][n];
+        int ans = placeKnights(board , n , "" , 0 , 0 );
+        System.out.println();
+        System.out.println(ans);
+    }
 
+    static int placeKnights(boolean[][] board , int Knights , String ans , int row , int col){
+        if(Knights == 0){
+            System.out.print(ans + " ");
+            return 1;
+        }
+
+        if(col == board.length)
+        {
+            row = row+1;
+            col = 0;
+        }
+        if(row == board.length){
+            return 0;
+        }
+        int count = 0;
+
+//        CHOOSE
+        if(isSafe(board , row , col)){
+            board[row][col] = true;
+            count += placeKnights(board , Knights-1 , ans+'{'+row+'-'+col+"} " , row , col+1);
+            board[row][col] = false;
+        }
+//        NOT CHOOSE
+        count += placeKnights(board , Knights , ans , row , col+1);
+
+        return count;
+    }
+
+    private static boolean isSafe(boolean[][] board, int row, int col) {
+//        UPWARDS - LEFT
+        if(row-2 >= 0 && col - 1 >= 0){
+            if(board[row-2][col-1]){
+                return false;
+            }
+        }
+
+//        UPWARDS - RIGHT
+        if(row-2 >= 0 && col + 1 < board.length){
+            if(board[row-2][col+1]){
+                return false;
+            }
+        }
+
+//        LEFTWARDS - UP
+        if(row-1 >= 0 && col - 2 >= 0){
+            if(board[row-1][col-2]){
+                return false;
+            }
+        }
+
+//        RIGHTWARDS - UP
+        if(row-1 >= 0 && col + 2 < board.length){
+            if(board[row-1][col+2]){
+                return false;
+            }
+        }
+
+        return true;
+    }
 }
