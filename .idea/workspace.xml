@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="ASSIGNMENT 5">
-      <change afterPath="$PROJECT_DIR$/src/Assignment_5/COUNT_N_QUEEN.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_5/N_Knight_Problem_Easy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MyQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MyStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TIME_COMPLEXITY.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assignment_5/Generate_Binary_Strings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assignment_5/Generate_Binary_Strings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assignment_5/Vivek_Loves_Array_Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assignment_5/Vivek_Loves_Array_Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Question.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/Print_all_the_Permutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion/Print_all_the_Permutation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,42 +57,24 @@
       <recent name="Sliding_Window" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.N_Knight_Problem_Easy">
-    <configuration name="COUNT_N_QUEEN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assignment_5.COUNT_N_QUEEN" />
+  <component name="RunManager" selected="Application.MyQueue">
+    <configuration name="LL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LL" />
       <module name="SUPER 150" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Assignment_5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Count_Remove_Replace_hi_Part_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assignment_5.Count_Remove_Replace_hi_Part_2" />
+    <configuration name="MyQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyQueue" />
       <module name="SUPER 150" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Assignment_5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Count_Remove_and_Replace_hi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assignment_5.Count_Remove_and_Replace_hi" />
+    <configuration name="MyStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyStack" />
       <module name="SUPER 150" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Assignment_5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -105,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Recursion_Obedient_String" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assignment_5.Recursion_Obedient_String" />
+    <configuration name="Print_all_the_Permutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion.Print_all_the_Permutation" />
       <module name="SUPER 150" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Assignment_5.*" />
+          <option name="PATTERN" value="Recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyQueue" />
+        <item itemvalue="Application.MyStack" />
+        <item itemvalue="Application.LL" />
+        <item itemvalue="Application.Print_all_the_Permutation" />
         <item itemvalue="Application.N_Knight_Problem_Easy" />
-        <item itemvalue="Application.COUNT_N_QUEEN" />
-        <item itemvalue="Application.Recursion_Obedient_String" />
-        <item itemvalue="Application.Count_Remove_Replace_hi_Part_2" />
-        <item itemvalue="Application.Count_Remove_and_Replace_hi" />
       </list>
     </recent_temporary>
   </component>
@@ -136,13 +123,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663441543134</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Rotate Image">
-      <created>1666244888508</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1666244888508</updated>
     </task>
     <task id="LOCAL-00015" summary="ASSIGNMENT 2">
       <created>1667503900887</created>
@@ -480,7 +460,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675964738351</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="ASSIGNMENT 5">
+      <created>1676437566873</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1676437566874</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -43,5 +43,56 @@ Sample Output
 3
 */
 public class Vivek_Loves_Array_Game {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int test = sc.nextInt();
 
+        while(test-- >0){
+
+            int n = sc.nextInt();
+            int arr[]=new int[n];
+
+            for (int i = 0; i < n; i++) {
+                arr[i] = sc.nextInt();
+            }
+
+            int brr[] = new int [n+1];
+
+            brr[0] = 0;
+
+            for (int j = 1; j <= n; j++){
+                brr[j] = brr[j-1] + arr[j-1];
+            }
+
+            System.out.println(ArrGame(arr, brr, 0, n-1));
+        }
+    }
+
+    public static int ArrGame(int []arr,int []brr,int st,int end){
+
+        if (st >= end) {
+            return 0;
+        }
+
+        if ((st + 1) == end){
+            if (arr[st] == arr[end]){
+                return 1;
+            }
+            else {
+                return 0;
+            }
+
+        }
+
+        int max = 0;
+        for (int i = st; i < end;i++){
+            if ((brr[i+1] - brr[st]) == (brr[end+1] - brr[i+1])){
+
+                int ans = (Math.max(ArrGame(arr, brr, st, i),ArrGame(arr, brr, i+1, end))) + 1;
+                max = Math.max(max,ans);
+                break;
+            }
+        }
+        return max;
+    }
 }
