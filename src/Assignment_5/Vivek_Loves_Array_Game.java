@@ -12,11 +12,11 @@ In each move, Vivek must divide the array into  two non-empty contiguous parts s
 in the left part is equal  to the sum of the elements in the right part. If Vivek can make such a move, he gets '1'
 point; otherwise, the game ends.
 
-After each successful move, Vivek have to discards either the left part or the right part and continues playing by
+After each successful move, Vivek have to discard either the left part or the right part and continues playing by
 using
 the remaining partition as array 'A'.
 
-Vivek loves this game and wants your help getting the best score possible. Given 'A', can you find and print the
+Vivek loves this game and wants your help to get the best score possible. Given 'A', can you find and print the
 maximum number of points he can score?
 
 Input Format
