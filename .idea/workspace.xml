@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="DIVIDE AND CONQUER">
-      <change afterPath="$PROJECT_DIR$/src/STACKS_AND_QUEUE/Find_the_element_at_the_bottom_of_the_stack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assignment_5/Mazepath_D_Count_Print.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assignment_5/Mazepath_D_Count_Print.java" afterDir="false" />
+    <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="STACKS">
+      <change afterPath="$PROJECT_DIR$/src/STACKS_AND_QUEUE/Insert_at_the_bottom_of_the_Stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/STACKS_AND_QUEUE/Find_the_element_at_the_bottom_of_the_stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/STACKS_AND_QUEUE/Find_the_element_at_the_bottom_of_the_stack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +51,7 @@
       <recent name="Sliding_Window" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Find_the_element_at_the_bottom_of_the_stack">
+  <component name="RunManager" selected="Application.Insert_at_the_bottom_of_the_Stack">
     <configuration name="Find_the_element_at_the_bottom_of_the_stack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="STACKS_AND_QUEUE.Find_the_element_at_the_bottom_of_the_stack" />
       <module name="SUPER 150" />
@@ -79,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Mazepath_D_Count_Print" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assignment_5.Mazepath_D_Count_Print" />
+    <configuration name="Insert_at_the_bottom_of_the_Stack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="STACKS_AND_QUEUE.Insert_at_the_bottom_of_the_Stack" />
       <module name="SUPER 150" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Assignment_5.*" />
+          <option name="PATTERN" value="STACKS_AND_QUEUE.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Merge_to_sorted_Arrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Divide_and_conquer.Merge_to_sorted_Arrays" />
+    <configuration name="Mazepath_D_Count_Print" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assignment_5.Mazepath_D_Count_Print" />
       <module name="SUPER 150" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Divide_and_conquer.*" />
+          <option name="PATTERN" value="Assignment_5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Insert_at_the_bottom_of_the_Stack" />
         <item itemvalue="Application.Find_the_element_at_the_bottom_of_the_stack" />
         <item itemvalue="Application.Mazepath_D_Count_Print" />
         <item itemvalue="Application.MyQueue" />
         <item itemvalue="Application.Greater_and_smaller" />
-        <item itemvalue="Application.Merge_to_sorted_Arrays" />
       </list>
     </recent_temporary>
   </component>
@@ -130,13 +129,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663441543134</updated>
-    </task>
-    <task id="LOCAL-00020" summary="ASSIGNMENT 3">
-      <created>1668410553467</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1668410553467</updated>
     </task>
     <task id="LOCAL-00021" summary="ASSIGNMENT 3">
       <created>1668536945463</created>
@@ -474,7 +466,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677088255307</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="STACKS">
+      <created>1679480115053</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1679480115053</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -509,7 +508,8 @@
     <MESSAGE value="VIVEK LOVES ARRAY" />
     <MESSAGE value="MAPPED STRING" />
     <MESSAGE value="DIVIDE AND CONQUER" />
-    <option name="LAST_COMMIT_MESSAGE" value="DIVIDE AND CONQUER" />
+    <MESSAGE value="STACKS" />
+    <option name="LAST_COMMIT_MESSAGE" value="STACKS" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
