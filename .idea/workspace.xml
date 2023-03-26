@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="STACKS">
-      <change afterPath="$PROJECT_DIR$/src/STACKS_AND_QUEUE/Stock_Span.java" afterDir="false" />
+    <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="STOCK SPAN">
+      <change afterPath="$PROJECT_DIR$/src/OOPS/School.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOPS/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,20 +52,7 @@
       <recent name="Sliding_Window" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Next_Grater_Element">
-    <configuration name="Find_the_element_at_the_bottom_of_the_stack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="STACKS_AND_QUEUE.Find_the_element_at_the_bottom_of_the_stack" />
-      <module name="SUPER 150" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="STACKS_AND_QUEUE.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.School">
     <configuration name="Insert_at_the_bottom_of_the_Stack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="STACKS_AND_QUEUE.Insert_at_the_bottom_of_the_Stack" />
       <module name="SUPER 150" />
@@ -117,13 +105,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="School" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOPS.School" />
+      <module name="SUPER 150" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OOPS.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.School" />
         <item itemvalue="Application.Next_Grater_Element" />
         <item itemvalue="Application.Reverse_Queue" />
         <item itemvalue="Application.Reverse_the_stack" />
         <item itemvalue="Application.Insert_at_the_bottom_of_the_Stack" />
-        <item itemvalue="Application.Find_the_element_at_the_bottom_of_the_stack" />
       </list>
     </recent_temporary>
   </component>
@@ -135,13 +136,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663441543134</updated>
-    </task>
-    <task id="LOCAL-00022" summary="ASSIGNMENT 3">
-      <created>1668538573754</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1668538573754</updated>
     </task>
     <task id="LOCAL-00023" summary="ASSIGNMENT 3">
       <created>1669205155622</created>
@@ -479,7 +473,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679480697212</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="STOCK SPAN">
+      <created>1679550978465</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1679550978465</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -515,7 +516,8 @@
     <MESSAGE value="MAPPED STRING" />
     <MESSAGE value="DIVIDE AND CONQUER" />
     <MESSAGE value="STACKS" />
-    <option name="LAST_COMMIT_MESSAGE" value="STACKS" />
+    <MESSAGE value="STOCK SPAN" />
+    <option name="LAST_COMMIT_MESSAGE" value="STOCK SPAN" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -664,6 +666,11 @@
           <url>file://$PROJECT_DIR$/src/Assignment_5/Count_Remove_and_Replace_hi.java</url>
           <line>44</line>
           <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/OOPS/School.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="33" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
