@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="STOCK SPAN">
-      <change afterPath="$PROJECT_DIR$/src/OOPS/School.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPS/Student.java" afterDir="false" />
+    <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="OOPS">
+      <change afterPath="$PROJECT_DIR$/src/Assignment_6/Dequeue_efficient_queue_using_stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_6/Kartik_Bhaiya_And_The_Celebrity_Problem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,13 +52,13 @@
       <recent name="Sliding_Window" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.School">
-    <configuration name="Insert_at_the_bottom_of_the_Stack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="STACKS_AND_QUEUE.Insert_at_the_bottom_of_the_Stack" />
+  <component name="RunManager" selected="Application.Dequeue_efficient_queue_using_stack">
+    <configuration name="Dequeue_efficient_queue_using_stack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assignment_6.Dequeue_efficient_queue_using_stack" />
       <module name="SUPER 150" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="STACKS_AND_QUEUE.*" />
+          <option name="PATTERN" value="Assignment_6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Dequeue_efficient_queue_using_stack" />
         <item itemvalue="Application.School" />
         <item itemvalue="Application.Next_Grater_Element" />
         <item itemvalue="Application.Reverse_Queue" />
         <item itemvalue="Application.Reverse_the_stack" />
-        <item itemvalue="Application.Insert_at_the_bottom_of_the_Stack" />
       </list>
     </recent_temporary>
   </component>
@@ -136,13 +136,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663441543134</updated>
-    </task>
-    <task id="LOCAL-00023" summary="ASSIGNMENT 3">
-      <created>1669205155622</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1669205155622</updated>
     </task>
     <task id="LOCAL-00024" summary="SLIDING WINDOW :)">
       <created>1669205313886</created>
@@ -480,7 +473,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679550978465</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="OOPS">
+      <created>1679849754005</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1679849754005</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -517,7 +517,8 @@
     <MESSAGE value="DIVIDE AND CONQUER" />
     <MESSAGE value="STACKS" />
     <MESSAGE value="STOCK SPAN" />
-    <option name="LAST_COMMIT_MESSAGE" value="STOCK SPAN" />
+    <MESSAGE value="OOPS" />
+    <option name="LAST_COMMIT_MESSAGE" value="OOPS" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
