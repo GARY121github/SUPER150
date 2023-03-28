@@ -30,4 +30,7 @@ value is one. From the matrix, A knows C, B knows C and D knows C. Thus C is the
 it's ID is 2. Hence, output is 2.
 */
 public class Kartik_Bhaiya_And_The_Celebrity_Problem {
+    public static void main(String[] args) {
+        
+    }
 }
