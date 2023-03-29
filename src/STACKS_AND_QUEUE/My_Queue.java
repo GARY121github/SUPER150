@@ -1,8 +1,8 @@
 package STACKS_AND_QUEUE;
 
 public class My_Queue {
-    private Object[] data;
-    private int front;
+    protected Object[] data;
+    protected int front;
     private int size;
 
     public My_Queue(){
@@ -45,7 +45,17 @@ public class My_Queue {
         return data;
     }
 
+    void Display(){
+        int f = front;
+        for (int i = 0 ; i < this.size ; i++){
+            System.out.print(this.data[f] + " ");
+
+            f = (f+1) % this.data.length;
+        }
+    }
+
     public int size(){
         return this.size;
     }
+
 }
