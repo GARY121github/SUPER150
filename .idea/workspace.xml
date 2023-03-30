@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="Assignment 6">
-      <change afterPath="$PROJECT_DIR$/src/OOPS/Dynamic_Queue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPS/Dynamic_Stack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/STACKS_AND_QUEUE/My_Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/STACKS_AND_QUEUE/My_Queue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/STACKS_AND_QUEUE/My_Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/STACKS_AND_QUEUE/My_Stack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/STACKS_AND_QUEUE/Reverse_the_stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/STACKS_AND_QUEUE/Reverse_the_stack.java" afterDir="false" />
-    </list>
+    <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="DYNAMIC STACKS AND QUEUE (INHERITANCE)" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -139,13 +132,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663441543134</updated>
-    </task>
-    <task id="LOCAL-00026" summary="ASSIGNMENT 4">
-      <created>1669785257372</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1669785257372</updated>
     </task>
     <task id="LOCAL-00027" summary="ASSIGNMENT 4">
       <created>1669792579207</created>
@@ -483,7 +469,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679969243469</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="DYNAMIC STACKS AND QUEUE (INHERITANCE)">
+      <created>1680114445071</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1680114445071</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -522,7 +515,8 @@
     <MESSAGE value="STOCK SPAN" />
     <MESSAGE value="OOPS" />
     <MESSAGE value="Assignment 6" />
-    <option name="LAST_COMMIT_MESSAGE" value="Assignment 6" />
+    <MESSAGE value="DYNAMIC STACKS AND QUEUE (INHERITANCE)" />
+    <option name="LAST_COMMIT_MESSAGE" value="DYNAMIC STACKS AND QUEUE (INHERITANCE)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
