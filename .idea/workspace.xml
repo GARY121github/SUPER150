@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="DYNAMIC STACKS AND QUEUE (INHERITANCE)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/STACKS_AND_QUEUE/Reverse_the_stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/STACKS_AND_QUEUE/Reverse_the_stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/STACKS_AND_QUEUE/My_Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/STACKS_AND_QUEUE/My_Queue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/STACKS_AND_QUEUE/My_Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/STACKS_AND_QUEUE/My_Stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TIME_COMPLEXITY.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TIME_COMPLEXITY.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +53,7 @@
       <recent name="Sliding_Window" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Reverse_the_stack">
+  <component name="RunManager" selected="Application.My_Stack">
     <configuration name="Dequeue_efficient_queue_using_stack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Assignment_6.Dequeue_efficient_queue_using_stack" />
       <module name="SUPER 150" />
@@ -104,26 +106,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="School" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOPS.School" />
+    <configuration name="TIME_COMPLEXITY" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TIME_COMPLEXITY" />
       <module name="SUPER 150" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="OOPS.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Reverse_the_stack" />
-        <item itemvalue="Application.My_Queue" />
         <item itemvalue="Application.My_Stack" />
+        <item itemvalue="Application.TIME_COMPLEXITY" />
+        <item itemvalue="Application.My_Queue" />
+        <item itemvalue="Application.Reverse_the_stack" />
         <item itemvalue="Application.Dequeue_efficient_queue_using_stack" />
-        <item itemvalue="Application.School" />
       </list>
     </recent_temporary>
   </component>
@@ -135,13 +131,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663441543134</updated>
-    </task>
-    <task id="LOCAL-00028" summary="ASSIGNMENT 4">
-      <created>1670219790304</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1670219790304</updated>
     </task>
     <task id="LOCAL-00029" summary="ASSIGNMENT 4">
       <created>1670222190010</created>
@@ -479,7 +468,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680180295383</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="DYNAMIC STACKS AND QUEUE (INHERITANCE)">
+      <created>1680196645246</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1680196645246</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -673,6 +669,11 @@
           <url>file://$PROJECT_DIR$/src/OOPS/School.java</url>
           <line>4</line>
           <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/STACKS_AND_QUEUE/My_Stack.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="34" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -34,9 +34,6 @@ public class My_Queue {
         if(isEmpty()){
             throw new Exception("MY QUEUE IS EMPTY");
         }
-//        this.size--;
-//        return this.data[this.front++];
-
         Object data = this.data[front];
 
         this.front  = (this.front + 1) % this.data.length;
@@ -56,6 +53,16 @@ public class My_Queue {
 
     public int size(){
         return this.size;
+    }
+
+    public static void main(String[] args) throws Exception {
+        My_Queue queue = new My_Queue();
+        queue.Enqueue(10);
+        queue.Enqueue(10);
+        queue.Enqueue(10);
+        queue.Enqueue(10);
+        queue.Enqueue(10);
+        queue.Enqueue(10);
     }
 
 }
