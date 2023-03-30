@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="DYNAMIC STACKS AND QUEUE (INHERITANCE)" />
+    <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="DYNAMIC STACKS AND QUEUE (INHERITANCE)">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/STACKS_AND_QUEUE/Reverse_the_stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/STACKS_AND_QUEUE/Reverse_the_stack.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -132,13 +135,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663441543134</updated>
-    </task>
-    <task id="LOCAL-00027" summary="ASSIGNMENT 4">
-      <created>1669792579207</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1669792579207</updated>
     </task>
     <task id="LOCAL-00028" summary="ASSIGNMENT 4">
       <created>1670219790304</created>
@@ -476,7 +472,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680114445071</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="DYNAMIC STACKS AND QUEUE (INHERITANCE)">
+      <created>1680180295383</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1680180295383</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
