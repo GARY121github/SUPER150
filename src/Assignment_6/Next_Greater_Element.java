@@ -46,7 +46,6 @@ public class Next_Greater_Element {
             for(int i = 0 ; i < nums2.length ; i++){
                 System.out.println(nums2[i] + "," + ans[i]);
             }
-// Write Code here
 
         }
 

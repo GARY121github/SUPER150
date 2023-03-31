@@ -50,5 +50,63 @@ B1 = [6, 4]<-TOP
 Now first print B1 from top to bottom then A1 from top to bottom.
 */
 public class Playing_with_cards_In_stack {
+        public static void main(String[] args) {
+            Scanner sc = new Scanner(System.in);
+            int n = sc.nextInt();
+            int q = sc.nextInt();
+            Stack<Integer> stack = new Stack<>();
+            for(int i = 0 ; i < n ; i++){
+                stack.push(sc.nextInt());
+            }
+            casino(stack , q);
+        }
 
-}
+        static void casino(Stack<Integer> stack , int q){
+            List<Integer> primes = getPrimes(q);
+            Stack<Integer> a = new Stack<>();
+            Stack<Integer> b = new Stack<>();
+
+            for(int i = 0 ; i < primes.size() ; i++){
+                int n = primes.get(i);
+                while (!stack.isEmpty()){
+                    int element = stack.pop();
+
+                    if(element % n == 0){
+                        b.push(element);
+                    }
+                    else{
+                        a.push(element);
+                    }
+                }
+
+                while (!b.isEmpty()){
+                    System.out.println(b.pop());
+                }
+
+                stack = a;
+                a = new Stack<>();
+            }
+
+            while (!stack.isEmpty()){
+                System.out.println(stack.pop());
+            }
+        }
+
+        public static List<Integer> getPrimes(int n) {
+            List<Integer> primes = new ArrayList<>();
+            primes.add(2);
+            for (int i = 3; primes.size() < n; i += 2) {
+                boolean isPrime = true;
+                for (int j = 2; j <= Math.sqrt(i); j++) {
+                    if (i % j == 0) {
+                        isPrime = false;
+                        break;
+                    }
+                }
+                if (isPrime) {
+                    primes.add(i);
+                }
+            }
+            return primes;
+        }
+    }
