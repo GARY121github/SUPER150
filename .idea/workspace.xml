@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="ASSIGNMENT 6">
+      <change afterPath="$PROJECT_DIR$/src/Arrays/Algorithm/Quick_sort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_6/REVERSE_A_STACK_USING_RECURSION.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_6/The_Queue_Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assignment_6/Next_Greater_Element.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assignment_6/Next_Greater_Element.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assignment_6/Playing_with_cards_In_stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assignment_6/Playing_with_cards_In_stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assignment_6/Kartik_Bhaiya_And_The_Celebrity_Problem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assignment_6/Kartik_Bhaiya_And_The_Celebrity_Problem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sliding_Window/Boardpath_Count_Print.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion/Boardpath_Count_Print.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TIME_COMPLEXITY.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TIME_COMPLEXITY.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,26 +56,13 @@
       <recent name="Sliding_Window" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Playing_with_cards_In_stack">
-    <configuration name="My_Queue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="STACKS_AND_QUEUE.My_Queue" />
+  <component name="RunManager" selected="Application.TIME_COMPLEXITY">
+    <configuration name="Kartik_Bhaiya_And_The_Celebrity_Problem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assignment_6.Kartik_Bhaiya_And_The_Celebrity_Problem" />
       <module name="SUPER 150" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="STACKS_AND_QUEUE.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="My_Stack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="STACKS_AND_QUEUE.My_Stack" />
-      <module name="SUPER 150" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="STACKS_AND_QUEUE.*" />
+          <option name="PATTERN" value="Assignment_6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Stock_Span" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assignment_6.Stock_Span" />
+    <configuration name="Quick_sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.Algorithm.Quick_sort" />
       <module name="SUPER 150" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Assignment_6.*" />
+          <option name="PATTERN" value="Arrays.Algorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,13 +103,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="The_Queue_Game" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assignment_6.The_Queue_Game" />
+      <module name="SUPER 150" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Assignment_6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Playing_with_cards_In_stack" />
-        <item itemvalue="Application.Stock_Span" />
-        <item itemvalue="Application.My_Stack" />
         <item itemvalue="Application.TIME_COMPLEXITY" />
-        <item itemvalue="Application.My_Queue" />
+        <item itemvalue="Application.Quick_sort" />
+        <item itemvalue="Application.Kartik_Bhaiya_And_The_Celebrity_Problem" />
+        <item itemvalue="Application.The_Queue_Game" />
+        <item itemvalue="Application.Playing_with_cards_In_stack" />
       </list>
     </recent_temporary>
   </component>
@@ -130,13 +134,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663441543134</updated>
-    </task>
-    <task id="LOCAL-00032" summary="ASSIGNMENT 4">
-      <created>1670468862358</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1670468862358</updated>
     </task>
     <task id="LOCAL-00033" summary="ASSIGNMENT 4">
       <created>1670482102766</created>
@@ -474,7 +471,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680292645170</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="ASSIGNMENT 6">
+      <created>1680293531323</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1680293531323</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

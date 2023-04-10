@@ -1,4 +1,4 @@
-package Sliding_Window;
+package Recursion;
 /*
 Take as input N, a number. N is the size of a snakes and ladder board (without any snakes and ladders).
 Take as input M, a number. M is the number of faces of the dice.
