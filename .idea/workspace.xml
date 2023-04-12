@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="ASSIGNMENT 6">
-      <change afterPath="$PROJECT_DIR$/src/Arrays/Algorithm/Quick_sort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_6/REVERSE_A_STACK_USING_RECURSION.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_6/The_Queue_Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Assignment_6/Kartik_Bhaiya_And_The_Celebrity_Problem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assignment_6/Kartik_Bhaiya_And_The_Celebrity_Problem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sliding_Window/Boardpath_Count_Print.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion/Boardpath_Count_Print.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TIME_COMPLEXITY.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TIME_COMPLEXITY.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +51,7 @@
       <recent name="Sliding_Window" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TIME_COMPLEXITY">
+  <component name="RunManager" selected="Application.Kartik_Bhaiya_And_The_Celebrity_Problem">
     <configuration name="Kartik_Bhaiya_And_The_Celebrity_Problem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Assignment_6.Kartik_Bhaiya_And_The_Celebrity_Problem" />
       <module name="SUPER 150" />
@@ -118,9 +113,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Kartik_Bhaiya_And_The_Celebrity_Problem" />
         <item itemvalue="Application.TIME_COMPLEXITY" />
         <item itemvalue="Application.Quick_sort" />
-        <item itemvalue="Application.Kartik_Bhaiya_And_The_Celebrity_Problem" />
         <item itemvalue="Application.The_Queue_Game" />
         <item itemvalue="Application.Playing_with_cards_In_stack" />
       </list>

@@ -34,46 +34,57 @@ it's ID is 2. Hence, output is 2.
 */
 public class Kartik_Bhaiya_And_The_Celebrity_Problem {
     public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
-        int n=sc.nextInt();
-        int[][] arr =new int[n][n];
-        for(int i=0;i<n;i++)
-        {
-            for(int j=0;j<n;j++)
-                arr[i][j]=sc.nextInt();
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int[][] arr = new int[n][n];
+        for(int i = 0 ; i < n ; i++){
+            for(int j = 0 ; j < n ; j++){
+                arr[i][j] = sc.nextInt();
+            }
         }
-        int ans = answer(arr);
-        if(ans == -1)
+        int ans = isCelebrity(arr);
+        if(ans == -1){
             System.out.println("No Celebrity");
-        else
-            System.out.println(ans);
-
-    }
-    private static int answer(int[][] arr)
-    {
-        // code here
-        int n = arr.length;
-        Stack<Integer> Stack = new Stack();
-        for(int i=0;i<n;i++)
-            Stack.push(i);
-        while(Stack.size()>1){
-            int x=Stack.pop();
-            int y=Stack.pop();
-            if(arr[x][y]==1 && arr[y][x]==0) {
-                Stack.push(y);
-            } else if(arr[y][x]==1 && arr[x][y]==0)
-                Stack.push(x);
         }
-        if(Stack.isEmpty())
+        else{
+            System.out.println(ans);
+        }
+    }
+
+    static int isCelebrity(int[][] arr){
+        Stack<Integer> stack = new Stack<>();
+
+        for(int i = 0 ; i < arr.length ; i++){
+            stack.push(i);
+        }
+
+        while (stack.size() > 1){
+            int p1 = stack.pop();
+            int p2 = stack.pop();
+
+            if(arr[p1][p2] == 1 && arr[p2][p1] == 0){
+                stack.push(p2);
+            }
+            else if(arr[p1][p2] == 0 && arr[p2][p1] == 1){
+                stack.push(p1);
+            }
+        }
+
+        if(stack.size() == 0){
             return -1;
-        int c = Stack.pop();
-        for(int i=0;i<n;i++){
-            if(i==c)
+        }
+
+        int check = stack.pop();
+        for(int i = 0 ; i < arr.length ; i++){
+            if(i == check){
                 continue;
-            if(arr[i][c]==0 || arr[c][i]==1) {
+            }
+
+            if(arr[i][check] == 0 || arr[check][i] == 1){
                 return -1;
             }
         }
-        return c;
+
+        return check;
     }
 }
