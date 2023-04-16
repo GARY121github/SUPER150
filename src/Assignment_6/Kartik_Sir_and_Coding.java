@@ -1,5 +1,8 @@
 package Assignment_6;
 
+import java.util.Scanner;
+import java.util.Stack;
+
 /*
 Kartik sir loves coding. Hence, he took up the position of an instructor and founded Coding Blocks, a startup that serves
 students with awesome code modules. It is a very famous place and students are always queuing up to have one of those
@@ -71,6 +74,23 @@ Stack : 73, 16, 48 <- Top
 */
 public class Kartik_Sir_and_Coding {
     public static void main(String[] args) {
-
+        Scanner sc = new Scanner(System.in);
+        Stack<Integer> stack = new Stack<>();
+        int q = sc.nextInt();
+        while (q-- > 0){
+            int n = sc.nextInt();
+            if(n == 2){
+                int course = sc.nextInt();
+                stack.push(course);
+            }
+            else{
+                if(stack.isEmpty()){
+                    System.out.println("No Code");
+                }
+                else{
+                    System.out.println(stack.pop());
+                }
+            }
+        }
     }
 }
