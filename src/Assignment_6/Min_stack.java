@@ -32,73 +32,78 @@ print 0 (top)
 print -2 (getMin)
 */
 public class Min_stack {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        String[] arr = new String[n];
-        int push_count = 0;
-        for(int i = 0 ; i < arr.length ; i++){
-            arr[i] = sc.next();
-            if(arr[i].equals("push")){
-                push_count++;
-            }
-        }
-        int[] push_data = new int[push_count];
-        for(int i = 0 ; i < push_count ; i++){
-            push_data[i] = sc.nextInt();
-        }
 
-        solution min_stack = new solution();
-        int p1 = 0;
-        for(String i : arr){
-            if(i.equals("push")){
-                min_stack.push(push_data[p1++]);
+    private Stack<Pair> MinStack;
+
+    public Min_stack(){
+        MinStack = new Stack<>();
+    }
+
+    class Pair{
+        int data;
+        int min;
+        public Pair(int data , int precious_min){
+            this.data = data;
+            if(data < precious_min){
+                this.min = data;
             }
-            else if(i.equals("pop")){
-                min_stack.pop();
-            } else if (i.equals("print")) {
-                System.out.print(min_stack.getMin() + " ");
-            } else if (i.equals("top")) {
-                System.out.println(min_stack.top());
+            else{
+                this.min = precious_min;
             }
         }
     }
-}
-
-class Pair{
-    int data;
-    int min;
-    public  Pair(int data , int previous_min){
-        this.data = data;
-        if(data < previous_min){
-            this.min = data;
-        }
-        else {
-            this.min = previous_min;
-        }
-    }
-}
-class solution{
-    static Stack<Pair> stack = new Stack<>();
 
     void push(int data){
-        if(stack.isEmpty()){
-            Pair ob = new Pair(data , Integer.MAX_VALUE);
-            stack.push(ob);
+        if(MinStack.isEmpty()){
+            Pair element = new Pair(data , data);
+            MinStack.push(element);
             return;
         }
 
-        Pair ob = new Pair(data , stack.peek().min);
-        stack.push(ob);
-    }
-    int pop(){
-        return stack.pop().data;
+        Pair element = new Pair(data , MinStack.peek().min);
+        MinStack.push(element);
     }
 
-    int getMin(){
-        return stack.peek().min;
+    int pop(){
+        return MinStack.pop().data;
     }
+    int getMin(){
+        return MinStack.peek().min;
+    }
+
     int top(){
-        return stack.peek().data;
+        return MinStack.peek().data;
+    }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        String[] instructions = new String[n];
+        int number_of_elements_to_be_pushed = 0;
+        for(int i = 0 ; i < n ; i++){
+            instructions[i] = sc.next();
+            if(instructions[i].equals("push")){
+                number_of_elements_to_be_pushed++;
+            }
+        }
+
+        int[] elements_to_be_pushed = new int[number_of_elements_to_be_pushed];
+        for(int i = 0 ; i < number_of_elements_to_be_pushed ; i++){
+            elements_to_be_pushed[i] = sc.nextInt();
+        }
+
+        Min_stack stack = new Min_stack();
+        int p = 0;
+        for(String i : instructions){
+            if(i.equals("push")){
+                stack.push(elements_to_be_pushed[p++]);
+            } else if (i.equals("pop")) {
+                stack.pop();
+            } else if (i.equals("getMin")) {
+                System.out.print(stack.getMin() + " ");
+            } else if (i.equals("top")) {
+                System.out.print(stack.top() + " ");
+            }
+        }
     }
 }
