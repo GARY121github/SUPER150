@@ -2,41 +2,43 @@ package Sliding_Window;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Deque;
+import java.util.LinkedList;
 
 public class Sliding_Window_Maximum_239 {
     public static void main(String[] args) {
-        int[] nums = {1,3,-1,-3,5,3,6,7};
-        int k = 3;
-        System.out.println(Arrays.toString(maxSlidingWindow(nums , k)));
+
     }
 
-    static int[] maxSlidingWindow(int[] arr, int k) {
-        int[] ans = new int[arr.length - k + 1];
-        ArrayList<Integer> list = new ArrayList<>();
-        int s = 0;
-        int e = 0;
-        while(e < k){
-            list.add(arr[e]);
-            e++;
-        }
-        ans[s++] = searchMax(list);
-        while (e < arr.length){
-            list.add(arr[e]);
-            list.remove(0);
-            ans[s++] = searchMax(list);
-            e++;
-        }
+    static int[] maxWindow(int[] arr , int k){
+        int n = arr.length;
+        int[] max = new int[n - k + 1];
+        Deque<Integer> deque = new LinkedList<>();
+        for(int i = 0 ; i < k ; i++){
 
-        return ans;
-    }
-
-    static int searchMax(ArrayList<Integer> list){
-        int max = list.get(0);
-        for(int i : list){
-            if(i > max){
-                max = i;
+            while (!deque.isEmpty() && arr[deque.getLast()] <= arr[i]){
+                deque.removeLast();
             }
+
+            deque.add(i);
         }
+        max[0] = arr[deque.getFirst()];
+        int j = 1;
+        for(int i = k ; i < n ; i++){
+
+            while (!deque.isEmpty() && deque.getFirst() <= i - k){
+                deque.remove();
+            }
+
+            while (!deque.isEmpty() && arr[deque.getLast()] <= arr[i]){
+                deque.removeLast();
+            }
+
+            deque.add(i);
+
+            max[j++] = arr[deque.getFirst()];
+        }
+
         return max;
     }
 }
