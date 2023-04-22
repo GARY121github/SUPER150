@@ -7,20 +7,7 @@ public class DI_String_Match_942 {
 
     }
 
-    static int[] diStringMatch(String s) {
-        // int N = s.length();
-        // int lo = 0, hi = N;
-        // int[] ans = new int[N + 1];
-        // for (int i = 0; i < N; ++i) {
-        //     if (s.charAt(i) == 'I')
-        //         ans[i] = lo++;
-        //     else
-        //         ans[i] = hi--;
-        // }
-
-        // ans[N] = lo;
-        // return ans;
-
+    static int[] diStringMatchThroughStacks(String s) {
         Stack<Integer> stack = new Stack<>();
         int[] arr = new int[s.length() + 1];
         int count = 0;
@@ -39,6 +26,23 @@ public class DI_String_Match_942 {
                 stack.push(i);
             }
         }
+        return arr;
+    }
+
+    static int[] diStringMatchThroughLoops(String pattern){
+        int[] arr = new int[pattern.length() + 1];
+        int count = 1;
+        for(int i = 0 ; i <= pattern.length() ; i++){
+            if( i == pattern.length() || pattern.charAt(i) == 'I'){
+                arr[i] = count;
+                count++;
+                for(int j = i-1 ; j >= 0 && pattern.charAt(j) != 'I' ; j--){
+                    arr[j] = count;
+                    count++;
+                }
+            }
+        }
+
         return arr;
     }
 }
