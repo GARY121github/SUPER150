@@ -6,8 +6,7 @@ import java.util.Scanner;
 public class TIME_COMPLEXITY {
     public static void main (String[] args) throws java.lang.Exception
     {
-        int[][] arr = {{2,1,0},{1,0,0}};
-        System.out.println(minimumVisitedCells(arr));
+
     }
 
     static int minimumVisitedCells(int[][] grid) {
