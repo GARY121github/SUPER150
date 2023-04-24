@@ -4,7 +4,6 @@ import java.util.Stack;
 
 public class DI_String_Match_942 {
     public static void main(String[] args) {
-
     }
 
     static int[] diStringMatchThroughStacks(String s) {
