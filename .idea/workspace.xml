@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="DI STRING">
-      <change afterPath="$PROJECT_DIR$/src/Assignment_7/KTH_ROOT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_7/Monu_Bhaiya_and_Stocks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assignment_7/LL_OddEven.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assignment_7/LL_OddEven.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assignment_7/KTH_ROOT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assignment_7/KTH_ROOT.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,20 +52,7 @@
       <recent name="Sliding_Window" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LL_OddEven">
-    <configuration name="Kartik_Sir_and_Coding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assignment_6.Kartik_Sir_and_Coding" />
-      <module name="SUPER 150" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Assignment_6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Monu_Bhaiya_and_Stocks">
     <configuration name="LL_OddEven" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Assignment_7.LL_OddEven" />
       <module name="SUPER 150" />
@@ -85,6 +72,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Assignment_6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Monu_Bhaiya_and_Stocks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assignment_7.Monu_Bhaiya_and_Stocks" />
+      <module name="SUPER 150" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Assignment_7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Monu_Bhaiya_and_Stocks" />
         <item itemvalue="Application.LL_OddEven" />
         <item itemvalue="Application.TIME_COMPLEXITY" />
         <item itemvalue="Application.Sliding_Window_Maximum_239" />
         <item itemvalue="Application.Min_stack" />
-        <item itemvalue="Application.Kartik_Sir_and_Coding" />
       </list>
     </recent_temporary>
   </component>

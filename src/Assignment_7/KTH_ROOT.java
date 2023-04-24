@@ -27,21 +27,30 @@ Explanation
 For the first test case, for x=10000, 10000^1=10000=n
 */
 public class KTH_ROOT {
-    public static void main(String[] args) {
+    public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
         int t = sc.nextInt();
-        while (t-- > 0){
-            long n = sc.nextInt();
+        while(t-- > 0){
+            long n = sc.nextLong();
             long k = sc.nextInt();
+            System.out.println(kthroot(n , k));
         }
     }
 
-    static long KthRoot(long n , long k){
+    static long kthroot(long n , long k){
+        long s = 1;
+        long e = n;
         long ans = 0;
-        long s = 0;
-        long e = 0;
         while (s <= e){
-
+            long mid = s + (e - s) / 2;
+            if(Math.pow(mid , k) <= n){
+                ans = mid;
+                s = mid + 1;
+            }
+            else {
+                e = mid - 1;
+            }
         }
+        return ans;
     }
 }
