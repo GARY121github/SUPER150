@@ -1,5 +1,6 @@
 package Assignment_7;
 
+import java.util.LinkedList;
 import java.util.Scanner;
 
 /*
@@ -33,7 +34,6 @@ Output: 1 -> 3 -> 11 -> 5 -> 2 -> 4
 */
 public class LL_OddEven {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
+
     }
 }

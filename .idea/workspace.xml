@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="DI STRING">
+      <change afterPath="$PROJECT_DIR$/src/Assignment_7/KTH_ROOT.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Arrays/LeetCode/DI_String_Match_942.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/LeetCode/DI_String_Match_942.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assignment_7/LL_OddEven.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assignment_7/LL_OddEven.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +52,7 @@
       <recent name="Sliding_Window" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TIME_COMPLEXITY">
+  <component name="RunManager" selected="Application.LL_OddEven">
     <configuration name="Kartik_Sir_and_Coding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Assignment_6.Kartik_Sir_and_Coding" />
       <module name="SUPER 150" />
@@ -65,12 +66,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Mapped_Strings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assignment_5.Mapped_Strings" />
+    <configuration name="LL_OddEven" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assignment_7.LL_OddEven" />
       <module name="SUPER 150" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Assignment_5.*" />
+          <option name="PATTERN" value="Assignment_7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LL_OddEven" />
         <item itemvalue="Application.TIME_COMPLEXITY" />
         <item itemvalue="Application.Sliding_Window_Maximum_239" />
         <item itemvalue="Application.Min_stack" />
         <item itemvalue="Application.Kartik_Sir_and_Coding" />
-        <item itemvalue="Application.Mapped_Strings" />
       </list>
     </recent_temporary>
   </component>
@@ -129,13 +130,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663441543134</updated>
-    </task>
-    <task id="LOCAL-00043" summary="Recursion">
-      <created>1673490725874</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1673490725874</updated>
     </task>
     <task id="LOCAL-00044" summary="Recursion">
       <created>1673506139429</created>
@@ -473,7 +467,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682191051677</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="DI STRING">
+      <created>1682357307072</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1682357307072</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
