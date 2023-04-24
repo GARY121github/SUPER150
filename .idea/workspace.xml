@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="DI STRING">
-      <change afterPath="$PROJECT_DIR$/src/Assignment_7/Monu_Bhaiya_and_Stocks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assignment_7/KTH_ROOT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assignment_7/KTH_ROOT.java" afterDir="false" />
-    </list>
+    <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="ASSIGNMENT 7" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -130,13 +126,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663441543134</updated>
-    </task>
-    <task id="LOCAL-00044" summary="Recursion">
-      <created>1673506139429</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1673506139429</updated>
     </task>
     <task id="LOCAL-00045" summary="Recursion">
       <created>1674019470346</created>
@@ -474,7 +463,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682357307072</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="ASSIGNMENT 7">
+      <created>1682361704758</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1682361704758</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -489,7 +485,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="LEETCODE" />
     <MESSAGE value="First Commit" />
     <MESSAGE value="Kth root using binary search." />
     <MESSAGE value="2D Array" />
@@ -514,7 +509,8 @@
     <MESSAGE value="DYNAMIC STACKS AND QUEUE (INHERITANCE)" />
     <MESSAGE value="ASSIGNMENT 6" />
     <MESSAGE value="DI STRING" />
-    <option name="LAST_COMMIT_MESSAGE" value="DI STRING" />
+    <MESSAGE value="ASSIGNMENT 7" />
+    <option name="LAST_COMMIT_MESSAGE" value="ASSIGNMENT 7" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
