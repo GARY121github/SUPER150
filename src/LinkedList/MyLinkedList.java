@@ -169,4 +169,6 @@ public class MyLinkedList {
         return Deleted_index.data;
     }
 
+
+
 }
