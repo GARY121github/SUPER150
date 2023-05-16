@@ -18,7 +18,7 @@ public class MyLinkedList {
     }
 
 
-    private Node Head;
+    public Node Head;
     private int size;
     private Node Tail;
 
@@ -109,9 +109,6 @@ public class MyLinkedList {
         }
 
         System.out.println("NULL");
-
-        System.out.println(this.Head);
-        System.out.println(this.Tail);
     }
 
 //            DELETION PART
