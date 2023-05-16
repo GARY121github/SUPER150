@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="ASSIGNMENT 7">
-      <change afterPath="$PROJECT_DIR$/src/Assignment_7/Merge_Sorted_Linked_Lists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_7/LinkedList_K_Append.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/MyLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +53,7 @@
       <recent name="Sliding_Window" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Merge_Sorted_Linked_Lists">
+  <component name="RunManager" selected="Application.LinkedList_K_Append">
     <configuration name="Delete_Nodes_LL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Assignment_7.Delete_Nodes_LL" />
       <module name="SUPER 150" />
@@ -66,8 +67,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Kth_element_from_last_in_linked_list" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assignment_7.Kth_element_from_last_in_linked_list" />
+    <configuration name="LinkedList_K_Append" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assignment_7.LinkedList_K_Append" />
       <module name="SUPER 150" />
       <extension name="coverage">
         <pattern>
@@ -120,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LinkedList_K_Append" />
         <item itemvalue="Application.Merge_Sorted_Linked_Lists" />
         <item itemvalue="Application.Delete_Nodes_LL" />
         <item itemvalue="Application.Triplet_from_three_linked_lists" />
         <item itemvalue="Application.Sum_of_two_Linked_Lists" />
-        <item itemvalue="Application.Kth_element_from_last_in_linked_list" />
       </list>
     </recent_temporary>
   </component>
@@ -136,13 +137,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663441543134</updated>
-    </task>
-    <task id="LOCAL-00049" summary="Recursion">
-      <created>1674383744874</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1674383744874</updated>
     </task>
     <task id="LOCAL-00050" summary="ASSIGNMENT_5">
       <created>1674493257208</created>
@@ -480,7 +474,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684237434614</updated>
     </task>
-    <option name="localTasksCounter" value="98" />
+    <task id="LOCAL-00098" summary="ASSIGNMENT 7">
+      <created>1684238571506</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1684238571506</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

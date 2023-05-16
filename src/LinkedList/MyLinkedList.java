@@ -80,6 +80,10 @@ public class MyLinkedList {
         return GET(k).data;
     }
 
+    public Node getNode(int k) throws Exception {
+        return GET(k);
+    }
+
     private Node GET(int k) throws Exception {
         if(k < 0 || k >= this.size){
             throw new Exception("INVALID INDEX");
