@@ -70,11 +70,8 @@ public class Pair_of_Roses {
                 for(int j = i+1 ; j < n ; j++){
                     if(arr[i] + arr[j] == target)
                     {
-                        if( j - i < diff )
-                        {
-                            p = i;
-                            q = j;
-                        }
+                        p = i;
+                        q = j;
                     }
                 }
             }

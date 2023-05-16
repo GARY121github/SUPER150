@@ -1,11 +1,13 @@
 package Assignment_7;
 
-import java.util.LinkedList;
+import LinkedList.MyLinkedList;
+import org.w3c.dom.Node;
+
 import java.util.Scanner;
 
 /*
-Given a list, modify it such that all odd elements appear before the even ones. The order of odd elements and even
-shall remain intact.
+Given a list, modify it such that all odd elements appear before the even ones. The order of odd elements and even shall
+remain intact.
 
 See explanation for more info.
 
@@ -34,6 +36,22 @@ Output: 1 -> 3 -> 11 -> 5 -> 2 -> 4
 */
 public class LL_OddEven {
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        MyLinkedList even = new MyLinkedList();
+        MyLinkedList odd = new MyLinkedList();
 
+        for(int i = 0 ; i < n ; i++){
+            int x = sc.nextInt();
+            if((x&1) == 0){
+                even.addLast(x);
+            }
+            else{
+                odd.addLast(x);
+            }
+        }
+
+        odd.display();
+        even.display();
     }
 }

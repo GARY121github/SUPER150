@@ -49,13 +49,10 @@ public class Kartik_Bhaiya_And_Strings {
         int flip = 0;
         int ans = 0;
         while (e < st.length()){
-
-//            GROWING STEP
             if(st.charAt(e) == ch){
                 flip++;
             }
 
-//            SHRINKING STEP
             while (flip > k){
                 if(st.charAt(s) == ch){
                     flip--;
@@ -63,7 +60,6 @@ public class Kartik_Bhaiya_And_Strings {
                 s++;
             }
 
-//            WINDOW SIZE
             ans = Math.max(ans , e - s + 1);
             e++;
         }
