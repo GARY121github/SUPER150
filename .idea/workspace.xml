@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="ASSIGNMENT 7">
-      <change afterPath="$PROJECT_DIR$/src/Assignment_7/Remove_kth_Node_from_End_of_LL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_7/Intersection_point_of_two_linked_lists.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -136,13 +136,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663441543134</updated>
-    </task>
-    <task id="LOCAL-00051" summary="ASSIGNMENT_5">
-      <created>1674612185869</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1674612185870</updated>
     </task>
     <task id="LOCAL-00052" summary="ASSIGNMENT_5">
       <created>1674626258632</created>
@@ -480,7 +473,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684259218678</updated>
     </task>
-    <option name="localTasksCounter" value="100" />
+    <task id="LOCAL-00100" summary="ASSIGNMENT 7">
+      <created>1684259697299</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1684259697299</updated>
+    </task>
+    <option name="localTasksCounter" value="101" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
