@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="ASSIGNMENT 7">
+      <change afterPath="$PROJECT_DIR$/src/Assignment_7/Aggressive_Cows.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_7/Book_Allocation_Problem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_7/Leaders_in_an_array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_7/Painters_Partition_Problem_Java.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LinkedList/Merge_Sort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,9 +56,9 @@
       <recent name="Sliding_Window" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Assignment_7.LinkedList_K_Append">
-    <configuration name="Assignment_7.Delete_Nodes_LL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assignment_7.Delete_Nodes_LL" />
+  <component name="RunManager" selected="Application.Leaders_in_an_array">
+    <configuration name="Aggressive_Cows" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assignment_7.Aggressive_Cows" />
       <module name="SUPER 150" />
       <extension name="coverage">
         <pattern>
@@ -91,8 +96,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Assignment_7.Sum_of_two_Linked_Lists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assignment_7.Sum_of_two_Linked_Lists" />
+    <configuration name="Book_Allocation_Problem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assignment_7.Book_Allocation_Problem" />
       <module name="SUPER 150" />
       <extension name="coverage">
         <pattern>
@@ -104,8 +109,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Assignment_7.Triplet_from_three_linked_lists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assignment_7.Triplet_from_three_linked_lists" />
+    <configuration name="Leaders_in_an_array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assignment_7.Leaders_in_an_array" />
       <module name="SUPER 150" />
       <extension name="coverage">
         <pattern>
@@ -119,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Leaders_in_an_array" />
+        <item itemvalue="Application.Book_Allocation_Problem" />
+        <item itemvalue="Application.Aggressive_Cows" />
         <item itemvalue="Application.Assignment_7.LinkedList_K_Append" />
         <item itemvalue="Application.Assignment_7.Merge_Sorted_Linked_Lists" />
-        <item itemvalue="Application.Assignment_7.Delete_Nodes_LL" />
-        <item itemvalue="Application.Assignment_7.Triplet_from_three_linked_lists" />
-        <item itemvalue="Application.Assignment_7.Sum_of_two_Linked_Lists" />
       </list>
     </recent_temporary>
   </component>
@@ -135,13 +140,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663441543134</updated>
-    </task>
-    <task id="LOCAL-00053" summary="RECURSION">
-      <created>1674639790973</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1674639790973</updated>
     </task>
     <task id="LOCAL-00054" summary="RECURSION">
       <created>1674641432442</created>
@@ -479,7 +477,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684315470160</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary="ASSIGNMENT 7">
+      <created>1684346628448</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1684346628448</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
