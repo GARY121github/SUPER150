@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="ASSIGNMENT 7">
-      <change afterPath="$PROJECT_DIR$/src/Assignment_7/Murthal_Parantha.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_7/LL_k_Reverse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +52,7 @@
       <recent name="Sliding_Window" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Murthal_Parantha">
+  <component name="RunManager" selected="Application.LL_k_Reverse">
     <configuration name="Aggressive_Cows" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Assignment_7.Aggressive_Cows" />
       <module name="SUPER 150" />
@@ -66,8 +66,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Assignment_7.LinkedList_K_Append" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assignment_7.LinkedList_K_Append" />
+    <configuration name="Book_Allocation_Problem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assignment_7.Book_Allocation_Problem" />
       <module name="SUPER 150" />
       <extension name="coverage">
         <pattern>
@@ -79,8 +79,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Book_Allocation_Problem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assignment_7.Book_Allocation_Problem" />
+    <configuration name="LL_k_Reverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assignment_7.LL_k_Reverse" />
       <module name="SUPER 150" />
       <extension name="coverage">
         <pattern>
@@ -120,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LL_k_Reverse" />
         <item itemvalue="Application.Murthal_Parantha" />
         <item itemvalue="Application.Leaders_in_an_array" />
         <item itemvalue="Application.Book_Allocation_Problem" />
         <item itemvalue="Application.Aggressive_Cows" />
-        <item itemvalue="Application.Assignment_7.LinkedList_K_Append" />
       </list>
     </recent_temporary>
   </component>
@@ -136,20 +136,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663441543134</updated>
-    </task>
-    <task id="LOCAL-00055" summary="RECURSION">
-      <created>1674690890296</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1674690890297</updated>
-    </task>
-    <task id="LOCAL-00056" summary="RECURSION">
-      <created>1674811517717</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1674811517717</updated>
     </task>
     <task id="LOCAL-00057" summary="RECURSION">
       <created>1674816954676</created>
@@ -480,7 +466,21 @@
       <option name="project" value="LOCAL" />
       <updated>1684411512275</updated>
     </task>
-    <option name="localTasksCounter" value="104" />
+    <task id="LOCAL-00104" summary="ASSIGNMENT 7">
+      <created>1684514508069</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1684514508069</updated>
+    </task>
+    <task id="LOCAL-00105" summary="ASSIGNMENT 7">
+      <created>1684514639037</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1684514639037</updated>
+    </task>
+    <option name="localTasksCounter" value="106" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
