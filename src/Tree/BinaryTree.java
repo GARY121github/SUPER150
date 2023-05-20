@@ -1,5 +1,7 @@
 package Tree;
 
+import java.util.LinkedList;
+import java.util.Queue;
 import java.util.Scanner;
 
 public class BinaryTree {
@@ -56,9 +58,88 @@ public class BinaryTree {
         display(node.right);
     }
 
+//    TRAVERSALS
+
+//    PRE-ORDER => ROOT -> LEFT -> RIGHT
+    public void PreOrder(){
+        PreOrder(this.root);
+        System.out.println();
+    }
+
+    private void PreOrder(Node node){
+        if(node == null){
+            return;
+        }
+
+        System.out.print(node.data + " ");
+        PreOrder(node.left);
+        PreOrder(node.right);
+    }
+
+//    IN-ORDER => LEFT -> ROOT -> RIGHT
+    public void InOrder(){
+        InOrder(this.root);
+        System.out.println();
+    }
+
+    private void InOrder(Node node){
+        if(node == null){
+            return;
+        }
+        InOrder(node.left);
+        System.out.print(node.data + " ");
+        InOrder(node.right);
+    }
+
+//    POST-ORDER => LEFT -> RIGHT -> ROOT
+    public void PostOrder(){
+        PostOrder(this.root);
+        System.out.println();
+    }
+
+    public void PostOrder(Node node){
+        if(node == null){
+            return;
+        }
+
+        PostOrder(node.left);
+        PostOrder(node.right);
+
+        System.out.print(node.data + " ");
+    }
+
+    public void LevelOrder(){
+        LevelOrder(this.root);
+    }
+
+    public void LevelOrder(Node node){
+
+        Queue<Node> queue = new LinkedList<>();
+        queue.add(node);
+        while (!queue.isEmpty()){
+            Node curr = queue.remove();
+
+            System.out.println(curr.data + " ");
+
+            if(curr.left != null){
+                queue.add(curr.left);
+            }
+
+            if(curr.right != null) {
+                queue.add(curr.right);
+            }
+        }
+    }
+
+
     public static void main(String[] args) {
         BinaryTree ob = new BinaryTree();
         ob.display();
+//        ob.PreOrder();
+//        ob.InOrder();
+//        ob.PostOrder();
+        ob.LevelOrder();
+
 //  10 true 20 true 40 false false true 50 false false true 30 false true 60 true 70 false false false
         }
 
