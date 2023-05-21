@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="TREE">
-      <change afterPath="$PROJECT_DIR$/src/Tree/Diameter_of_tree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +51,7 @@
       <recent name="Sliding_Window" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BinaryTree">
+  <component name="RunManager" selected="Application.Find_the_height_of_Binary_tree">
     <configuration name="BinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Tree.BinaryTree" />
       <module name="SUPER 150" />
@@ -120,8 +119,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BinaryTree" />
         <item itemvalue="Application.Find_the_height_of_Binary_tree" />
+        <item itemvalue="Application.BinaryTree" />
         <item itemvalue="Application.Find_the_maximum_Node_of_Binary_tree" />
         <item itemvalue="Application.LL_k_Reverse" />
         <item itemvalue="Application.Murthal_Parantha" />
