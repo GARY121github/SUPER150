@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class BinaryTree {
     public Node root = null;
     public BinaryTree(){
-        this.root = createBinaryTree();
+        root = createBinaryTree();
     }
 
     static Scanner sc = new Scanner(System.in);
