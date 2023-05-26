@@ -7,22 +7,24 @@ import java.util.Scanner;
 public class BinaryTree {
     public Node root = null;
     public BinaryTree(){
-        root = createBinaryTree();
+        root = createBT();
     }
 
     static Scanner sc = new Scanner(System.in);
-    private Node createBinaryTree() {
+
+
+    private Node createBT() {
         int data = sc.nextInt();
         Node node = new Node(data);
 
         boolean hasLeftChild = sc.nextBoolean();
         if(hasLeftChild){
-            node.left = createBinaryTree();
+            node.left = createBT();
         }
 
         boolean hasRightChild = sc.nextBoolean();
         if(hasRightChild){
-            node.right = createBinaryTree();
+            node.right = createBT();
         }
 
         return node;
