@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="TREE">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/STACKS_AND_QUEUE/My_Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/STACKS_AND_QUEUE/My_Stack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +52,7 @@
       <recent name="Sliding_Window" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Binary_Search_Tree">
+  <component name="RunManager" selected="Application.My_Stack">
     <configuration name="BinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Tree.BinaryTree" />
       <module name="SUPER 150" />
@@ -104,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LL_k_Reverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assignment_7.LL_k_Reverse" />
+    <configuration name="My_Stack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="STACKS_AND_QUEUE.My_Stack" />
       <module name="SUPER 150" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Assignment_7.*" />
+          <option name="PATTERN" value="STACKS_AND_QUEUE.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.My_Stack" />
         <item itemvalue="Application.Binary_Search_Tree" />
         <item itemvalue="Application.BinaryTree" />
         <item itemvalue="Application.Find_the_height_of_Binary_tree" />
         <item itemvalue="Application.Find_the_maximum_Node_of_Binary_tree" />
-        <item itemvalue="Application.LL_k_Reverse" />
       </list>
     </recent_temporary>
   </component>
@@ -135,13 +136,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663441543134</updated>
-    </task>
-    <task id="LOCAL-00064" summary="ASSIGNMENT 5">
-      <created>1676955139028</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1676955139031</updated>
     </task>
     <task id="LOCAL-00065" summary="N-KNIGHTS PROBLEM">
       <created>1676957016918</created>
@@ -479,7 +473,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685127300519</updated>
     </task>
-    <option name="localTasksCounter" value="113" />
+    <task id="LOCAL-00113" summary="TREE">
+      <created>1685297750324</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1685297750324</updated>
+    </task>
+    <option name="localTasksCounter" value="114" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -673,11 +674,6 @@
           <url>file://$PROJECT_DIR$/src/OOPS/School.java</url>
           <line>4</line>
           <option name="timeStamp" value="33" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/STACKS_AND_QUEUE/My_Stack.java</url>
-          <line>54</line>
-          <option name="timeStamp" value="34" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

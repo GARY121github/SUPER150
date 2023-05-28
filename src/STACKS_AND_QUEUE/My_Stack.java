@@ -37,9 +37,16 @@ public class My_Stack {
         if(isEmpty()){
             throw new Exception("MY STACK IS EMPTY");
         }
-        return this.data[top--];
+        top--;
+        return this.data[top];
     }
 
+    public Object peek() throws Exception {
+        if(isEmpty()){
+            throw new Exception("MY STACK IS EMPTY");
+        }
+        return this.data[top-1];
+    }
     public int size(){
         return top;
     }
