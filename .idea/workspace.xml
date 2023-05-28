@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="TREE">
+    <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="STACK">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/STACKS_AND_QUEUE/My_Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/STACKS_AND_QUEUE/My_Stack.java" afterDir="false" />
     </list>
@@ -136,13 +136,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663441543134</updated>
-    </task>
-    <task id="LOCAL-00065" summary="N-KNIGHTS PROBLEM">
-      <created>1676957016918</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1676957016918</updated>
     </task>
     <task id="LOCAL-00066" summary="VIVEK LOVES ARRAY">
       <created>1676958134385</created>
@@ -480,7 +473,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685297750324</updated>
     </task>
-    <option name="localTasksCounter" value="114" />
+    <task id="LOCAL-00114" summary="STACK">
+      <created>1685297929483</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1685297929483</updated>
+    </task>
+    <option name="localTasksCounter" value="115" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -495,7 +495,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Kth root using binary search." />
     <MESSAGE value="2D Array" />
     <MESSAGE value="Assignment 2" />
     <MESSAGE value="Rotate Image" />
@@ -520,7 +519,8 @@
     <MESSAGE value="DI STRING" />
     <MESSAGE value="ASSIGNMENT 7" />
     <MESSAGE value="TREE" />
-    <option name="LAST_COMMIT_MESSAGE" value="TREE" />
+    <MESSAGE value="STACK" />
+    <option name="LAST_COMMIT_MESSAGE" value="STACK" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
