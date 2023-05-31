@@ -1,4 +1,4 @@
-package Tree;
+package Tree.ASSIGNMENT;
 
 public class Node {
     public int data;
