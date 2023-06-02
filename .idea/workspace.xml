@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="CODEFORCES">
-      <change afterPath="$PROJECT_DIR$/src/Tree/ASSIGNMENT/Is_Balanced_Binary_Tree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tree/ASSIGNMENT/Level_Order_New_Line_Binary_Tree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tree/ASSIGNMENT/Remove_the_leaves_Binary_Tree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tree/ASSIGNMENT/Sum_of_the_nodes_Binary_tree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree/ASSIGNMENT/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/ASSIGNMENT/Node.java" afterDir="false" />
-    </list>
+    <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="TREES ASSIGNMENT" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -141,13 +134,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663441543134</updated>
-    </task>
-    <task id="LOCAL-00068" summary="DIVIDE AND CONQUER">
-      <created>1677088255307</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1677088255307</updated>
     </task>
     <task id="LOCAL-00069" summary="STACKS">
       <created>1679480115053</created>
@@ -485,7 +471,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685376796231</updated>
     </task>
-    <option name="localTasksCounter" value="117" />
+    <task id="LOCAL-00117" summary="TREES ASSIGNMENT">
+      <created>1685730209716</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1685730209716</updated>
+    </task>
+    <option name="localTasksCounter" value="118" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -500,7 +493,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Assignment 2" />
     <MESSAGE value="Rotate Image" />
     <MESSAGE value="ASSIGNMENT 2" />
     <MESSAGE value="ASSIGNMENT 3" />
@@ -525,7 +517,8 @@
     <MESSAGE value="TREE" />
     <MESSAGE value="STACK" />
     <MESSAGE value="CODEFORCES" />
-    <option name="LAST_COMMIT_MESSAGE" value="CODEFORCES" />
+    <MESSAGE value="TREES ASSIGNMENT" />
+    <option name="LAST_COMMIT_MESSAGE" value="TREES ASSIGNMENT" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
