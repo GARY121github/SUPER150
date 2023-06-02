@@ -1,6 +1,6 @@
 package Tree.ASSIGNMENT;
 
-public class Node {
+class Node {
     public int data;
     public Node left;
     public Node right;

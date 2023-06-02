@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="CODEFORCES">
-      <change afterPath="$PROJECT_DIR$/src/Tree/ASSIGNMENT/ArrayList_of_levels_Binary_Tree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tree/ASSIGNMENT/Binary_Tree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tree/ASSIGNMENT/Level_Order_Zigzag_Binary_Tree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tree/ASSIGNMENT/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tree/ASSIGNMENT/Structurally_Identical_Binary_Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tree/ASSIGNMENT/Is_Balanced_Binary_Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tree/ASSIGNMENT/Level_Order_New_Line_Binary_Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tree/ASSIGNMENT/Remove_the_leaves_Binary_Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tree/ASSIGNMENT/Sum_of_the_nodes_Binary_tree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/ASSIGNMENT/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/ASSIGNMENT/Node.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +57,7 @@
       <recent name="Sliding_Window" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ArrayList_of_levels_Binary_Tree">
+  <component name="RunManager" selected="Application.Sum_of_the_nodes_Binary_tree">
     <configuration name="ArrayList_of_levels_Binary_Tree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Tree.ASSIGNMENT.ArrayList_of_levels_Binary_Tree" />
       <module name="SUPER 150" />
@@ -72,12 +71,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="B_EvenArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CODEFORCES.B_EvenArray" />
+    <configuration name="Level_Order_New_Line_Binary_Tree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tree.ASSIGNMENT.Level_Order_New_Line_Binary_Tree" />
       <module name="SUPER 150" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CODEFORCES.*" />
+          <option name="PATTERN" value="Tree.ASSIGNMENT.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="My_Stack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="STACKS_AND_QUEUE.My_Stack" />
+    <configuration name="Remove_the_leaves_Binary_Tree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tree.ASSIGNMENT.Remove_the_leaves_Binary_Tree" />
       <module name="SUPER 150" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="STACKS_AND_QUEUE.*" />
+          <option name="PATTERN" value="Tree.ASSIGNMENT.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,8 +110,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tree.ASSIGNMENT.Structurally_Identical_Binary_Tree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tree.ASSIGNMENT.Structurally_Identical_Binary_Tree" />
+    <configuration name="Sum_of_the_nodes_Binary_tree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tree.ASSIGNMENT.Sum_of_the_nodes_Binary_tree" />
       <module name="SUPER 150" />
       <extension name="coverage">
         <pattern>
@@ -126,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Sum_of_the_nodes_Binary_tree" />
+        <item itemvalue="Application.Remove_the_leaves_Binary_Tree" />
+        <item itemvalue="Application.Level_Order_New_Line_Binary_Tree" />
         <item itemvalue="Application.ArrayList_of_levels_Binary_Tree" />
         <item itemvalue="Application.Level_Order_Zigzag_Binary_Tree" />
-        <item itemvalue="Application.Tree.ASSIGNMENT.Structurally_Identical_Binary_Tree" />
-        <item itemvalue="Application.B_EvenArray" />
-        <item itemvalue="Application.My_Stack" />
       </list>
     </recent_temporary>
   </component>
