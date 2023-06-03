@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="TREES ASSIGNMENT">
-      <change afterPath="$PROJECT_DIR$/src/Tree/ASSIGNMENT/BinaryTrees_Print_All_Leaf_Nodes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tree/ASSIGNMENT/Create_tree_Using_preorder_and_inorder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tree/ASSIGNMENT/Largest_BST_in_a_Binary_Tree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tree/ASSIGNMENT/Reverse_Level_Order_Traversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tree/ASSIGNMENT/Root_to_Leaf_Binary_Tree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tree/ASSIGNMENT/Tree_from_level_order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/STACKS_AND_QUEUE/CODING_BLOCKS/Binary_Search_Tree_Iterator_173.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/STACKS_AND_QUEUE/CODING_BLOCKS/Outermost_Parentheses_GFG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/STACKS_AND_QUEUE/CODING_BLOCKS/Remove_K_Digits_402.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/BinaryTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,13 +139,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663441543134</updated>
-    </task>
-    <task id="LOCAL-00071" summary="STOCK SPAN">
-      <created>1679550978465</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1679550978465</updated>
     </task>
     <task id="LOCAL-00072" summary="OOPS">
       <created>1679849754005</created>
@@ -487,7 +476,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685745980027</updated>
     </task>
-    <option name="localTasksCounter" value="120" />
+    <task id="LOCAL-00120" summary="TREES ASSIGNMENT">
+      <created>1685792842099</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1685792842100</updated>
+    </task>
+    <option name="localTasksCounter" value="121" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
