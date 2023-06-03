@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="TREES ASSIGNMENT">
-      <change afterPath="$PROJECT_DIR$/src/Tree/ASSIGNMENT/Sibling_Binary_Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tree/ASSIGNMENT/BinaryTrees_Print_All_Leaf_Nodes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tree/ASSIGNMENT/Create_tree_Using_preorder_and_inorder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tree/ASSIGNMENT/Largest_BST_in_a_Binary_Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tree/ASSIGNMENT/Reverse_Level_Order_Traversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tree/ASSIGNMENT/Root_to_Leaf_Binary_Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tree/ASSIGNMENT/Tree_from_level_order.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/BinaryTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,9 +59,9 @@
       <recent name="Sliding_Window" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Sum_of_the_nodes_Binary_tree">
-    <configuration name="ArrayList_of_levels_Binary_Tree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tree.ASSIGNMENT.ArrayList_of_levels_Binary_Tree" />
+  <component name="RunManager" selected="Application.Root_to_Leaf_Binary_Tree">
+    <configuration name="BinaryTrees_Print_All_Leaf_Nodes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tree.ASSIGNMENT.BinaryTrees_Print_All_Leaf_Nodes" />
       <module name="SUPER 150" />
       <extension name="coverage">
         <pattern>
@@ -67,21 +73,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Level_Order_New_Line_Binary_Tree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tree.ASSIGNMENT.Level_Order_New_Line_Binary_Tree" />
-      <module name="SUPER 150" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tree.ASSIGNMENT.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Level_Order_Zigzag_Binary_Tree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tree.ASSIGNMENT.Level_Order_Zigzag_Binary_Tree" />
+    <configuration name="Create_tree_Using_preorder_and_inorder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tree.ASSIGNMENT.Create_tree_Using_preorder_and_inorder" />
       <module name="SUPER 150" />
       <extension name="coverage">
         <pattern>
@@ -95,6 +88,19 @@
     </configuration>
     <configuration name="Remove_the_leaves_Binary_Tree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Tree.ASSIGNMENT.Remove_the_leaves_Binary_Tree" />
+      <module name="SUPER 150" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tree.ASSIGNMENT.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Root_to_Leaf_Binary_Tree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tree.ASSIGNMENT.Root_to_Leaf_Binary_Tree" />
       <module name="SUPER 150" />
       <extension name="coverage">
         <pattern>
@@ -121,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Root_to_Leaf_Binary_Tree" />
+        <item itemvalue="Application.Create_tree_Using_preorder_and_inorder" />
+        <item itemvalue="Application.BinaryTrees_Print_All_Leaf_Nodes" />
         <item itemvalue="Application.Sum_of_the_nodes_Binary_tree" />
         <item itemvalue="Application.Remove_the_leaves_Binary_Tree" />
-        <item itemvalue="Application.Level_Order_New_Line_Binary_Tree" />
-        <item itemvalue="Application.ArrayList_of_levels_Binary_Tree" />
-        <item itemvalue="Application.Level_Order_Zigzag_Binary_Tree" />
       </list>
     </recent_temporary>
   </component>
@@ -137,13 +143,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663441543134</updated>
-    </task>
-    <task id="LOCAL-00070" summary="STACKS">
-      <created>1679480697211</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1679480697212</updated>
     </task>
     <task id="LOCAL-00071" summary="STOCK SPAN">
       <created>1679550978465</created>
@@ -481,7 +480,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685730607443</updated>
     </task>
-    <option name="localTasksCounter" value="119" />
+    <task id="LOCAL-00119" summary="TREES ASSIGNMENT">
+      <created>1685745980026</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1685745980027</updated>
+    </task>
+    <option name="localTasksCounter" value="120" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -615,6 +621,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Tree/ASSIGNMENT/Root_to_Leaf_Binary_Tree.java</url>
+          <line>36</line>
+          <properties class="Tree.ASSIGNMENT.Root_to_Leaf_Binary_Tree" method="printPath">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="35" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Assignment_1/Boston_Numbers.java</url>
