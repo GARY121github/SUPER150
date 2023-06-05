@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="STACK LEETCODE CODING BLOCKS">
-      <change afterPath="$PROJECT_DIR$/src/STACKS_AND_QUEUE/HISTOGRAM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/STACKS_AND_QUEUE/Reversing_the_equation_GFG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/STACKS_AND_QUEUE/CODING_BLOCKS/Car_Fleet_853.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/STACKS_AND_QUEUE/CODING_BLOCKS/Decoded_String_at_Index_880.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/STACKS_AND_QUEUE/CODING_BLOCKS/Score_of_Parentheses_856.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -138,13 +139,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663441543134</updated>
-    </task>
-    <task id="LOCAL-00073" summary="Assignment 6">
-      <created>1679851014032</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1679851014032</updated>
     </task>
     <task id="LOCAL-00074" summary="Assignment 6">
       <created>1679969243453</created>
@@ -482,7 +476,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685828283083</updated>
     </task>
-    <option name="localTasksCounter" value="122" />
+    <task id="LOCAL-00122" summary="STACK LEETCODE CODING BLOCKS">
+      <created>1685988523755</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1685988523756</updated>
+    </task>
+    <option name="localTasksCounter" value="123" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
