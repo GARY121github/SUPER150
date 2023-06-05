@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="TREES ASSIGNMENT">
-      <change afterPath="$PROJECT_DIR$/src/STACKS_AND_QUEUE/CODING_BLOCKS/Binary_Search_Tree_Iterator_173.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/STACKS_AND_QUEUE/CODING_BLOCKS/Outermost_Parentheses_GFG.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/STACKS_AND_QUEUE/CODING_BLOCKS/Remove_K_Digits_402.java" afterDir="false" />
+    <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="STACK LEETCODE CODING BLOCKS">
+      <change afterPath="$PROJECT_DIR$/src/STACKS_AND_QUEUE/HISTOGRAM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/STACKS_AND_QUEUE/Reversing_the_equation_GFG.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -139,13 +138,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663441543134</updated>
-    </task>
-    <task id="LOCAL-00072" summary="OOPS">
-      <created>1679849754005</created>
-      <option name="number" value="00072" />
-      <option name="presentableId" value="LOCAL-00072" />
-      <option name="project" value="LOCAL" />
-      <updated>1679849754005</updated>
     </task>
     <task id="LOCAL-00073" summary="Assignment 6">
       <created>1679851014032</created>
@@ -483,7 +475,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685792842100</updated>
     </task>
-    <option name="localTasksCounter" value="121" />
+    <task id="LOCAL-00121" summary="STACK LEETCODE CODING BLOCKS">
+      <created>1685828283083</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1685828283083</updated>
+    </task>
+    <option name="localTasksCounter" value="122" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -498,7 +497,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Rotate Image" />
     <MESSAGE value="ASSIGNMENT 2" />
     <MESSAGE value="ASSIGNMENT 3" />
     <MESSAGE value="SLIDING WINDOW :)" />
@@ -523,7 +521,8 @@
     <MESSAGE value="STACK" />
     <MESSAGE value="CODEFORCES" />
     <MESSAGE value="TREES ASSIGNMENT" />
-    <option name="LAST_COMMIT_MESSAGE" value="TREES ASSIGNMENT" />
+    <MESSAGE value="STACK LEETCODE CODING BLOCKS" />
+    <option name="LAST_COMMIT_MESSAGE" value="STACK LEETCODE CODING BLOCKS" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
