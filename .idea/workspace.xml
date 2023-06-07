@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="STACK LEETCODE CODING BLOCKS">
-      <change afterPath="$PROJECT_DIR$/src/STACKS_AND_QUEUE/CODING_BLOCKS/Car_Fleet_853.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/STACKS_AND_QUEUE/CODING_BLOCKS/Decoded_String_at_Index_880.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/STACKS_AND_QUEUE/CODING_BLOCKS/Score_of_Parentheses_856.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/Algorithm/SORTING.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +53,7 @@
       <recent name="Sliding_Window" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Root_to_Leaf_Binary_Tree">
+  <component name="RunManager" selected="Application.SORTING">
     <configuration name="BinaryTrees_Print_All_Leaf_Nodes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Tree.ASSIGNMENT.BinaryTrees_Print_All_Leaf_Nodes" />
       <module name="SUPER 150" />
@@ -82,8 +80,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Remove_the_leaves_Binary_Tree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tree.ASSIGNMENT.Remove_the_leaves_Binary_Tree" />
+    <configuration name="Root_to_Leaf_Binary_Tree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tree.ASSIGNMENT.Root_to_Leaf_Binary_Tree" />
       <module name="SUPER 150" />
       <extension name="coverage">
         <pattern>
@@ -95,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Root_to_Leaf_Binary_Tree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tree.ASSIGNMENT.Root_to_Leaf_Binary_Tree" />
+    <configuration name="SORTING" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.Algorithm.SORTING" />
       <module name="SUPER 150" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Tree.ASSIGNMENT.*" />
+          <option name="PATTERN" value="Arrays.Algorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SORTING" />
         <item itemvalue="Application.Root_to_Leaf_Binary_Tree" />
         <item itemvalue="Application.Create_tree_Using_preorder_and_inorder" />
         <item itemvalue="Application.BinaryTrees_Print_All_Leaf_Nodes" />
         <item itemvalue="Application.Sum_of_the_nodes_Binary_tree" />
-        <item itemvalue="Application.Remove_the_leaves_Binary_Tree" />
       </list>
     </recent_temporary>
   </component>
@@ -139,13 +137,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663441543134</updated>
-    </task>
-    <task id="LOCAL-00074" summary="Assignment 6">
-      <created>1679969243453</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1679969243469</updated>
     </task>
     <task id="LOCAL-00075" summary="DYNAMIC STACKS AND QUEUE (INHERITANCE)">
       <created>1680114445071</created>
@@ -483,7 +474,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685988523756</updated>
     </task>
-    <option name="localTasksCounter" value="123" />
+    <task id="LOCAL-00123" summary="STACK LEETCODE CODING BLOCKS">
+      <created>1686006191647</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1686006191649</updated>
+    </task>
+    <option name="localTasksCounter" value="124" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
