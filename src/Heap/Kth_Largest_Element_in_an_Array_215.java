@@ -10,7 +10,6 @@ public class Kth_Largest_Element_in_an_Array_215 {
         for(int i = 0 ; i < k ; i++){
             heap.add(arr[i]);
         }
-
         for(int i = k ; i < arr.length ; i++){
             if(arr[i] > heap.peek()){
                 heap.poll();
