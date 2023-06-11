@@ -92,8 +92,6 @@ class Main {
                 System.out.print(root.right.data+" ");
             }
             siblingNode(root.left);
-
-
             siblingNode(root.right);
         }
 

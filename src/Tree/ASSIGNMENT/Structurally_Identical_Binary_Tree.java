@@ -32,23 +32,53 @@ public class Structurally_Identical_Binary_Tree {
     public static void main(String[] args) {
         Binary_Tree root1 = new Binary_Tree();
         Binary_Tree root2 = new Binary_Tree();
-        System.out.println(isIdentical(root1.root , root2.root));
-
+        System.out.println(isSI(root1.root , root2.root));
     }
 
-    static boolean isIdentical(Node root1 , Node root2){
-        if(root1 == null && root2 == null){
+    static boolean isSI(Node node1, Node node2)
+    {
+        if(node1 == null && node2 == null){
             return true;
-        } else if (root1 == null || root2 == null) {
-            return false;
         }
-        if(root1.data != root2.data){
+        if(node1 == null || node2 == null){
             return false;
         }
 
-        boolean left = isIdentical(root1.left , root2.left);
-        boolean right = isIdentical(root1.right , root2.right);
+        int left1 = 0;
+        Node temp = node1;
+        while(temp != null){
+            left1++;
+            temp = temp.left;
+        }
 
+        int left2 = 0;
+        temp = node2;
+        while(temp != null){
+            left2++;
+            temp = temp.left;
+        }
+
+        if(left1 != left2){
+            return false;
+        }
+
+        temp = node1;
+        int right1 = 0;
+        while(temp!=null){
+            right1++;
+            temp =temp.right;
+        }
+        temp = node2;
+        int right2 = 0;
+        while(temp!=null){
+            right2++;
+            temp =temp.right;
+        }
+        if(right1 != right2){
+            return false;
+        }
+        boolean left = isSI(node1.left , node2.left);
+        boolean right = isSI(node1.right , node2.right);
         return left && right;
     }
 }

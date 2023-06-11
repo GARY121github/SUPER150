@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="HISTOGRAM">
-      <change afterPath="$PROJECT_DIR$/src/STACKS_AND_QUEUE/CODING_BLOCKS/The_Celebrity_Problem_GFG.java" afterDir="false" />
+    <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="THE CELEBRITY PROBLEM">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/ASSIGNMENT/Sibling_Binary_Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/ASSIGNMENT/Sibling_Binary_Tree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/ASSIGNMENT/Structurally_Identical_Binary_Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/ASSIGNMENT/Structurally_Identical_Binary_Tree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,13 +138,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663441543134</updated>
-    </task>
-    <task id="LOCAL-00080" summary="ASSIGNMENT 6">
-      <created>1680292645169</created>
-      <option name="number" value="00080" />
-      <option name="presentableId" value="LOCAL-00080" />
-      <option name="project" value="LOCAL" />
-      <updated>1680292645170</updated>
     </task>
     <task id="LOCAL-00081" summary="ASSIGNMENT 6">
       <created>1680293531323</created>
@@ -481,7 +475,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686471898297</updated>
     </task>
-    <option name="localTasksCounter" value="129" />
+    <task id="LOCAL-00129" summary="THE CELEBRITY PROBLEM">
+      <created>1686472692323</created>
+      <option name="number" value="00129" />
+      <option name="presentableId" value="LOCAL-00129" />
+      <option name="project" value="LOCAL" />
+      <updated>1686472692323</updated>
+    </task>
+    <option name="localTasksCounter" value="130" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -496,7 +497,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ASSIGNMENT 4" />
     <MESSAGE value="Recursion" />
     <MESSAGE value="ASSIGNMENT_5" />
     <MESSAGE value="RECURSION" />
@@ -521,7 +521,8 @@
     <MESSAGE value="HEAP" />
     <MESSAGE value="HASHMAP AND HASHSET" />
     <MESSAGE value="HISTOGRAM" />
-    <option name="LAST_COMMIT_MESSAGE" value="HISTOGRAM" />
+    <MESSAGE value="THE CELEBRITY PROBLEM" />
+    <option name="LAST_COMMIT_MESSAGE" value="THE CELEBRITY PROBLEM" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
