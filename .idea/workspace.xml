@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="HASHMAP AND HASHSET">
-      <change afterPath="$PROJECT_DIR$/src/STACKS_AND_QUEUE/CODING_BLOCKS/Basic_Calculator_224.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/STACKS_AND_QUEUE/CODING_BLOCKS/Largest_Rectangle_in_Histogram_84.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/STACKS_AND_QUEUE/CODING_BLOCKS/Maximal_Rectangle_85.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/STACKS_AND_QUEUE/CODING_BLOCKS/Maximum_Score_of_a_Good_Subarray_1793.java" afterDir="false" />
+    <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="HISTOGRAM">
+      <change afterPath="$PROJECT_DIR$/src/STACKS_AND_QUEUE/CODING_BLOCKS/The_Celebrity_Problem_GFG.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -140,13 +137,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663441543134</updated>
-    </task>
-    <task id="LOCAL-00079" summary="ASSIGNMENT 6">
-      <created>1680210487377</created>
-      <option name="number" value="00079" />
-      <option name="presentableId" value="LOCAL-00079" />
-      <option name="project" value="LOCAL" />
-      <updated>1680210487377</updated>
     </task>
     <task id="LOCAL-00080" summary="ASSIGNMENT 6">
       <created>1680292645169</created>
@@ -484,7 +474,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686407183582</updated>
     </task>
-    <option name="localTasksCounter" value="128" />
+    <task id="LOCAL-00128" summary="HISTOGRAM">
+      <created>1686471898296</created>
+      <option name="number" value="00128" />
+      <option name="presentableId" value="LOCAL-00128" />
+      <option name="project" value="LOCAL" />
+      <updated>1686471898297</updated>
+    </task>
+    <option name="localTasksCounter" value="129" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -499,7 +496,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="SLIDING WINDOW :)" />
     <MESSAGE value="ASSIGNMENT 4" />
     <MESSAGE value="Recursion" />
     <MESSAGE value="ASSIGNMENT_5" />
@@ -524,7 +520,8 @@
     <MESSAGE value="STACK LEETCODE CODING BLOCKS" />
     <MESSAGE value="HEAP" />
     <MESSAGE value="HASHMAP AND HASHSET" />
-    <option name="LAST_COMMIT_MESSAGE" value="HASHMAP AND HASHSET" />
+    <MESSAGE value="HISTOGRAM" />
+    <option name="LAST_COMMIT_MESSAGE" value="HISTOGRAM" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
