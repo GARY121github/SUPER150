@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="THE CELEBRITY PROBLEM">
+    <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="TREE ASSIGNMENT">
+      <change afterPath="$PROJECT_DIR$/src/STACKS_AND_QUEUE/CODING_BLOCKS/Sliding_Window_Maximum_239.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree/ASSIGNMENT/Sibling_Binary_Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/ASSIGNMENT/Sibling_Binary_Tree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree/ASSIGNMENT/Structurally_Identical_Binary_Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/ASSIGNMENT/Structurally_Identical_Binary_Tree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,20 +53,7 @@
       <recent name="Sliding_Window" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Intersection_of_Two_Arrays_II_350">
-    <configuration name="BinaryTrees_Print_All_Leaf_Nodes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tree.ASSIGNMENT.BinaryTrees_Print_All_Leaf_Nodes" />
-      <module name="SUPER 150" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tree.ASSIGNMENT.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Sliding_Window_Maximum_239">
     <configuration name="Create_tree_Using_preorder_and_inorder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Tree.ASSIGNMENT.Create_tree_Using_preorder_and_inorder" />
       <module name="SUPER 150" />
@@ -120,13 +106,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Sliding_Window_Maximum_239" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="STACKS_AND_QUEUE.CODING_BLOCKS.Sliding_Window_Maximum_239" />
+      <module name="SUPER 150" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="STACKS_AND_QUEUE.CODING_BLOCKS.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Sliding_Window_Maximum_239" />
         <item itemvalue="Application.Intersection_of_Two_Arrays_II_350" />
         <item itemvalue="Application.SORTING" />
         <item itemvalue="Application.Root_to_Leaf_Binary_Tree" />
         <item itemvalue="Application.Create_tree_Using_preorder_and_inorder" />
-        <item itemvalue="Application.BinaryTrees_Print_All_Leaf_Nodes" />
       </list>
     </recent_temporary>
   </component>
@@ -138,13 +137,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663441543134</updated>
-    </task>
-    <task id="LOCAL-00081" summary="ASSIGNMENT 6">
-      <created>1680293531323</created>
-      <option name="number" value="00081" />
-      <option name="presentableId" value="LOCAL-00081" />
-      <option name="project" value="LOCAL" />
-      <updated>1680293531323</updated>
     </task>
     <task id="LOCAL-00082" summary="ASSIGNMENT 6">
       <created>1681277333649</created>
@@ -482,7 +474,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686472692323</updated>
     </task>
-    <option name="localTasksCounter" value="130" />
+    <task id="LOCAL-00130" summary="TREE ASSIGNMENT">
+      <created>1686525786416</created>
+      <option name="number" value="00130" />
+      <option name="presentableId" value="LOCAL-00130" />
+      <option name="project" value="LOCAL" />
+      <updated>1686525786416</updated>
+    </task>
+    <option name="localTasksCounter" value="131" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -497,7 +496,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Recursion" />
     <MESSAGE value="ASSIGNMENT_5" />
     <MESSAGE value="RECURSION" />
     <MESSAGE value="ASSIGNMENT 5" />
@@ -522,7 +520,8 @@
     <MESSAGE value="HASHMAP AND HASHSET" />
     <MESSAGE value="HISTOGRAM" />
     <MESSAGE value="THE CELEBRITY PROBLEM" />
-    <option name="LAST_COMMIT_MESSAGE" value="THE CELEBRITY PROBLEM" />
+    <MESSAGE value="TREE ASSIGNMENT" />
+    <option name="LAST_COMMIT_MESSAGE" value="TREE ASSIGNMENT" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
