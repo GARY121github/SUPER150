@@ -24,6 +24,8 @@ The given tree is in pre order traversal. So convert it into binary tree and che
 
 import Tree.BinaryTree;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class Root_to_Leaf_Binary_Tree {
@@ -31,22 +33,31 @@ public class Root_to_Leaf_Binary_Tree {
         Binary_Tree tree = new Binary_Tree();
         Scanner sc = new Scanner(System.in);
         int target = sc.nextInt();
-        printPath(tree.root , "" , target);
+        rootToLeaf(tree.root , target);
+        for(String i : list){
+            System.out.println(i);
+        }
     }
-
-    static void printPath(Node root , String ans , int target){
-
-        if(root == null || target < 0){
+    static List<String> list = new ArrayList<>();
+    static void rootToLeaf(Node root , int target){
+        if(root == null){
             return;
         }
-        if(target == root.data){
-            System.out.println(ans + root.data + " ");
+
+        targetSum(root , "" , target);
+    }
+    static void targetSum(Node root , String ans , int target){
+        if(root == null){
             return;
         }
 
+        if(target - root.data == 0){
+            ans += root.data + " ";
+            list.add(ans);
+        }
 
-
-        printPath(root.left , ans + root.data + " " , target - root.data);
-        printPath(root.right , ans + root.data + " " , target - root.data);
+        targetSum(root.left , ans + root.data + " " , target - root.data);
+        targetSum(root.right , ans + root.data + " " , target - root.data);
     }
+
 }

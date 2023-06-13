@@ -45,57 +45,63 @@ public class Create_tree_Using_preorder_and_inorder {
         }
         int m = sc.nextInt();
         int[] inOrder = new int[m];
-        for (int i = 0 ; i < m ; i++){
+        for(int i = 0 ; i < m ; i++){
             inOrder[i] = sc.nextInt();
         }
-        Node root = createTree(preOrder , 0 , preOrder.length-1 , inOrder , 0 , inOrder.length-1);
+
+        Node root = createTree(preOrder , 0 , n-1 , inOrder , 0 , m-1);
         display(root);
     }
 
-    private static Node createTree(int[] arr1 , int s1 , int e1 , int[] arr2 , int s2 , int e2){
-        if(s1 > e1 || s2 > e2){
+    private static Node createTree(int[] preOrder , int sp , int ep , int[] inOrder , int si , int ei){
+        if(sp > ep || si > ei){
             return null;
         }
-        int data = arr1[s1];
-        Node node = new Node(data);
-        int i = index(arr2 , s2 , e2 , data);
-        int childs = i - s2;
-        node.left = createTree(arr1 , s1+1 , s1 + childs , arr2 , s2 , i-1);
-        node.right = createTree(arr1 , s1 + childs + 1 , e1 , arr2 , i+1 , e2);
-        return node;
+
+        Node root = new Node(preOrder[sp]);
+        int index = index(inOrder , si , ei , preOrder[sp]);
+        int diff = index - si;
+        root.left = createTree(preOrder , sp+1 , sp + diff , inOrder , si , index-1);
+        root.right = createTree(preOrder , sp + diff + 1, ep , inOrder , index+1 , ei);
+
+        return root;
     }
+
     private static int index(int[] arr , int s , int e , int target){
-        for(int i = s ; i <= e ; i++){
-            if(arr[i] == target){
-                return i;
+        while (s <= e){
+            if(arr[s] == target){
+                return s;
             }
+
+            s++;
         }
+
         return -1;
     }
-    static void display(Node node){
-        if(node == null){
+    private static void display(Node root){
+        if(root == null){
             return;
         }
 
-        String ans = "";
-        ans = ans + node.data;
-        if(node.left != null){
-            ans = node.left.data + " <= " + ans;
-        }
-        else{
-            ans = "END" + " <= " + ans;
-        }
+        String ans = " => " + root.data + " <= ";
 
-        if(node.right != null){
-            ans = ans + " => " + node.right.data;
+        if(root.left != null){
+            ans = root.left.data + ans;
         }
         else {
-            ans = ans + " => " + "END";
+            ans = "END" + ans;
+        }
+
+        if(root.right != null){
+            ans = ans + root.right.data;
+        }
+        else {
+            ans = ans + "END";
         }
 
         System.out.println(ans);
-        display(node.left);
-        display(node.right);
-    }
+        display(root.left);
+        display(root.right);
 
+    }
 }
