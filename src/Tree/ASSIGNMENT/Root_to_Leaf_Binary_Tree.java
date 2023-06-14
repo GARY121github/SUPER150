@@ -33,31 +33,36 @@ public class Root_to_Leaf_Binary_Tree {
         Binary_Tree tree = new Binary_Tree();
         Scanner sc = new Scanner(System.in);
         int target = sc.nextInt();
-        rootToLeaf(tree.root , target);
-        for(String i : list){
-            System.out.println(i);
-        }
+        targetSum(tree.root , target);
     }
-    static List<String> list = new ArrayList<>();
-    static void rootToLeaf(Node root , int target){
-        if(root == null){
-            return;
+    private static void targetSum(Node root , int target){
+        ArrayList<ArrayList<Integer>> ans = new ArrayList<>();
+        ArrayList<Integer> list = new ArrayList<>();
+        rootToleaf(root , target , ans , list);
+        for (int i : ans.get(0)){
+            System.out.print(i + " ");
         }
+        System.out.println();
+    }
 
-        targetSum(root , "" , target);
-    }
-    static void targetSum(Node root , String ans , int target){
+    private static void rootToleaf(Node root , int target , ArrayList<ArrayList<Integer>> ans , ArrayList<Integer> list){
         if(root == null){
             return;
         }
 
         if(target - root.data == 0){
-            ans += root.data + " ";
-            list.add(ans);
+            list.add(root.data);
+            ans.add(new ArrayList<>(list));
+            list.remove(list.size()-1);
+            return;
         }
 
-        targetSum(root.left , ans + root.data + " " , target - root.data);
-        targetSum(root.right , ans + root.data + " " , target - root.data);
+        list.add(root.data);
+        target = target-root.data;
+        rootToleaf(root.left , target , ans , list);
+        rootToleaf(root.right , target , ans , list);
+        target = target+root.data;
+        list.remove(list.size()-1);
     }
 
 }
