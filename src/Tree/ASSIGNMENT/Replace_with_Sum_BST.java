@@ -25,20 +25,7 @@ END => 5 <= END
 END => 0 <= END
 */
 public class Replace_with_Sum_BST {
-    public static void main(String[] args) {
-        BST b1= new BST();
-        Scanner scn = new Scanner(System.in);
-        int n= scn.nextInt();
-        while(n!=0){
-            int m=scn.nextInt();
-            b1.add(m);
-            --n;
-        }
-        b1.replaceWLS();
-        System.out.println(b1);
-    }
 }
-
 class BST {
     private class Node {
         int data;
@@ -188,6 +175,16 @@ class BST {
     public void replaceWLS() {
 
     }
-
+    public static void main(String[] args) {
+        BST b1= new BST();
+        Scanner scn = new Scanner(System.in);
+        int n= scn.nextInt();
+        while(n!=0){
+            int m=scn.nextInt();
+            b1.add(m);
+            --n;
+        }
+        b1.replaceWLS();
+        System.out.println(b1);
+    }
 }
-
