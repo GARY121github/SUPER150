@@ -25,6 +25,18 @@ END => 5 <= END
 END => 0 <= END
 */
 public class Replace_with_Sum_BST {
+    public static void main(String[] args) {
+        BST b1= new BST();
+        Scanner scn = new Scanner(System.in);
+        int n= scn.nextInt();
+        while(n!=0){
+            int m=scn.nextInt();
+            b1.add(m);
+            --n;
+        }
+        b1.replaceWLS();
+        System.out.println(b1);
+    }
 }
 class BST {
     private class Node {
@@ -173,18 +185,30 @@ class BST {
         return retVal;
     }
     public void replaceWLS() {
-
+        totalSum(root);
+        replace(root);
     }
-    public static void main(String[] args) {
-        BST b1= new BST();
-        Scanner scn = new Scanner(System.in);
-        int n= scn.nextInt();
-        while(n!=0){
-            int m=scn.nextInt();
-            b1.add(m);
-            --n;
+
+    int sum = 0;
+    private void totalSum(Node root){
+        if(root == null){
+            return;
         }
-        b1.replaceWLS();
-        System.out.println(b1);
+
+        totalSum(root.left);
+        sum += root.data;
+        totalSum(root.right);
+    }
+
+    private void replace(Node root){
+        if(root == null){
+            return;
+        }
+
+        replace(root.left);
+        int temp = root.data;
+        root.data = sum - temp;
+        sum -= temp;
+        replace(root.right);
     }
 }

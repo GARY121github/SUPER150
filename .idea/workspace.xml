@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="TREE">
-      <change afterPath="$PROJECT_DIR$/src/Assignment_6/Importance_of_Time.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Hashmap_and_Hashset/Longest_Consecutive_Sequence_128.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tree/ASSIGNMENT/Binary_Tree_Max_Path_Sum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tree/ASSIGNMENT/Mirror_Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tree/ASSIGNMENT/Root_to_Leaf_2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Tree/ASSIGNMENT/Replace_with_Sum_BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/ASSIGNMENT/Replace_with_Sum_BST.java" afterDir="false" />
     </list>
@@ -55,20 +56,7 @@
       <recent name="Sliding_Window" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Importance_of_Time">
-    <configuration name="Add_duplicate_BST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tree.ASSIGNMENT.Add_duplicate_BST" />
-      <module name="SUPER 150" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tree.ASSIGNMENT.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Mirror_Tree">
     <configuration name="Create_Tree_Using_Postorder_and_Inorder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Tree.ASSIGNMENT.Create_Tree_Using_Postorder_and_Inorder" />
       <module name="SUPER 150" />
@@ -95,6 +83,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Mirror_Tree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tree.ASSIGNMENT.Mirror_Tree" />
+      <module name="SUPER 150" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tree.ASSIGNMENT.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Root_to_Leaf_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tree.ASSIGNMENT.Root_to_Leaf_2" />
+      <module name="SUPER 150" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tree.ASSIGNMENT.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Root_to_Leaf_Binary_Tree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Tree.ASSIGNMENT.Root_to_Leaf_Binary_Tree" />
       <module name="SUPER 150" />
@@ -108,26 +122,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="k_largest_elements_GFG" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Heap.k_largest_elements_GFG" />
-      <module name="SUPER 150" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Heap.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Mirror_Tree" />
+        <item itemvalue="Application.Root_to_Leaf_2" />
         <item itemvalue="Application.Importance_of_Time" />
         <item itemvalue="Application.Create_Tree_Using_Postorder_and_Inorder" />
         <item itemvalue="Application.Root_to_Leaf_Binary_Tree" />
-        <item itemvalue="Application.Add_duplicate_BST" />
-        <item itemvalue="Application.k_largest_elements_GFG" />
       </list>
     </recent_temporary>
   </component>
@@ -139,13 +140,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663441543134</updated>
-    </task>
-    <task id="LOCAL-00085" summary="ASSIGNMENT 6">
-      <created>1681546517687</created>
-      <option name="number" value="00085" />
-      <option name="presentableId" value="LOCAL-00085" />
-      <option name="project" value="LOCAL" />
-      <updated>1681546517687</updated>
     </task>
     <task id="LOCAL-00086" summary="ASSIGNMENT 6">
       <created>1681675544863</created>
@@ -483,7 +477,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686713015288</updated>
     </task>
-    <option name="localTasksCounter" value="134" />
+    <task id="LOCAL-00134" summary="TREE">
+      <created>1687074287277</created>
+      <option name="number" value="00134" />
+      <option name="presentableId" value="LOCAL-00134" />
+      <option name="project" value="LOCAL" />
+      <updated>1687074287277</updated>
+    </task>
+    <option name="localTasksCounter" value="135" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
