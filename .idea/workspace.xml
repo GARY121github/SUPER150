@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="TREE">
-      <change afterPath="$PROJECT_DIR$/src/Tree/ASSIGNMENT/Replace_with_Sum_of_greater_nodes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CODEFORCES/CONTESTS/CONTEST_1/A__Sasha_and_Array_Coloring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CODEFORCES/CONTESTS/CONTEST_1/B__Long_Long.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CODEFORCES/CONTESTS/CONTEST_1/C__Sum_in_Binary_Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tree/ASSIGNMENT/Binary_Tree_Maximum_Path_Sum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree/ASSIGNMENT/Replace_with_Sum_BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/ASSIGNMENT/Replace_with_Sum_BST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/ASSIGNMENT/Replace_with_Sum_of_greater_nodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/ASSIGNMENT/Replace_with_Sum_of_greater_nodes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,13 +57,13 @@
       <recent name="Sliding_Window" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Replace_with_Sum_of_greater_nodes">
-    <configuration name="Create_Tree_Using_Postorder_and_Inorder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tree.ASSIGNMENT.Create_Tree_Using_Postorder_and_Inorder" />
+  <component name="RunManager" selected="Application.C__Sum_in_Binary_Tree">
+    <configuration name="A__Sasha_and_Array_Coloring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CODEFORCES.CONTESTS.CONTEST_1.A__Sasha_and_Array_Coloring" />
       <module name="SUPER 150" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Tree.ASSIGNMENT.*" />
+          <option name="PATTERN" value="CODEFORCES.CONTESTS.CONTEST_1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,12 +71,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Importance_of_Time" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assignment_6.Importance_of_Time" />
+    <configuration name="B__Long_Long" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CODEFORCES.CONTESTS.CONTEST_1.B__Long_Long" />
       <module name="SUPER 150" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Assignment_6.*" />
+          <option name="PATTERN" value="CODEFORCES.CONTESTS.CONTEST_1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C__Sum_in_Binary_Tree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CODEFORCES.CONTESTS.CONTEST_1.C__Sum_in_Binary_Tree" />
+      <module name="SUPER 150" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CODEFORCES.CONTESTS.CONTEST_1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,26 +123,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Root_to_Leaf_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tree.ASSIGNMENT.Root_to_Leaf_2" />
-      <module name="SUPER 150" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tree.ASSIGNMENT.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.C__Sum_in_Binary_Tree" />
+        <item itemvalue="Application.B__Long_Long" />
+        <item itemvalue="Application.A__Sasha_and_Array_Coloring" />
         <item itemvalue="Application.Replace_with_Sum_of_greater_nodes" />
         <item itemvalue="Application.Mirror_Tree" />
-        <item itemvalue="Application.Root_to_Leaf_2" />
-        <item itemvalue="Application.Importance_of_Time" />
-        <item itemvalue="Application.Create_Tree_Using_Postorder_and_Inorder" />
       </list>
     </recent_temporary>
   </component>
@@ -138,13 +141,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663441543134</updated>
-    </task>
-    <task id="LOCAL-00087" summary="ASSIGNMENT 6">
-      <created>1681848097880</created>
-      <option name="number" value="00087" />
-      <option name="presentableId" value="LOCAL-00087" />
-      <option name="project" value="LOCAL" />
-      <updated>1681848097880</updated>
     </task>
     <task id="LOCAL-00088" summary="ASSIGNMENT 6">
       <created>1681848410647</created>
@@ -482,7 +478,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687267953484</updated>
     </task>
-    <option name="localTasksCounter" value="136" />
+    <task id="LOCAL-00136" summary="TREE">
+      <created>1687270500336</created>
+      <option name="number" value="00136" />
+      <option name="presentableId" value="LOCAL-00136" />
+      <option name="project" value="LOCAL" />
+      <updated>1687270500336</updated>
+    </task>
+    <option name="localTasksCounter" value="137" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

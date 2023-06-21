@@ -35,7 +35,7 @@ The original tree looks like
   20    40      60    80
 We are supposed to replace the elements by the sum of elements larger than it.
 80 being the largest element remains unaffected .
-70 being the second largest element gets updated to 150 (70+80)
+70 being the second-largest element gets updated to 150 (70+80)
 60 becomes 210 (60 + 70 + 80)
 50 becomes 260 (50 + 60 + 70 + 80)
 40 becomes 300 (40 + 50 + 60 + 70 + 80)
