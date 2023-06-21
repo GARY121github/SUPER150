@@ -26,9 +26,6 @@ import java.util.Scanner;
  The path with maximum sum is from the root's left child(4) to root's right child(6) with sum as 11(4+1+6)
  **/
 public class Binary_Tree_Maximum_Path_Sum {
-    public static void main(String[] args) {
-
-    }
 
     static class Node{
         int data;
@@ -65,4 +62,10 @@ public class Binary_Tree_Maximum_Path_Sum {
         }
         return root;
     }
+
+    public static void main(String[] args) {
+        Node root = createTree();
+    }
+
+
 }
