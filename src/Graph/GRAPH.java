@@ -3,7 +3,7 @@ package Graph;
 import java.util.HashMap;
 
 public class GRAPH {
-    private HashMap<Integer , HashMap<Integer , Integer>> Graph;
+    public HashMap<Integer , HashMap<Integer , Integer>> Graph;
 
     public GRAPH(int vertex){
         Graph = new HashMap<>();

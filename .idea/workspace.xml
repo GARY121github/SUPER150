@@ -2,23 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="TREE ASSIGNMENTS">
-      <change afterPath="$PROJECT_DIR$/src/Assignment_6/First_negative_integer_in_every_window_of_size_k.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_6/Form_minimum_number_from_given_Sequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graph/GRAPH.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graph/Path.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Heap/Assignment/Arrays_Intersection_Of_Two_Arrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Heap/Assignment/Exist_OR_Not.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Heap/Assignment/Highest_frequency_Hashing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Heap/Assignment/Unlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Heap/Leetcode/Distant_Barcodes_1054.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Heap/Leetcode/K_Closest_Points_to_Origin_973.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Heap/Leetcode/Kth_Largest_Element_in_a_Stream_703.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Heap/Leetcode/Last_Stone_Weight_1046.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Heap/Leetcode/Sort_Characters_By_Frequency_451.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Heap/Leetcode/Top_K_Frequent_Elements_347.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assignment_6/Only_Ladders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assignment_6/Only_Ladders.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TIME_COMPLEXITY.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TIME_COMPLEXITY.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graph/GRAPH.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graph/GRAPH.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graph/Path.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graph/Path.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
