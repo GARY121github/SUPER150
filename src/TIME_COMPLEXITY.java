@@ -5,3 +5,4 @@ import java.util.Scanner;
 
 public class TIME_COMPLEXITY {
 }
+
