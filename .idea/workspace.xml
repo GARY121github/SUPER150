@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="TREE ASSIGNMENTS">
+    <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="GRAPH">
+      <change afterPath="$PROJECT_DIR$/src/Graph/BFS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graph/BFT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graph/DFS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graph/DFT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Heap/Leetcode/Reorganize_String_767.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Graph/GRAPH.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graph/GRAPH.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graph/Path.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graph/Path.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,13 +58,13 @@
       <recent name="Sliding_Window" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Path">
-    <configuration name="Exist_OR_Not" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Heap.Assignment.Exist_OR_Not" />
+  <component name="RunManager" selected="Application.DFT">
+    <configuration name="BFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Graph.BFS" />
       <module name="SUPER 150" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Heap.Assignment.*" />
+          <option name="PATTERN" value="Graph.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="First_negative_integer_in_every_window_of_size_k" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assignment_6.First_negative_integer_in_every_window_of_size_k" />
+    <configuration name="BFT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Graph.BFT" />
       <module name="SUPER 150" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Assignment_6.*" />
+          <option name="PATTERN" value="Graph.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Highest_frequency_Hashing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Heap.Assignment.Highest_frequency_Hashing" />
+    <configuration name="DFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Graph.DFS" />
       <module name="SUPER 150" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Heap.Assignment.*" />
+          <option name="PATTERN" value="Graph.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Only_Ladders" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assignment_6.Only_Ladders" />
+    <configuration name="DFT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Graph.DFT" />
       <module name="SUPER 150" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Assignment_6.*" />
+          <option name="PATTERN" value="Graph.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DFT" />
+        <item itemvalue="Application.BFT" />
+        <item itemvalue="Application.DFS" />
+        <item itemvalue="Application.BFS" />
         <item itemvalue="Application.Path" />
-        <item itemvalue="Application.Only_Ladders" />
-        <item itemvalue="Application.First_negative_integer_in_every_window_of_size_k" />
-        <item itemvalue="Application.Highest_frequency_Hashing" />
-        <item itemvalue="Application.Exist_OR_Not" />
       </list>
     </recent_temporary>
   </component>
@@ -138,13 +142,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663441543134</updated>
-    </task>
-    <task id="LOCAL-00091" summary="DI STRING">
-      <created>1682191051677</created>
-      <option name="number" value="00091" />
-      <option name="presentableId" value="LOCAL-00091" />
-      <option name="project" value="LOCAL" />
-      <updated>1682191051677</updated>
     </task>
     <task id="LOCAL-00092" summary="DI STRING">
       <created>1682357307072</created>
@@ -482,7 +479,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688143861713</updated>
     </task>
-    <option name="localTasksCounter" value="140" />
+    <task id="LOCAL-00140" summary="GRAPH">
+      <created>1689093372014</created>
+      <option name="number" value="00140" />
+      <option name="presentableId" value="LOCAL-00140" />
+      <option name="project" value="LOCAL" />
+      <updated>1689093372017</updated>
+    </task>
+    <option name="localTasksCounter" value="141" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -497,7 +501,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="N-KNIGHTS PROBLEM" />
     <MESSAGE value="VIVEK LOVES ARRAY" />
     <MESSAGE value="MAPPED STRING" />
     <MESSAGE value="DIVIDE AND CONQUER" />
@@ -522,7 +525,8 @@
     <MESSAGE value="TREE" />
     <MESSAGE value="CODEFORCE CONTEST" />
     <MESSAGE value="TREE ASSIGNMENTS" />
-    <option name="LAST_COMMIT_MESSAGE" value="TREE ASSIGNMENTS" />
+    <MESSAGE value="GRAPH" />
+    <option name="LAST_COMMIT_MESSAGE" value="GRAPH" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -12,6 +12,10 @@ public class GRAPH {
         }
     }
 
+    public HashMap<Integer , HashMap<Integer , Integer>> getGraph(){
+        return this.Graph;
+    }
+
 //    CONNECT TWO EDGES WITH THE COST
     public void addEdge(int v1 , int v2 , int cost){
         Graph.get(v1).put(v2 , cost);
