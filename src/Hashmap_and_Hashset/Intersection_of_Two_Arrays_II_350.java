@@ -18,6 +18,7 @@ public class Intersection_of_Two_Arrays_II_350 {
         HashMap<Integer , Integer> map = new HashMap<>();
         for(int i : arr1){
             if(map.containsKey(i)){
+
                 map.put(i , map.get(i) + 1);
             }
             else{

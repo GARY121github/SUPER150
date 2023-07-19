@@ -1,9 +1,6 @@
 package Heap.Assignment;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 
 /*
 You are given a running data stream of n integers. You read all integers from that running data stream and find effective
@@ -38,24 +35,41 @@ Iteration 5 : Array = {1,2,3,5,15} Median = 3
 Iteration 6 : Array = {1,2,3,5,8,15} Median = (3+5)/2 = 4
 */
 public class Median_in_a_stream_of_running_integers {
-    public static void main(String[] args) {
+    static class MedianFinder {
+        PriorityQueue<Integer> maxHeap;
+        PriorityQueue<Integer> minHeap;
+        public MedianFinder() {
+            maxHeap = new PriorityQueue<>(Collections.reverseOrder());
+            minHeap = new PriorityQueue<>();
+        }
+
+        public void addNum(int num) {
+            maxHeap.add(num);
+            minHeap.add(maxHeap.remove());
+            if(minHeap.size() > maxHeap.size()){
+                maxHeap.add(minHeap.remove());
+            }
+        }
+
+        public double findMedian() {
+            if(maxHeap.size() > minHeap.size()){
+                return maxHeap.peek();
+            }
+
+            return (maxHeap.peek() + minHeap.peek()) / 2.0;
+        }
+    }
+
+    public void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int t = sc.nextInt();
         while (t-- > 0){
             int n = sc.nextInt();
-            List<Integer> list = new ArrayList<>();
+            MedianFinder ob = new MedianFinder();
             for (int i = 0 ; i < n ; i++){
                 int x = sc.nextInt();
-                list.add(x);
-                Collections.sort(list);
-                if(list.size()%2 == 0){
-                    int m = list.size() / 2;
-                    System.out.print((list.get(m) + list.get(m-1))/2 + " ");
-                }
-                else{
-                    int m = list.size()/2 ;
-                    System.out.print(list.get(m) + " ");
-                }
+                ob.addNum(x);
+                System.out.print((int) ob.findMedian() + " ");
             }
             System.out.println();
         }
