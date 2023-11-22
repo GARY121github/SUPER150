@@ -1,12 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="HEAP">
-      <change afterPath="$PROJECT_DIR$/src/Heap/Assignment/Frequent_Elements_in_Array.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Heap/Leetcode/Divide_Array_in_Sets_of_K_Consecutive_Numbers_1296.java" afterDir="false" />
+    <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="HEAP ASSIGNMENT">
+      <change afterPath="$PROJECT_DIR$/src/Assignment_8/Boardpath_Count_Print.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_8/Buying_Fruits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_8/Climbing_Stairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_8/CoinChange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_8/Count_of_different_ways_to_express_N_as_the_sum_of_1_3_and_4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_8/Exchanging_Coins.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_8/House_Robber_II.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_8/K_Ordered_LCS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_8/Knapsack_0_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_8/Knapsack_0_N.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_8/LCS_with_3_Strings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_8/Length_of_LCS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_8/Minimum_Money_Needed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_8/Minimum_Path_Sum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_8/Number_of_Steps_to_reach_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_8/Optimal_Game_Strategy_II.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_8/Palindrome_Partitioning.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_8/Print_LCS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_8/Smart_Robber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_8/Tilling_Problem_I.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_8/Valentine_Magic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CODEFORCES/CONTEST_1/A_Short_Sort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CODEFORCES/CONTEST_1/B_Good_Kid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CODEFORCES/CONTEST_1/C_Target_Practice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CODEFORCES/CONTEST_1/D_1D_Eraser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CODEFORCES/CONTEST_1/E_Building_an_Aquarium.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DP/ASSIGNMENT/Buying_Fruits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DP/ASSIGNMENT/CodeWars_2_0_Edit_Distance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DP/ASSIGNMENT/Coin_Change.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DP/ASSIGNMENT/Count_Number_of_Binary_Strings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DP/ASSIGNMENT/Distinct_Subsequences.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DP/ASSIGNMENT/Exchanging_Coins.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DP/ASSIGNMENT/Friends_Pairing_Problem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DP/ASSIGNMENT/Longest_Increasing_subsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DP/ASSIGNMENT/Minimum_Money_Needed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DP/ASSIGNMENT/Number_of_Steps_to_reach_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DP/ASSIGNMENT/O_1_Knapsack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DP/ASSIGNMENT/O_N_Knapsack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DP/ASSIGNMENT/Ugly_Numbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DP/House_Robber_198.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DP/Longest_Common_Subsequence_LCS/Edit_Distance_72.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DP/Longest_Common_Subsequence_LCS/Longest_Common_Subsequence_1143.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DP/Longest_Common_Subsequence_LCS/Uncrossed_Lines_1035.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DP/Longest_Common_Subsequence_LCS/Valentine_Magic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DP/Longest_common_subsequence_1143.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graph/Disjoint_set.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graph/Kruskals_Algorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Hashmap_and_Hashset/HashMap_Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Hashmap_and_Hashset/MyHashmap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Heap/MaxHeap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pattern_Matching/Longest_Prefix_Suffix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tree/LEVELUP/Total_SubTree_with_given_sum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Hashmap_and_Hashset/Intersection_of_Two_Arrays_II_350.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hashmap_and_Hashset/Intersection_of_Two_Arrays_II_350.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Heap/Assignment/Median_in_a_stream_of_running_integers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Heap/Assignment/Median_in_a_stream_of_running_integers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CODEFORCES/B_EvenArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CODEFORCES/CONTESTS/CONTEST_1/A__Sasha_and_Array_Coloring.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CODEFORCES/CONTESTS/CONTEST_1/B__Long_Long.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CODEFORCES/CONTESTS/CONTEST_1/C__Sum_in_Binary_Tree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CODEFORCES/Minimal_Square.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Heap/Assignment/Hostel_Visit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Heap/Assignment/Hostel_Visit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Heap/Assignment/Sort_Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Heap/Assignment/Sort_Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/MyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TIME_COMPLEXITY.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TIME_COMPLEXITY.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/ASSIGNMENT/Reverse_Level_Order_Traversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/ASSIGNMENT/Reverse_Level_Order_Traversal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +101,8 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/JAVA/SUPER 150&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -56,13 +115,13 @@
       <recent name="Sliding_Window" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Frequent_Elements_in_Array">
-    <configuration name="Divide_Array_in_Sets_of_K_Consecutive_Numbers_1296" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Heap.Leetcode.Divide_Array_in_Sets_of_K_Consecutive_Numbers_1296" />
+  <component name="RunManager" selected="Application.Print_LCS">
+    <configuration name="Buying_Fruits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assignment_8.Buying_Fruits" />
       <module name="SUPER 150" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Heap.Leetcode.*" />
+          <option name="PATTERN" value="Assignment_8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,12 +129,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Frequent_Elements_in_Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Heap.Assignment.Frequent_Elements_in_Array" />
+    <configuration name="K_Ordered_LCS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assignment_8.K_Ordered_LCS" />
       <module name="SUPER 150" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Heap.Assignment.*" />
+          <option name="PATTERN" value="Assignment_8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +142,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Median_in_a_stream_of_running_integers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Heap.Assignment.Median_in_a_stream_of_running_integers" />
+    <configuration name="LCS_with_3_Strings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assignment_8.LCS_with_3_Strings" />
       <module name="SUPER 150" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Heap.Assignment.*" />
+          <option name="PATTERN" value="Assignment_8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +155,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="String_Sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Heap.Assignment.String_Sort" />
+    <configuration name="Print_LCS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assignment_8.Print_LCS" />
       <module name="SUPER 150" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Heap.Assignment.*" />
+          <option name="PATTERN" value="Assignment_8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +168,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Top_k_most_frequent_number_in_a_stream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Heap.Assignment.Top_k_most_frequent_number_in_a_stream" />
+    <configuration name="Valentine_Magic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assignment_8.Valentine_Magic" />
       <module name="SUPER 150" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Heap.Assignment.*" />
+          <option name="PATTERN" value="Assignment_8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,11 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Frequent_Elements_in_Array" />
-        <item itemvalue="Application.Divide_Array_in_Sets_of_K_Consecutive_Numbers_1296" />
-        <item itemvalue="Application.Median_in_a_stream_of_running_integers" />
-        <item itemvalue="Application.String_Sort" />
-        <item itemvalue="Application.Top_k_most_frequent_number_in_a_stream" />
+        <item itemvalue="Application.Print_LCS" />
+        <item itemvalue="Application.Buying_Fruits" />
+        <item itemvalue="Application.Valentine_Magic" />
+        <item itemvalue="Application.K_Ordered_LCS" />
+        <item itemvalue="Application.LCS_with_3_Strings" />
       </list>
     </recent_temporary>
   </component>
@@ -140,13 +199,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663441543134</updated>
-    </task>
-    <task id="LOCAL-00094" summary="ASSIGNMENT 7">
-      <created>1682362734513</created>
-      <option name="number" value="00094" />
-      <option name="presentableId" value="LOCAL-00094" />
-      <option name="project" value="LOCAL" />
-      <updated>1682362734513</updated>
     </task>
     <task id="LOCAL-00095" summary="ASSIGNMENT 7">
       <created>1684231862988</created>
@@ -484,7 +536,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689701726084</updated>
     </task>
-    <option name="localTasksCounter" value="143" />
+    <task id="LOCAL-00143" summary="HEAP ASSIGNMENT">
+      <created>1689777986944</created>
+      <option name="number" value="00143" />
+      <option name="presentableId" value="LOCAL-00143" />
+      <option name="project" value="LOCAL" />
+      <updated>1689777986945</updated>
+    </task>
+    <option name="localTasksCounter" value="144" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -499,7 +558,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="MAPPED STRING" />
     <MESSAGE value="DIVIDE AND CONQUER" />
     <MESSAGE value="STACKS" />
     <MESSAGE value="STOCK SPAN" />
@@ -524,7 +582,8 @@
     <MESSAGE value="GRAPH" />
     <MESSAGE value="GRAPH TRAVERSALS" />
     <MESSAGE value="HEAP" />
-    <option name="LAST_COMMIT_MESSAGE" value="HEAP" />
+    <MESSAGE value="HEAP ASSIGNMENT" />
+    <option name="LAST_COMMIT_MESSAGE" value="HEAP ASSIGNMENT" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

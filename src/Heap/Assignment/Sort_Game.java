@@ -35,43 +35,77 @@ Alice 86
 Suzy 86
 */
 public class Sort_Game {
-    static class pair{
-        String name;
-        int salary;
-        public pair(String name , int salary){
-            this.name = name;
-            this.salary = salary;
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int min_salary = sc.nextInt();
+        int n = sc.nextInt();
+        HashMap<String , Integer> map = new HashMap<>();
+        for (int i = 0 ; i < n ; i++){
+            String name = sc.next();
+            int salary = sc.nextInt();
+            map.put(name , salary);
+        }
+
+        PriorityQueue<String> heap = new PriorityQueue<>(new Comparator<String>() {
+            @Override
+            public int compare(String o1, String o2) {
+                if(map.get(o1) != map.get(o2)){
+                    return map.get(o2) - map.get(o1);
+                }
+                else{
+                    return o1.compareTo(o2);
+                }
+            }
+        });
+
+        heap.addAll(map.keySet());
+        while (!heap.isEmpty()){
+            String curr = heap.remove();
+            if(map.get(curr) >= min_salary){
+                System.out.println(curr + " " + map.get(curr));
+            }
+            else{
+                break;
+            }
         }
     }
-    public static void main(String[] args) {
-       Scanner sc = new Scanner(System.in);
-       int x = sc.nextInt();
-       int n = sc.nextInt();
-       ArrayList<pair> list = new ArrayList<>();
-       for (int i = 0 ; i < n ; i++){
-           String name = sc.next();
-           int salary = sc.nextInt();
-           if(salary >= x){
-               pair ob = new pair(name , salary);
-               list.add(ob);
-           }
-       }
-
-       PriorityQueue<pair> heap = new PriorityQueue<>(new Comparator<pair>() {
-           @Override
-           public int compare(pair o1, pair o2) {
-               if(o1.salary != o2.salary){
-                   return o2.salary - o1.salary;
-               }
-               else {
-                   return o1.name.compareTo(o2.name);
-               }
-           }
-       });
-       heap.addAll(list);
-       while (!heap.isEmpty()){
-           pair ob = heap.remove();
-           System.out.println(ob.name + " " + ob.salary);
-       }
-    }
+//    static class pair{
+//        String name;
+//        int salary;
+//        public pair(String name , int salary){
+//            this.name = name;
+//            this.salary = salary;
+//        }
+//    }
+//    public static void main(String[] args) {
+//       Scanner sc = new Scanner(System.in);
+//       int x = sc.nextInt();
+//       int n = sc.nextInt();
+//       ArrayList<pair> list = new ArrayList<>();
+//       for (int i = 0 ; i < n ; i++){
+//           String name = sc.next();
+//           int salary = sc.nextInt();
+//           if(salary >= x){
+//               pair ob = new pair(name , salary);
+//               list.add(ob);
+//           }
+//       }
+//
+//       PriorityQueue<pair> heap = new PriorityQueue<>(new Comparator<pair>() {
+//           @Override
+//           public int compare(pair o1, pair o2) {
+//               if(o1.salary != o2.salary){
+//                   return o2.salary - o1.salary;
+//               }
+//               else {
+//                   return o1.name.compareTo(o2.name);
+//               }
+//           }
+//       });
+//       heap.addAll(list);
+//       while (!heap.isEmpty()){
+//           pair ob = heap.remove();
+//           System.out.println(ob.name + " " + ob.salary);
+//       }
+//    }
 }

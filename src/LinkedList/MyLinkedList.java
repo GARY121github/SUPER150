@@ -172,7 +172,4 @@ public class MyLinkedList {
         Deleted_index.next = null;
         return Deleted_index.data;
     }
-
-
-
 }

@@ -102,33 +102,37 @@ Time to print the 3rd nearest distance ( k=3 )
 Output : 98
 */
 public class Hostel_Visit {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int q = sc.nextInt();
-        int k = sc.nextInt();
-        PriorityQueue<Long> heap = new PriorityQueue<>();
-        while (q-- > 0){
-            int n = sc.nextInt();
-            if(n == 1){
-                long x = sc.nextLong();
-                long y = sc.nextLong();
-                long distance = x*x + y*y;
-                heap.add(distance);
-            }
-            else {
-                element(heap , k);
-            }
-        }
-    }
 
-    private static void element(PriorityQueue<Long> heap , int k){
-        if(k == 1){
-            System.out.println(heap.peek());
-            return;
-        }
+//    TLE
+//    public static void main(String[] args) {
+//        Scanner sc = new Scanner(System.in);
+//        int q = sc.nextInt();
+//        int k = sc.nextInt();
+//        PriorityQueue<Long> heap = new PriorityQueue<>();
+//        while (q-- > 0){
+//            int n = sc.nextInt();
+//            if(n == 1){
+//                long x = sc.nextLong();
+//                long y = sc.nextLong();
+//                long distance = x*x + y*y;
+//                heap.add(distance);
+//            }
+//            else {
+//                element(heap , k);
+//            }
+//        }
+//    }
+//
+//    private static void element(PriorityQueue<Long> heap , int k){
+//        if(k == 1){
+//            System.out.println(heap.peek());
+//            return;
+//        }
+//
+//        long val = heap.remove();
+//        element(heap , k-1);
+//        heap.add(val);
+//    }
 
-        long val = heap.remove();
-        element(heap , k-1);
-        heap.add(val);
-    }
+
 }

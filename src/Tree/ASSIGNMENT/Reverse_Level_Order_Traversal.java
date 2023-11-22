@@ -74,7 +74,7 @@ public class Reverse_Level_Order_Traversal {
             }
         }
 
-        ans.add(list);
+        ans.add(0 ,list);
         return ans;
     }
 }
