@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="Graph">
-      <change afterPath="$PROJECT_DIR$/src/Graph/Minimum_Spanning_Tree/Krushkals_Algorithm/Krushkals_Algo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graph/Minimum_Spanning_Tree/MST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graph/Minimum_Spanning_Tree/Prims_Algorithm/Prims_Algo.java" afterDir="false" />
+    <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="KRUSHKALS ALGo for MST">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graph/Disjoint_set.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graph/Kruskals_Algorithm.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graph/Minimum_Spanning_Tree/Krushkals_Algorithm/Disjoint_set.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graph/Minimum_Spanning_Tree/Krushkals_Algorithm/Disjoint_set.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graph/Minimum_Spanning_Tree/Prims_Algorithm/Prims_Algo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graph/Minimum_Spanning_Tree/Prims_Algorithm/Prims_Algo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,13 +164,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663441543134</updated>
-    </task>
-    <task id="LOCAL-00099" summary="ASSIGNMENT 7">
-      <created>1684259218678</created>
-      <option name="number" value="00099" />
-      <option name="presentableId" value="LOCAL-00099" />
-      <option name="project" value="LOCAL" />
-      <updated>1684259218678</updated>
     </task>
     <task id="LOCAL-00100" summary="ASSIGNMENT 7">
       <created>1684259697299</created>
@@ -513,7 +501,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702049771097</updated>
     </task>
-    <option name="localTasksCounter" value="148" />
+    <task id="LOCAL-00148" summary="KRUSHKALS ALGo for MST">
+      <created>1702053465326</created>
+      <option name="number" value="00148" />
+      <option name="presentableId" value="LOCAL-00148" />
+      <option name="project" value="LOCAL" />
+      <updated>1702053465326</updated>
+    </task>
+    <option name="localTasksCounter" value="149" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -528,7 +523,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="STACKS" />
     <MESSAGE value="STOCK SPAN" />
     <MESSAGE value="OOPS" />
     <MESSAGE value="Assignment 6" />
@@ -553,7 +547,8 @@
     <MESSAGE value="HEAP" />
     <MESSAGE value="HEAP ASSIGNMENT" />
     <MESSAGE value="Graph" />
-    <option name="LAST_COMMIT_MESSAGE" value="Graph" />
+    <MESSAGE value="KRUSHKALS ALGo for MST" />
+    <option name="LAST_COMMIT_MESSAGE" value="KRUSHKALS ALGo for MST" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
