@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="Graph">
-      <change afterPath="$PROJECT_DIR$/src/Graph/Minimum_Spanning_Tree/Krushkals_Algorithm/Disjoint_set.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graph/Minimum_Spanning_Tree/Krushkals_Algorithm/Krushkals_Algo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graph/Minimum_Spanning_Tree/MST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graph/Minimum_Spanning_Tree/Prims_Algorithm/Prims_Algo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graph/Disjoint_set.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graph/Kruskals_Algorithm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graph/Minimum_Spanning_Tree/Krushkals_Algorithm/Disjoint_set.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graph/Minimum_Spanning_Tree/Krushkals_Algorithm/Disjoint_set.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,22 +85,9 @@
       <recent name="Sliding_Window" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Kill_Process">
+  <component name="RunManager" selected="Application.MST">
     <configuration name="Buying_Fruits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Assignment_8.Buying_Fruits" />
-      <module name="SUPER 150" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Assignment_8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="K_Ordered_LCS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assignment_8.K_Ordered_LCS" />
       <module name="SUPER 150" />
       <extension name="coverage">
         <pattern>
@@ -112,6 +105,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Graph.LEVELUP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Graph.Minimum_Spanning_Tree.MST" />
+      <module name="SUPER 150" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Graph.Minimum_Spanning_Tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MST" />
         <item itemvalue="Application.Kill_Process" />
         <item itemvalue="Application.Print_LCS" />
         <item itemvalue="Application.Buying_Fruits" />
         <item itemvalue="Application.Valentine_Magic" />
-        <item itemvalue="Application.K_Ordered_LCS" />
       </list>
     </recent_temporary>
   </component>
@@ -163,13 +169,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663441543134</updated>
-    </task>
-    <task id="LOCAL-00098" summary="ASSIGNMENT 7">
-      <created>1684238571506</created>
-      <option name="number" value="00098" />
-      <option name="presentableId" value="LOCAL-00098" />
-      <option name="project" value="LOCAL" />
-      <updated>1684238571506</updated>
     </task>
     <task id="LOCAL-00099" summary="ASSIGNMENT 7">
       <created>1684259218678</created>
@@ -507,7 +506,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702049399182</updated>
     </task>
-    <option name="localTasksCounter" value="147" />
+    <task id="LOCAL-00147" summary="Graph">
+      <created>1702049771097</created>
+      <option name="number" value="00147" />
+      <option name="presentableId" value="LOCAL-00147" />
+      <option name="project" value="LOCAL" />
+      <updated>1702049771097</updated>
+    </task>
+    <option name="localTasksCounter" value="148" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
