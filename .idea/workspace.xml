@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="Graph">
-      <change afterPath="$PROJECT_DIR$/src/Graph/LEVELUP/Kill_Process.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CODEFORCES/CONTEST_1/A_Short_Sort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CODEFORCES/CONTEST_1/B_Good_Kid.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CODEFORCES/CONTEST_1/C_Target_Practice.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CODEFORCES/CONTEST_1/D_1D_Eraser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CODEFORCES/CONTEST_1/E_Building_an_Aquarium.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graph/BFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graph/TRIVERSALS/BFS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graph/BFT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graph/TRIVERSALS/BFT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graph/DFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graph/TRIVERSALS/DFS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graph/DFT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graph/TRIVERSALS/DFT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TIME_COMPLEXITY.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graph/Minimum_Spanning_Tree/Krushkals_Algorithm/Disjoint_set.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +18,32 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin/master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin/main" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -149,13 +163,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663441543134</updated>
-    </task>
-    <task id="LOCAL-00097" summary="ASSIGNMENT 7">
-      <created>1684237434614</created>
-      <option name="number" value="00097" />
-      <option name="presentableId" value="LOCAL-00097" />
-      <option name="project" value="LOCAL" />
-      <updated>1684237434614</updated>
     </task>
     <task id="LOCAL-00098" summary="ASSIGNMENT 7">
       <created>1684238571506</created>
@@ -493,7 +500,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701452894526</updated>
     </task>
-    <option name="localTasksCounter" value="146" />
+    <task id="LOCAL-00146" summary="Graph">
+      <created>1702049399182</created>
+      <option name="number" value="00146" />
+      <option name="presentableId" value="LOCAL-00146" />
+      <option name="project" value="LOCAL" />
+      <updated>1702049399182</updated>
+    </task>
+    <option name="localTasksCounter" value="147" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
