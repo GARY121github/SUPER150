@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="Graph" />
+    <list default="true" id="9753876f-dd1b-4936-96c0-b02888eef4ec" name="Changes" comment="Graph">
+      <change afterPath="$PROJECT_DIR$/src/Graph/LEVELUP/Kill_Process.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CODEFORCES/CONTEST_1/A_Short_Sort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CODEFORCES/CONTEST_1/B_Good_Kid.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CODEFORCES/CONTEST_1/C_Target_Practice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CODEFORCES/CONTEST_1/D_1D_Eraser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CODEFORCES/CONTEST_1/E_Building_an_Aquarium.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graph/BFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graph/TRIVERSALS/BFS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graph/BFT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graph/TRIVERSALS/BFT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graph/DFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graph/TRIVERSALS/DFS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graph/DFT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graph/TRIVERSALS/DFT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TIME_COMPLEXITY.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,7 +65,7 @@
       <recent name="Sliding_Window" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Print_LCS">
+  <component name="RunManager" selected="Application.Kill_Process">
     <configuration name="Buying_Fruits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Assignment_8.Buying_Fruits" />
       <module name="SUPER 150" />
@@ -78,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LCS_with_3_Strings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assignment_8.LCS_with_3_Strings" />
+    <configuration name="Kill_Process" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Graph.LEVELUP.Kill_Process" />
       <module name="SUPER 150" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Assignment_8.*" />
+          <option name="PATTERN" value="Graph.LEVELUP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Kill_Process" />
         <item itemvalue="Application.Print_LCS" />
         <item itemvalue="Application.Buying_Fruits" />
         <item itemvalue="Application.Valentine_Magic" />
         <item itemvalue="Application.K_Ordered_LCS" />
-        <item itemvalue="Application.LCS_with_3_Strings" />
       </list>
     </recent_temporary>
   </component>
@@ -135,13 +149,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663441543134</updated>
-    </task>
-    <task id="LOCAL-00096" summary="ASSIGNMENT 7">
-      <created>1684233555605</created>
-      <option name="number" value="00096" />
-      <option name="presentableId" value="LOCAL-00096" />
-      <option name="project" value="LOCAL" />
-      <updated>1684233555605</updated>
     </task>
     <task id="LOCAL-00097" summary="ASSIGNMENT 7">
       <created>1684237434614</created>
@@ -479,7 +486,14 @@
       <option name="project" value="LOCAL" />
       <updated>1700642003717</updated>
     </task>
-    <option name="localTasksCounter" value="145" />
+    <task id="LOCAL-00145" summary="Graph">
+      <created>1701452894526</created>
+      <option name="number" value="00145" />
+      <option name="presentableId" value="LOCAL-00145" />
+      <option name="project" value="LOCAL" />
+      <updated>1701452894526</updated>
+    </task>
+    <option name="localTasksCounter" value="146" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

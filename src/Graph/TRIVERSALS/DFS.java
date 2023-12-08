@@ -1,4 +1,6 @@
-package Graph;
+package Graph.TRIVERSALS;
+
+import Graph.GRAPH;
 
 import java.util.HashMap;
 import java.util.HashSet;
