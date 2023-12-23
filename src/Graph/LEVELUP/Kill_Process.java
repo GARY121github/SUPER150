@@ -75,7 +75,7 @@ public class Kill_Process {
 
     private static HashMap<Integer , HashSet<Integer>> createGraph(int[][] arr){
         HashMap<Integer , HashSet<Integer>> graph = new HashMap<>();
-        for (int i = 0 ; i <= arr[0].length ; i++){
+        for (int i = 1 ; i <= arr[0].length ; i++){
             graph.put(i , new HashSet<>());
         }
 
