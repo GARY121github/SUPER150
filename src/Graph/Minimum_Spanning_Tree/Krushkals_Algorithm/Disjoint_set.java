@@ -9,9 +9,12 @@ public class Disjoint_set {
         Node parent;
         int data;
 
+        int size;
+
         public Node(int rank, int data) {
             this.rank = rank;
             this.data = data;
+            this.size = 1;
         }
     }
 
@@ -58,6 +61,27 @@ public class Disjoint_set {
         }
         else{
             parent_of_n1.parent = parent_of_n1;
+        }
+    }
+
+    public void unionBySize(int v1 , int v2){
+        Node n1 = disjoint_set.get(v1);
+        Node n2 = disjoint_set.get(v2);
+
+        Node parent_of_n1 = getParent(n1);
+        Node parent_of_n2 = getParent(n2);
+
+        if(parent_of_n1.size == parent_of_n2.size){
+            parent_of_n2.parent = parent_of_n1;
+            parent_of_n1.size++;
+        }
+        else if (parent_of_n1.rank > parent_of_n2.rank) {
+            parent_of_n2.parent = parent_of_n1;
+            parent_of_n2.size += parent_of_n1.size;
+        }
+        else{
+            parent_of_n1.parent = parent_of_n1;
+            parent_of_n1.size += parent_of_n2.size;
         }
     }
 }
