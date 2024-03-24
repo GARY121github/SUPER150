@@ -45,3 +45,7 @@
 22 [Binary search tree to greater sum tree](https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/)
 23 [Flatten binary tree to linked list](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)
 24 [lowest common ancestor of a binary search tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
+
+# Extra (added by Radha)
+1 [N-ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal/description/)
+2.[Deepest Leaves Sum](https://leetcode.com/problems/deepest-leaves-sum/description/)
